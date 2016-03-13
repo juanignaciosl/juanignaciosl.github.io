@@ -1,14 +1,49 @@
 encoding: utf-8
 
+# http://renyuanz.github.io/leonids/theme-setup/
+
 # Site settings
 title: juanignaciosl
 email: juanignaciosl@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Juan Ignacio Sánchez Lara code-related stuff
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://juanignaciosl.github.io" # the base hostname & protocol for your site
+#url: "http://juanignaciosl.github.io" # the base hostname & protocol for your site
 twitter_username: juanignaciosl
 github_username:  juanignaciosl
 
 # Build settings
 markdown: kramdown
+
+owner:
+  name: Juan Ignacio Sánchez Lara
+  avatar: avatar.jpg
+  job: "Backend Developer"
+  bio: "A passionate developer. Working remotely for CartoDB from Valladolid."
+  email: juanignaciosl@gmail.com
+  #disqus-shortname: renyuanzblog
+  twitter: juanignaciosl #username
+  facebook: #username
+  google:
+    plus: #username
+    #analytics: UA-62251910-1
+    verify:
+    ad-client:
+    ad-slot:
+  bing-verify:
+  github: juanignaciosl #username
+  stackoverflow: 351721/juanignaciosl #123456/username   from a "http://stackoverflow.com/users/123456/username" link
+  linkedin: juanignaciosl #username
+  xing: #username
+  instagram: juanignaciosl #username
+  lastfm: juanignaciosl #username
+  tumblr: #username
+  pinterest: #username
+  foursquare: #username
+  steam: #username
+  dribbble: #username
+  youtube: #username
+  soundcloud: #username
+  weibo: #username
+  flickr: juanignaciosl #username
+  codepen: #username
