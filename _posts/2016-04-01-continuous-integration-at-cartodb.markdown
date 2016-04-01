@@ -4,7 +4,7 @@ title:  "Continuous Integration at CartoDB"
 date:   2016-04-01 16:23:57
 categories: personal
 tags: cartodb, Continuous Integration, agile, software development, cas, craftsmanmadrid
-excerpt: Slides and video about the "Continuous Integration at CartoDB."
+excerpt: Slides and video about the "Continuous Integration at CartoDB" talk.
 ---
 
 Last December I talked about Continuous Integration (Continuous Deployment, indeed) at [CAS 2015](http://cas2015.agile-spain.org/). I'd really want to thank Agile Spain for accepting it. They've created an amazing community and I was honored to join their biggest event so far. Here's the video of the event:
