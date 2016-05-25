@@ -2,7 +2,7 @@
 layout: post
 title:  "My name is juanignaciosl and I code"
 date:   2016-03-13 19:23:57
-categories: personal
+categories: cartodb
 tags: cartodb
 excerpt: In this first post I'll introduce myself with some links and a CartoDB Deep Insights map.
 ---
