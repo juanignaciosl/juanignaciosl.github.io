@@ -3,7 +3,7 @@ encoding: utf-8
 # http://renyuanz.github.io/leonids/theme-setup/
 
 # Site settings
-title: juanignaciosl
+title: juanignaciosl on software development
 email: juanignaciosl@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Juan Ignacio Sánchez Lara code-related stuff
@@ -19,7 +19,7 @@ owner:
   name: Juan Ignacio Sánchez Lara
   avatar: avatar.jpg
   job: "Backend Developer"
-  bio: "A passionate developer. Working remotely for CartoDB from Valladolid."
+  bio: "A passionate developer. Running [IDIOM COACH](https://idiomcoach.com) and working at [CARTO](http://carto.com) from Valladolid."
   email: juanignaciosl@gmail.com
   blog: http://www.juanignaciosl.com
   medium: juanignaciosl

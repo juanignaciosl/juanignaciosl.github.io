@@ -89,14 +89,15 @@ iframe {
       list-style: none;
       display: inline-block;
       margin-left: 1em;
-      a.social-link-item {
-        color: $secondary;
-        &:hover,
-        &:focus {
-          color: lighten($secondary, 14%);
-        }
-      }
     }
+  }
+}
+
+.social-links a.social-link-item, .author_bio a {
+  color: $secondary;
+  &:hover,
+  &:focus {
+    color: lighten($secondary, 14%);
   }
 }
 .nav-list {
