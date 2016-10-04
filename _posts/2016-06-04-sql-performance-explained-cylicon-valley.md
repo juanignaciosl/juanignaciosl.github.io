@@ -15,4 +15,4 @@ Here' [the slides](https://juanignaciosl.github.io/sql-performance-explained/sli
 
 Many thanks to Cylicon Valley and the people who came! :-)
 
-UPDATE: [Markys Winand slides](http://modern-sql.com/slides)
+UPDATE: [Markus Winand slides](http://modern-sql.com/slides).
