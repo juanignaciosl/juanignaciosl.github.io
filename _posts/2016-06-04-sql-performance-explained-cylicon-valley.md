@@ -14,3 +14,5 @@ Here' [the slides](https://juanignaciosl.github.io/sql-performance-explained/sli
 <iframe width="560" height="400" src="https://juanignaciosl.github.io/sql-performance-explained/slides/index.html" frameborder="0" allowfullscreen></iframe>
 
 Many thanks to Cylicon Valley and the people who came! :-)
+
+UPDATE: [Markys Winand slides](http://modern-sql.com/slides)
