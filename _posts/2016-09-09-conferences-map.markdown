@@ -14,7 +14,8 @@ I usually spend my leapfrog time at [CARTO](https://carto.com/) doing some maps.
 have map skills, but using the [Builder](https://carto.com/builder/) is really fun and, you know, you should use the
 tools you make.
 
-Today, as [TarugoConf](http://www.tarugoconf.com/) gets closer, I spent some minutes doing a map, based on Rafa
+Today, as [TarugoConf](http://www.tarugoconf.com/) gets closer, I spent some minutes doing [a
+map](https://juanignaciosl.carto.com/builder/fb4b07b8-b401-4b59-9197-7f0f88625e79/embed), based on Rafa
 Bermudez data, with conferences.
 
 <iframe width="900" height="800"
