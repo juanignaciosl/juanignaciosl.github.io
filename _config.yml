@@ -8,7 +8,7 @@ email: juanignaciosl@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Juan Ignacio Sánchez Lara code-related stuff
 baseurl: "" # the subpath of your site, e.g. /blog/
-#url: "http://juanignaciosl.github.io" # the base hostname & protocol for your site
+url: "https://juanignaciosl.github.io" # the base hostname & protocol for your site
 twitter_username: juanignaciosl
 github_username:  juanignaciosl
 
