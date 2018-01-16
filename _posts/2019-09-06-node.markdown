@@ -1,13 +1,22 @@
 ---
 layout: post
 title: "Jumping into Node.js wagon"
-date: 2018-1-16 20:18:57
+date: 2019-09-05 09:18:57
 categories: javascript
 tags: javascript,node
-excerpt: "Jumping into Node.js wagon on 2018"
+excerpt: "Jumping into Node.js wagon on 2019."
+image:
+    feature: nodejs-new-pantone-black.png
 ---
 
-I can remember a vivid discussion years ago. I can visualize the street and the person that I was talking to. The echo of my voice still bounces in my ears: "using Javascript in the server is a mistake" (probably not in the same terms, you know ;) ). Anyway, server-side JS is a reality, and it's here to stay. And CARTO gave me the chance of learn it for some new, interesting projects, and that's not something that you'd want to dodge. So, let's keep trolling aside and get the most out of Node.js!
+I can remember a vivid discussion years ago. I can even visualize the street and the person that I was talking to.
+The echo of my voice still bounces in my ears: "using Javascript in the server is a mistake" (probably not in the same terms, you know ;) ).
+Anyway, server-side JS is a reality, and it's here to stay. And I'm joining a new interesting project which is
+currently implemented in Node.js, so let's keep trolling aside and get the most out of it!
+
+While I can't suddenly become a Node fan, there's something that shines among other platforms: as it was born
+asynchronous, available drivers are asynchronous as well. That doesn't happen, for example, in Python. The
+certainty of having asynchronous drivers for everything is really nice.
 
 Although I've used Javascript in the past (maybe I should dust "[Javascript: The Good Parts](https://www.goodreads.com/book/show/2998152-javascript?ac=1&from_search=true)" off, even though [YDKJS is against it](https://github.com/getify/You-Dont-Know-JS/blob/master/up%20%26%20going/ch3.md)), I'm not up-to-date with the latest shiny language and technology improvements, so there's a lot of things that I should learn. Here are my notes of my path of enlightment.
 
@@ -68,7 +77,6 @@ We all know that equality at JS is not _that_ straightworward. Instead of just s
 > - If either value (aka side) in a comparison could be the true or false value, avoid == and use ===.
 > - If either value in a comparison could be of these specific values (0, "", or [] -- empty array), avoid == and use ===.
 > - In all other cases, you're safe to use ==. Not only is it safe, but in many cases it simplifies your code in a way that improves readability.
-
 
 ## Testing
 
