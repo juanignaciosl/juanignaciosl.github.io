@@ -1,0 +1,87 @@
+---
+layout: post
+title: "Jumping into Node.js wagon"
+date: 2018-1-16 20:18:57
+categories: javascript
+tags: javascript,node
+excerpt: "Jumping into Node.js wagon on 2018"
+---
+
+I can remember a vivid discussion years ago. I can visualize the street and the person that I was talking to. The echo of my voice still bounces in my ears: "using Javascript in the server is a mistake" (probably not in the same terms, you know ;) ). Anyway, server-side JS is a reality, and it's here to stay. And CARTO gave me the chance of learn it for some new, interesting projects, and that's not something that you'd want to dodge. So, let's keep trolling aside and get the most out of Node.js!
+
+Although I've used Javascript in the past (maybe I should dust "[Javascript: The Good Parts](https://www.goodreads.com/book/show/2998152-javascript?ac=1&from_search=true)" off, even though [YDKJS is against it](https://github.com/getify/You-Dont-Know-JS/blob/master/up%20%26%20going/ch3.md)), I'm not up-to-date with the latest shiny language and technology improvements, so there's a lot of things that I should learn. Here are my notes of my path of enlightment.
+
+# Environment
+
+## NVM
+
+- [NVM](https://github.com/creationix/nvm)
+
+`nvm ls` revealed that I was using `system` Node.js, so I moved to latest stable with `nvm install stable` and after booting a `node` REPL session I could use some of the last language features, such as [Object Rest/Spread Properties](https://derickbailey.com/2017/06/06/3-features-of-es7-and-beyond-that-you-should-be-using-now/).
+
+## IntelliJ IDEA
+
+- [Node plugin](https://www.jetbrains.com/help/idea/node-js.html).
+
+## Code style
+
+- [Standard](https://standardjs.com/)
+
+# Libraries
+
+## [async](http://caolan.github.io/async/)
+
+> Provides straight-forward, powerful functions for working with asynchronous JavaScript.
+
+Although native async features might turn it into obsolete, you can simply reuse its functions with async functions , using the `util.promisify` method.
+
+## [Transpilers](https://github.com/getify/You-Dont-Know-JS/blob/master/up%20%26%20going/ch2.md#transpiling)
+
+- [Traceur](https://github.com/getify/You-Dont-Know-JS/blob/master/scope%20%26%20closures/ch5.md#future-modules)
+
+# Language features
+
+- [`this`](https://github.com/getify/You-Dont-Know-JS/blob/master/up%20%26%20going/ch2.md#this-identifier)
+- [ES6 modules](https://github.com/getify/You-Dont-Know-JS/blob/master/scope%20%26%20closures/ch5.md#future-modules)
+
+## Async
+
+- [Node.js Async Function Best Practices](https://nemethgergely.com/async-function-best-practices/)
+
+> async functions let you write Promise-based code as if it were synchronous.
+
+## Rest parameters
+
+- [Rest parameters](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/rest_parameters)
+
+# Best practices
+
+## Hard rules
+
+- `let` >>>> `var`
+- Always `"use strict";`
+
+## Equality
+
+We all know that equality at JS is not _that_ straightworward. Instead of just saying "always use `===`", [Kyle Simpson suggest this](https://github.com/getify/You-Dont-Know-JS/blob/master/up%20%26%20going/ch2.md#equality):
+
+> - If either value (aka side) in a comparison could be the true or false value, avoid == and use ===.
+> - If either value in a comparison could be of these specific values (0, "", or [] -- empty array), avoid == and use ===.
+> - In all other cases, you're safe to use ==. Not only is it safe, but in many cases it simplifies your code in a way that improves readability.
+
+
+## Testing
+
+- [Getting Node.js Testing and TDD Right](https://blog.risingstack.com/getting-node-js-testing-and-tdd-right-node-js-at-scale/)
+
+## Security
+
+- [Node.js security checklist](https://blog.risingstack.com/node-js-security-checklist/)
+
+## Error handling
+
+- [Learning to throw again](https://hueniverse.com/learning-to-throw-again-79b498504d28)
+
+# Other references
+
+- [You don't know JS](https://github.com/getify/You-Dont-Know-JS) series
