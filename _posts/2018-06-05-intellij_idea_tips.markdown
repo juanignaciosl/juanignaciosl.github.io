@@ -24,6 +24,10 @@ forward, and here are some tips that might help others as well:
 - Specific topics:
   - [Selection](https://www.jetbrains.com/help/pycharm/selecting-text-in-the-editor.html).
 
+## Highlights
+
+- Learn [Emmet](https://emmet.io/) syntax for HTML and CSS. IntelliJ has right-out-of-the-box support.
+
 ## Must-have shortcuts
 
 - `Cmd + shift + a`: action search (meta shortcut, Eclipse "magic shortcut").
