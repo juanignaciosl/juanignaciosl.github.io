@@ -2,8 +2,8 @@
 layout: post
 title:  "Software conferences map"
 date:   2016-09-09 19:23:57
-categories: cartodb
-tags: cartodb
+categories: CARTO
+tags: [CARTO]
 excerpt: There is a CARTO map with many software conferences, and a Google form that you can use to contribute with more.
 ---
 

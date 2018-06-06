@@ -3,7 +3,7 @@ layout: post
 title:  "PostgreSQL: The one tool to bring to a desert island"
 date:   2017-12-14 19:23:57
 categories: postgresql
-tags: postgresql
+tags: [PostgreSQL]
 excerpt: "TL;DR: if you don't know what your needs will be, build upon PostgreSQL. And, if you know and you pick another DB, think twice."
 ---
 

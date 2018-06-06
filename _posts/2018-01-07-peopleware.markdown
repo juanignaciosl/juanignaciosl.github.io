@@ -3,7 +3,7 @@ layout: post
 title: "Peopleware 3rd Edition Review"
 date: 2018-1-12 21:18:57
 categories: books
-tags: books
+tags: [books]
 excerpt: "Personal review and notes of Peopleware 3rd edition."
 ---
 
