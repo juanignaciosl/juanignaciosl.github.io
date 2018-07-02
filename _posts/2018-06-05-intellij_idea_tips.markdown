@@ -32,6 +32,8 @@ forward, and here are some tips that might help others as well:
 
 - `Cmd + shift + a`: action search (meta shortcut, Eclipse "magic shortcut").
 - `Alt + up`: "smart" expand selection.
+- `Alt + Home`: jump to breadcrumbs (Navigation bar).
+- `Alt + Ins`: new.
 
 ## Some customizations
 
