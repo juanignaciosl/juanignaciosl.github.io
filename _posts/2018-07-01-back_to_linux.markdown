@@ -94,7 +94,7 @@ _\*: this might change soon, as I'm considering giving Darktable a try._
 This is my accumulated `apt install` so far:
 
 ```bash
-sudo apt install -y vim git libcanberra-gtk-module gnome-tweak-tool clamav lxc lxc-templates cgroup-lite redir bridge-utils npm ngrep terminator virtualenv htop telegram-desktop gparted docker docker-compose postgresql-client powertop darktable
+sudo apt install -y vim git libcanberra-gtk-module gnome-tweak-tool clamav lxc lxc-templates cgroup-lite redir bridge-utils npm ngrep terminator virtualenv htop telegram-desktop gparted docker docker-compose postgresql-client powertop darktable python-dev
 ```
 
 For Docker to work without `sudo` you need this:
