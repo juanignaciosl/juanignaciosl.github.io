@@ -3,8 +3,10 @@ layout: post
 title: "99 Bottles of OOP Workshop"
 date: 2018-09-15 14:18:57
 categories: workshop
-tags: [workshop, software development]
+tags: [workshop, Software Development]
 excerpt: "Notes, slides and code about 99 Bottles of OOP workshop"
+image:
+  feature: 99-bottles-of-oop.png
 ---
 
 At WeCode I made the promise of making a 4-hour workshop of the magnificent
