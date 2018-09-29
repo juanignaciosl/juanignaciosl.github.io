@@ -245,3 +245,7 @@ a.read-more {
     border-color: #5f99cf;
   }
 }
+
+details summary {
+  cursor: pointer;
+}
