@@ -42,6 +42,9 @@
     list-style: none;
     li {
       margin: 1em auto;
+      a {
+        color: $secondary;
+      }
     }
   }
 }
