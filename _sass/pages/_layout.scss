@@ -58,8 +58,7 @@ iframe {
   }
   .author_name {
     display: block;
-    // color: #F36170;
-    color: #7A16FF;
+    color: $primary;
     font-size: 1.75em;
     text-transform: lowercase;
   }
@@ -94,7 +93,14 @@ iframe {
   }
 }
 
-.social-links a.social-link-item, .author_bio a {
+.author_bio a {
+  color: $primary;
+  &:hover,
+  &:focus {
+    color: lighten($primary, 14%);
+  }
+}
+.social-links a.social-link-item {
   color: $secondary;
   &:hover,
   &:focus {
@@ -113,10 +119,10 @@ iframe {
       margin-top: 1em;
       text-transform: lowercase;
       font-size: 85%;
-      color: $secondary;
+      color: $primary;
       &:hover,
       &:focus {
-        color: lighten($secondary, 14%);
+        color: lighten($primary, 14%);
       }
     }
   }

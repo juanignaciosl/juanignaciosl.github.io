@@ -1,3 +1,30 @@
+// PALLETTES FROM IMAGE
+// canva.com
+// Sandy Brown
+// #f6d144 yellow
+// #df8e42 orange
+// #ac622e brown 1
+// #3c2313 brown 2
+// #623d27 brown 3
+
+// Colormind.io
+// #A7A3AD grey
+// #F9D22F yellow
+// #AF6B3A brown 1
+// #6A3F23 brown 2
+// #3C2310 brown 3
+
+// palettefx.com
+// #ffee44 yellow 1
+// #ffdd00 yellow 2
+// #ee9900 orange
+// #cc7733 brown 1
+// #884422 brown 2
+// #442211 brown 3
+// #dd3322 red
+
+
+
 /*
  * Global Variables
  */
@@ -55,16 +82,12 @@ $text-color:       rgba(0, 0, 0, 0.87) !default;
 $background-color: #f5f5f5;
 
 $white:            #fff;
-// $primary:          #42b983;
-$primary:          #7A16FF;
-// $secondary:        #8d7edc;
-$secondary:        #3D1177;
+$primary:          #623d27;
+$secondary:        #ac622e;
 $success:          #65e892;
 $danger:           #f83e4b;
-$warning:          #F5A623;
-// $warning:          #FFCB00;
-// $info:             #09ABF6;
-$info:             $warning;
+$warning:          #df8e42;
+$info:             #3c2313;
 
 // Tables
 $table-border-color: #d0d0d0 !default;

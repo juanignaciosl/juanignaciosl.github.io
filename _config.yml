@@ -19,11 +19,11 @@ owner:
   name: Juan Ignacio Sánchez Lara
   avatar: avatar.jpg
   job: "Backend Developer"
-  bio: "A passionate developer. Backend Tech Lead at [CARTO](http://carto.com), proudly remoting from Valladolid."
+  bio: "A passionate developer. Backend Tech Lead at [CARTO](http://carto.com), remoting from Valladolid."
   email: juanignaciosl@gmail.com
   blog: http://www.juanignaciosl.com
-  medium: juanignaciosl
-  #disqus-shortname: renyuanzblog
+  # medium: juanignaciosl
+  # disqus-shortname: renyuanzblog
   twitter: juanignaciosl #username
   facebook: #username
   google:
