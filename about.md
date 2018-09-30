@@ -4,15 +4,29 @@ title: About
 permalink: /about/
 ---
 
-My name is Juan Ignacio Sánchez Lara and I code.
+<div class="about" markdown="1">
 
-- [Email](mailto:juanignaciosl@gmail.com)
-- [Twitter](https://twitter.com/juanignaciosl)
+My name is Juan Ignacio Sánchez Lara and I code. If you want to contact, send me an [email](mailto:juanignaciosl@gmail.com)
+
+### Work-related stuff
+
+- [Twitter](https://twitter.com/juanignaciosl) (I mostly tweet about software development)
 - [LinkedIn](http://linkedin.com/in/juanignaciosl)
-- [Instagram](http://instagram.com/juanignaciosl)
 - [GitHub](http://github.com/juanignaciosl)
 - [StackOverflow](http://stackoverflow.com/users/351721/juanignaciosl)
+
+### Writing
+
+- Currently, I use my personal blog [juanignaciosl.com](http://www.juanignaciosl.com) mostly for publishing short stories
+
+### Photography
+
+- [Flickr](http://www.flickr.com/juanignaciosl), although I don't take as many pictures as I'd like
+- [Instagram](http://instagram.com/juanignaciosl) (well, mostly personal pictures)
+
+### Music
+
+- [Spotify](https://open.spotify.com/user/juanignaciosl)
 - [Last.fm](http://lastfm.com/user/juanignaciosl)
-- [Flickr](http://www.flickr.com/juanignaciosl)
-- [juanignaciosl.com, Personal blog](http://www.juanignaciosl.com)
-- [Medium](https://medium.com/@juanignaciosl)
+
+</div>
