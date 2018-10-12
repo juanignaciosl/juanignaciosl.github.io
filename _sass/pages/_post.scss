@@ -104,6 +104,10 @@ a.read-more {
   position: relative;
 }
 
+#post .post-content a {
+  border-bottom: 1px dotted;
+}
+
 #page {
   padding-bottom: 50px;
   min-height: 70vh;
