@@ -252,6 +252,8 @@ a.read-more {
 
 details summary {
   cursor: pointer;
+  border: 2px dotted $secondary;
+  padding: 5px 20px;
 }
 
 .tag {
