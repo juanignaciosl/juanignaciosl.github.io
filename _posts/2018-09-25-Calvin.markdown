@@ -2,8 +2,8 @@
 layout: post
 title: "Calvin: Fast Distributed Transactions for Partitioned Database Systems"
 date: 2018-09-24 07:18:57
-categories: ['books and papers']
-tags: [Software Development, Distributed Systems, Databases]
+categories: ['learning']
+tags: [Software Development, Distributed Systems, Databases, Papers]
 excerpt: |
   Notes about Calvin: Fast Distributed Transactions for Partitioned
   Database Systems paper.
@@ -11,7 +11,7 @@ image:
   feature: calvin.png
 ---
 
-After reading [Designing Data-Intensive Applications](/books and papers/2018/07
+After reading [Designing Data-Intensive Applications](/Learning/2018/07
 /09/designing_data_intensive_applications.html)
 you certainly feel the need of going down to the sources to learn about the
 state of the art of the current limits of distributed systems.
