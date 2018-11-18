@@ -91,8 +91,12 @@ a.read-more {
   }
 }
 
-#post h1 {
+#post header h1 {
+  font-size: 2.5rem;
   margin: 0.5em 0 1em;
+}
+#post article h1 {
+  margin: 1em 0 1em;
 }
 #post h2 {
   margin: 2em 0 0.8em;
