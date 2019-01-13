@@ -22,6 +22,8 @@ Using Google Storage as persistent storage for all services make all other servi
 
 ![Choosing storage](/img/deogcp-storage.png)
 
+![Choosing storage bis](/img/deogcp-storage-2.png)
+
 Storage summary:
 - Cloud Storage: raw files.
 - Cloud SQL: managed PostgreSQL or MySQL.
@@ -236,6 +238,98 @@ Fan-in: multiple subscribers listening to the same topic.
 Fan-out: multiple publishers publishing to the same topic.
 
 Pull & push delivery flows.
+
+In push deliveries, Pub/Sub initiates the communication to the subscribers. It requires https (it must be a server application) for webhooks.
+
+In pull deliveries, the subscriber has to poll for new messages. Subscriber receives a ack id and it must send a ACK so Pub/Sub knows that the message was successfully delivered and can delete it.
+
+You can pass metadata (key-value pairs) with the messages. Sending the timestamp of the message is often very useful.
+
+Messages can be sent in batches, reducing the network cost.
+
+### Dataflow & streaming
+
+Apache Beam is an unified model for batch and stream (to avoid needing two pipelines). Can run on multiple runtimes.
+
+Introduces windowing: shuffles events in time windows based on the event timestamp (when the event occur).
+
+Types of windows:
+- Fixed.
+- Sliding.
+- Sessions.
+
+Allows combining batch, micro batch and stream.
+
+Setting id label at Dataflow when you read from Pub/Sub adds only-once semantics (as long as a valid id is set on publish).
+
+#### Late data
+
+Remember: event time != processing time.
+
+The default setting triggers new computations if data is arrived late.
+
+Dataflow learns from the skew of the messages over time and computes an heuristic about if a window is likely to be closed or not. The "watermark" is that heuristic about the progress. Based on this, Dataflow chooses when to emit the event of window closed.
+
+Elements added: how many elements exited a given step.
+
+Data watermark age: the age (time since event timestamp) of the most recent item of data that has been fully processed by the pipeline.
+
+System lag: the current maximum duration that an item of data has been awaiting processing, in seconds.
+
+What results are calculated: transformations	
+Where in event time are results calculated: event-time windowing
+When in processing time are results materialized: watermarks, triggers, and allowed lateness.
+How do refinements of results relate: answered via Accumulation modes.	
+
+### BigQuery & streaming
+
+BigQuery supports streaming ingest, data is available in seconds.
+
+### Cloud Spanner
+
+Higher throughput and lower latency than BigTable.
+
+Transactional, horizontally scalable (for use cases where Cloud SQL, backed by MySQL or PostgreSQL, is not enough).
+
+### BigTable
+
+Key/value store. Key determines the tablet where the data is going to be stored (and you want it to be evenly distributed).
+
+Higher throughput and lower latency than BigTable.
+
+For data analytics.
+
+More expensive than BigQuery.
+
+Separates computing and storage. Bigtable clusters contain not data but metadata, pointers to Colossus (Google filesystem).
+
+HBase API.
+
+In order to add data you create _mutations_.
+
+Rows are stored in ascending order of the key (that's why if you often query the most recent events you should use a inverse timestamp at the key), and only one key can be indexed.
+
+Related columns should be grouped in the same family. Change rate at columns within a same family should be similar (columns that often get changed together).
+
+Two types of designs:
+- For dense data (where all columns have values) you can create a normal table. Example: for user information, you'd have the username as key, with one `user_information` family with the columns (name, gender...).
+- For sparse data (such as relationships) you can set up keys with the relation information. For example, for a "following" relationship, you can have a key that is the concatenation of the hashes of the follower and the following users, and one column with the followed username.
+
+Queries are efficient if they use the row key, prefix or range. Corollary: the most common query determines the key.
+
+If you often want to retrieve the most recent records, you should use a reverse timestamp so the most recent records are the most recent.
+
+You want to distribute evenly across rows (keys). Avoid these keys to avoid hotspotting:
+- Domains: not all domains are equally active.
+- Sequential user IDs: newer users are more active.
+- Static identifiers: frequent used identifiers overload a single tablet.
+
+Performance considerations:
+- Bigtable learns to configure itself. Looks at access patterns and reconfigures itself. For example, it moves metadata across nodes if some are overused. So, don't try doing load tests on the first minutes.
+- It also redistributes storage (updating pointers).
+- It should support ~ 10kQPS @ 6 ms latency on SSD (220 MB/s) both for reads and writes.
+- It should support ~ 10kQPS @ 50 ms latency on HDD (180 MB/s) for reads, and ~500 QPS @ 200 ms for writes.
+- Performance scales linearly with the number of nodes.
 
 # References
 
