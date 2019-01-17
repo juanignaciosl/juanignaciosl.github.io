@@ -12,6 +12,8 @@ image:
 
 I'm getting closer to Google Cloud solutions, and as some decisions around the platform are not straightforward (such as which database should you use) I took a look at [training options](https://cloud.google.com/training/) and found [Data Engineering on Google Cloud Platform Specialization](https://www.coursera.org/specializations/gcp-data-machine-learning) at Coursera. Although it doesn't get into too much detail, as the platform is huge, it's a good introduction to the portfolio.
 
+I'll keep updating the content and references as I learn more stuff.
+
 # Specialization content
 
 The specialization consists of 5 "1 week" (although they can be each completed in a couple of days) courses. I've written down some notes, but you can find much more useful documentation at [Getting Started](https://cloud.google.com/gcp/getting-started/).
@@ -324,28 +326,38 @@ You want to distribute evenly across rows (keys). Avoid these keys to avoid hots
 - Sequential user IDs: newer users are more active.
 - Static identifiers: frequent used identifiers overload a single tablet.
 
-Performance considerations:
+#### Performance
+
+General considerations:
 - Bigtable learns to configure itself. Looks at access patterns and reconfigures itself. For example, it moves metadata across nodes if some are overused. So, don't try doing load tests on the first minutes.
 - It also redistributes storage (updating pointers).
 - It should support ~ 10kQPS @ 6 ms latency on SSD (220 MB/s) both for reads and writes.
 - It should support ~ 10kQPS @ 50 ms latency on HDD (180 MB/s) for reads, and ~500 QPS @ 200 ms for writes.
 - Performance scales linearly with the number of nodes.
+- Design the schema so the reads and writes can be distributed evenly.
+- Increasing the amount of data per row reduces the number of rows per seconds.
+- Increasing the amount of cells per row reduces the number of rows per seconds.
+- In general, keep all information for an entity in a single row. An entity that doesn't need atomic updates and reads can be split across multiple rows. Splitting across multiple rows is recommended if the entity data is large (hundreds of MB)
+
 
 # References
 
 - [Data Engineering on Google Cloud Platform Specialization](https://www.coursera.org/specializations/gcp-data-machine-learning).
 - [Getting Started](https://cloud.google.com/gcp/getting-started/).
 - [Choosing storage option](https://cloud.google.com/storage-options/).
-- [Bigtable Key Visualizer](https://cloud.google.com/bigtable/docs/keyvis-overview).
 - [Google Cloud](https://cloud.google.com)
-  - [Dataflow](https://cloud.google.com/dataflow/).
-  - [Storage](https://cloud.google.com/storage).
-  - [Launcher](https://cloud.google.com/launcher).
   - [Pricing](https://cloud.google.com/pricing) ([philosophy](https://cloud.google.com/pricing/philosophy)).
   - [Solutions](http://cloud.google.com/solutions).
-- TensorFlow:
-  - [TensorFlow playground](http://playground.tensorflow.org).
-  - [ML glossary](https://developers.google.com/machine-learning/glossary).
+  - [Launcher](https://cloud.google.com/launcher).
+  - [Dataflow](https://cloud.google.com/dataflow/).
+  - [Storage](https://cloud.google.com/storage).
+  - Bigtable
+    - [Bigtable Key Visualizer](https://cloud.google.com/bigtable/docs/keyvis-overview).
+    - [Understanding Cloud Big Table Performance](https://cloud.google.com/bigtable/docs/performance).
+    - [Designing Your Schema](https://cloud.google.com/bigtable/docs/schema-design).
+  - TensorFlow:
+    - [TensorFlow playground](http://playground.tensorflow.org).
+    - [ML glossary](https://developers.google.com/machine-learning/glossary).
 - Use cases:
   - [Popular Java projects on GitHub that could use some help (analyzed using BigQuery and Dataflow)](https://medium.com/google-cloud/popular-java-projects-on-github-that-could-use-some-help-analyzed-using-bigquery-and-dataflow-dbd5753827f4).
   - [Processing Logs at Scale Using Cloud Dataflow](https://cloud.google.com/solutions/processing-logs-at-scale-using-dataflow).
