@@ -113,6 +113,10 @@ I'm trying [Lepton](https://github.com/hackjutsu/Lepton) as a Github Gists clien
 
 Extra ball: [some suggestions](https://dev.to/brpaz/my-linux-development-environment-of-2018-ch7), via [@elmendalerenda](https://twitter.com/elmendalerenda), thanks!
 
+### Sound output disappearing
+
+From time to time there's no sound and only "Dummy output" appears at sound configuration. Running `pulseaudio -k && sudo alsa force-reload` usually makes it work again.
+
 ## Balance
 
 ### Positive stuff
