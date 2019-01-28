@@ -309,15 +309,23 @@ HBase API.
 
 In order to add data you create _mutations_.
 
-Rows are stored in ascending order of the key (that's why if you often query the most recent events you should use a inverse timestamp at the key), and only one key can be indexed.
+#### Schema design
 
-Related columns should be grouped in the same family. Change rate at columns within a same family should be similar (columns that often get changed together).
+[Docs](https://cloud.google.com/bigtable/docs/schema-design).
 
 Two types of designs:
 - For dense data (where all columns have values) you can create a normal table. Example: for user information, you'd have the username as key, with one `user_information` family with the columns (name, gender...).
 - For sparse data (such as relationships) you can set up keys with the relation information. For example, for a "following" relationship, you can have a key that is the concatenation of the hashes of the follower and the following users, and one column with the followed username.
 
+> Cloud Bigtable tables are sparse. Empty columns don't take up any space. As a result, it often makes sense to create a very large number of columns, even if most columns are empty in most rows. In addition, it often makes sense to treat column qualifiers as data.
+
+> That said, you should avoid splitting your data across more column qualifiers than necessary, which can result in rows that have a very large number of non-empty cells. It takes time for Cloud Bigtable to process each cell in a row. Also, each cell adds some overhead to the amount of data that's stored in your table and sent over the network. For example, if you're storing 1 KB (1,024 bytes) of data, it's much more space-efficient to store that data in a single cell, rather than spreading the data across 1,024 cells that each contain 1 byte. If you normally read or write a few related values all at once, consider storing all of those values together in one cell, using a format that makes it easy to extract the individual values later (such as the protocol buffer binary format).
+
+##### Choosing a key
+
 Queries are efficient if they use the row key, prefix or range. Corollary: the most common query determines the key.
+
+Rows are stored in ascending order of the key (that's why if you often query the most recent events you should use a inverse timestamp at the key), and only one key can be indexed.
 
 If you often want to retrieve the most recent records, you should use a reverse timestamp so the most recent records are the most recent.
 
@@ -325,6 +333,14 @@ You want to distribute evenly across rows (keys). Avoid these keys to avoid hots
 - Domains: not all domains are equally active.
 - Sequential user IDs: newer users are more active.
 - Static identifiers: frequent used identifiers overload a single tablet.
+
+##### Families
+
+Related columns should be grouped in the same family. Change rate at columns within a same family should be similar (columns that often get changed together).
+
+[You can use up to about 100 column families while maintaining excellent performance](https://cloud.google.com/bigtable/docs/schema-design).
+
+The names of your column families should be short, because they're included in the data that is transferred for each request.
 
 #### Performance
 
