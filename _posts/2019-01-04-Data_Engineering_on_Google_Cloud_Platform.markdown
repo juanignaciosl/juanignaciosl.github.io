@@ -2,7 +2,7 @@
 layout: post
 title: "Data Engineering on Google Cloud Platform specialization at Coursera"
 date: 2019-01-04 07:18:57
-categories: ['Learning']
+categories: ['learning']
 tags: [Software Development, Databases, Google, Data, Courses, Coursera]
 excerpt: |
   Notes about Data Engineering on Google Cloud Platform Specialization course at Coursera.

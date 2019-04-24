@@ -2,7 +2,7 @@
 layout: post
 title: "Essential Scala"
 date: 2018-09-29 07:18:57
-categories: ['Learning']
+categories: ['learning']
 tags: [Software Development, Scala, books]
 excerpt: |
   Notes about Essential Scala book.
