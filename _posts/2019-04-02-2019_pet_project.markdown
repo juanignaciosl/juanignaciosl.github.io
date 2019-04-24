@@ -1,0 +1,65 @@
+---
+layout: post
+title: "2019 pet project"
+date: 2019-04-02 07:18:57
+categories: ['Learning']
+tags: [Software Development]
+excerpt: |
+  Notes about 2019 pet project.
+image:
+  feature: relativity.jpg
+---
+
+
+One of my 2019 goals is learning some stuff, from technologies to patterns. While [I enjoy reading](https://www.goodreads.com/user/show/15770448-juan-ignacio) until you get your hands dirty you don't actually get to know important details. So, after a reading-intensive 2018, this year I wanted to put that into practice with a pet project.
+
+The excuse is building "A World of Gigs": I've always wanted an easy way to know if there are going to be music gigs in cities that I'm visiting. Spotify is good but not great, I felt like I could do better. And, since everything happens somewhere, this can probably be extended to more content beyond gigs.
+
+Here's the list of topics that the project is related to. I might be preparing some talk or workshops about any of them. Explaining any of them is very valuable to me, because it would help me consolidating the knowledge, so let me know if you're interested:
+
+- Technology
+  - Scala
+    - Cats
+    - Doobie
+  - Kafka
+  - Flyaway
+  - Vue.js
+  - Bulma / Buefy
+- Software design
+  - Functional programming
+  - Event sourcing
+  - CQRS
+
+The project begun heavily based on [Event Sourcing with Kafka Streams](https://github.com/amitayh/event-sourcing-kafka-streams) example by [Amitay Horwitz](https://twitter.com/amitayh) ([talk](https://www.youtube.com/watch?v=b17l7LvrTco)) as a base design to begin diverging from.
+
+# Topics
+
+## Technology
+
+### Scala
+
+#### Cats
+
+Note that the web application is a [IOApp](https://typelevel.org/cats-effect/datatypes/ioapp.html), a safe way to run pure programs. Cats is a functional programming library for Scala enjoying a great ecosystem.
+
+The web server is built upon [FS2](https://fs2.io/) streams.
+
+A cornerstone is the IO monad. It's ["A data type for encoding side effects as pure values, capable of expressing both synchronous and asynchronous computations."](https://typelevel.org/cats-effect/datatypes/io.html). It "represents just a description of a side effectful computation."
+
+#### Doobie
+
+[Doobie](https://tpolecat.github.io/doobie/) is a pure functional JDBC layer.
+
+### Kafka
+
+#### Topologies
+
+### Flyaway
+
+### Vue.js / Nuxt.js
+
+I was suggested to use [Nuxt.js](https://nuxtjs.org) as frontend stack, and the out-of-the-box feeling is pretty nice.
+
+### Bulma / Buefy
+
+As I wanted to make decisions simple, I chose [Buefy](https://buefy.org) for UI components, in order to make straightforward decisions for things like datepickers.
