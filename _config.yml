@@ -18,8 +18,8 @@ markdown: kramdown
 owner:
   name: Juan Ignacio Sánchez Lara
   avatar: avatar.jpg
-  job: "Backend Developer"
-  bio: "A passionate developer. Backend Tech Lead at [CARTO](http://carto.com), remoting from Valladolid."
+  job: "Software Developer"
+  bio: "Principal Data Engineer at [CARTO](http://carto.com) after Backend Tech Lead. Remoting from Valladolid, Spain."
   email: juanignaciosl@gmail.com
   blog: http://www.juanignaciosl.com
   # medium: juanignaciosl
