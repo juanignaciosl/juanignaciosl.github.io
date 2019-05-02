@@ -117,6 +117,10 @@ Extra ball: [some suggestions](https://dev.to/brpaz/my-linux-development-environ
 
 From time to time there's no sound and only "Dummy output" appears at sound configuration. Running `pulseaudio -k && sudo alsa force-reload` usually makes it work again.
 
+### WiFi disconnecting
+
+From time to time WiFi stopped working because of a driver crash (sorry about not pasting syslog output). [I just followed the manual firmware update process](https://www.dell.com/support/article/es/es/esbsdt1/sln306440/killer-n1535-wireless-firmware-manual-update-guide-for-ubuntu-systems?lang=en) 🤞.
+
 ## Balance
 
 ### Positive stuff
