@@ -121,6 +121,10 @@ From time to time there's no sound and only "Dummy output" appears at sound conf
 
 From time to time WiFi stopped working because of a driver crash (sorry about not pasting syslog output). [I just followed the manual firmware update process](https://www.dell.com/support/article/es/es/esbsdt1/sln306440/killer-n1535-wireless-firmware-manual-update-guide-for-ubuntu-systems?lang=en) 🤞.
 
+### Touchpad
+
+Check that you're using Xorg instead of Wayland (you can choose them in the login window, with the gear icon) and [install and configure fusuma](https://askubuntu.com/questions/1034624/touchpad-gestures-in-ubuntu-18-04-lts).
+
 ## Balance
 
 ### Positive stuff
