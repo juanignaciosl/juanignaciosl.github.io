@@ -3,7 +3,7 @@ layout: post
 title:  "Continuous Integration at CartoDB"
 date:   2016-04-01 16:23:57
 categories: CARTO
-tags: [CARTO, Continuous Integration, Agile, Software Development, CAS, craftsmanmadrid]
+tags: [CARTO, Continuous Integration, Agile, Software Development, CAS, craftsmanmadrid, talk]
 excerpt: Slides and video about the "Continuous Integration at CartoDB" talk.
 ---
 

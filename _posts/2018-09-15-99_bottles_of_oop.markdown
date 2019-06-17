@@ -3,7 +3,7 @@ layout: post
 title: "99 Bottles of OOP Workshop"
 date: 2018-09-15 14:18:57
 categories: workshop
-tags: [workshop, Software Development]
+tags: [workshop, Software Development, talk]
 excerpt: "Notes, slides and code about 99 Bottles of OOP workshop"
 image:
   feature: 99-bottles-of-oop.png

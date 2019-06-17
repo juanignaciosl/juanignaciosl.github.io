@@ -3,7 +3,7 @@ layout: post
 title:  "SQL Performance Explained by Markus Winand"
 date:   2016-06-04 01:10:00
 categories: postgresql
-tags: [Postgresql, SQL]
+tags: [Postgresql, SQL, talk]
 excerpt: Slides from the "SQL Performance Explained talk by Markus Winand" talk at Cylicon Valley.
 ---
 

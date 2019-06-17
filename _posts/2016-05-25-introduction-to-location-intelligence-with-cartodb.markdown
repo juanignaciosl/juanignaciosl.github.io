@@ -3,7 +3,7 @@ layout: post
 title:  "Introduction to Location Intelligence with CartoDB"
 date:   2016-05-25 16:23:57
 categories: CARTO
-tags: [CARTO, Picnic Code, Location Intelligence]
+tags: [CARTO, Picnic Code, Location Intelligence, talk]
 excerpt: Slides from the "Introduction to Location Intelligence with CartoDB" talk at Picnic Code 2016.
 ---
 

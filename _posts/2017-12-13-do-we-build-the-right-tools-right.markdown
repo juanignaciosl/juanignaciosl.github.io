@@ -3,7 +3,7 @@ layout: post
 title:  "Do we build the right tools right?"
 date:   2017-12-13 19:23:57
 categories: thoughts
-tags: [thoughts, technology]
+tags: [thoughts, technology, talk]
 excerpt: "Biased talk about how we choose techology. Do we understand the tradeoffs, or just follow trends?"
 ---
 
