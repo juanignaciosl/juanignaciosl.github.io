@@ -12,7 +12,8 @@ image:
 
 I'm getting closer to Google Cloud solutions, and as some decisions around the platform are not straightforward (such as which database should you use) I took a look at [training options](https://cloud.google.com/training/) and found [Data Engineering on Google Cloud Platform Specialization](https://www.coursera.org/specializations/gcp-data-machine-learning) at Coursera. Although it doesn't get into too much detail, as the platform is huge, it's a good introduction to the portfolio.
 
-I'll keep updating the content and references as I learn more stuff.
+I'll keep updating the content and references as I learn more stuff:
+- 2019-06: Spanner notes.
 
 # Specialization content
 
@@ -355,6 +356,21 @@ General considerations:
 - Increasing the amount of cells per row reduces the number of rows per seconds.
 - In general, keep all information for an entity in a single row. An entity that doesn't need atomic updates and reads can be split across multiple rows. Splitting across multiple rows is recommended if the entity data is large (hundreds of MB)
 
+# Google Cloud Spanner
+
+Spanner is not part of the certification, but here are some notes about what I'm learning about it.
+
+TL;DR: relational, transactional, horizontally scalable database.
+
+## Internals
+
+It uses TrueTime, a system based on atomic clocks that provide not only a very accurate moment in time but also bounded (predictable) clock uncertainty. Timespan is used to create the global ordering of the events. Spanner assigns globally meaningful commit timestamps to transactions, even for distributed ones. Those timestamps reflect serialization order. Serialization order satisfies external consistency (linearizability).
+
+![Lifespan of a request (read/write)](/img/spanner_life_of_a_read.png)
+
+It uses Paxos as the consensus protocol to pick the leader.
+
+One design goal is serving data (almost) always from local storage. If the replica doesn't have it, it waits until Paxos propagate it.
 
 # References
 
@@ -374,6 +390,14 @@ General considerations:
   - TensorFlow:
     - [TensorFlow playground](http://playground.tensorflow.org).
     - [ML glossary](https://developers.google.com/machine-learning/glossary).
+  - Spanner
+    - [Spanner Internals Part 1](https://www.youtube.com/watch?v=nvlt0dA7rsQ) and [Part 2](https://www.youtube.com/watch?v=zy-rcR4MoN4).
+    - [Optimizing Schema Design for Cloud Spanner](https://cloud.google.com/spanner/docs/whitepapers/optimizing-schema-design).
+    - [Schema design best practices](https://cloud.google.com/spanner/docs/schema-design).
+    - [Lifespan of Cloud Spanner Reads & Writes](https://cloud.google.com/spanner/docs/whitepapers/life-of-reads-and-writes).
+    - [Spanner, TrueTime and the CAP Theorem](https://ai.google/research/pubs/pub45855).
+    - [Spanner: Google's Globally-Distributed Database](https://ai.google/research/pubs/pub39966).
+    - [Spanner: Becoming a SQL System](https://ai.google/research/pubs/pub46103).
 - Use cases:
   - [Popular Java projects on GitHub that could use some help (analyzed using BigQuery and Dataflow)](https://medium.com/google-cloud/popular-java-projects-on-github-that-could-use-some-help-analyzed-using-bigquery-and-dataflow-dbd5753827f4).
   - [Processing Logs at Scale Using Cloud Dataflow](https://cloud.google.com/solutions/processing-logs-at-scale-using-dataflow).
