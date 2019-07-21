@@ -24,3 +24,18 @@ I'm working in a project with Python and [AIOHTTP](https://aiohttp.readthedocs.i
 - [uvloop](https://uvloop.readthedocs.io/), an alternative implementation of the built-in asyncio event loop.
 - [asyncio snippets](http://blog.mathieu-leplatre.info/some-python-3-asyncio-snippets.html).
 - To explore: Python 3.8 multiprocessing shared memory: [Python 3.8, currently in beta, will have a `multiprocessing.shared_memory` module](https://docs.python.org/3.8/whatsnew/3.8.html#multiprocessing). That might make feasible sharing the connection among processes. I haven't done any research about this, so this can be plain wrong. In addition, the overhead of creating a new process might make this approach prohibitive.
+
+# Extra balls
+
+## Fast.ai
+
+Fast.ai is a library for neural networks that has a useful helper for triggering processes ([via @antor](https://twitter.com/antor/status/1152876193525501952), thanks!):
+
+```python
+from fastai.core import parallel
+
+def process_one(item,i):
+    return (item**2, i)
+
+result = parallel(process_one, range(100000))
+```
