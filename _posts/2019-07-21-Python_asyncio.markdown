@@ -39,3 +39,11 @@ def process_one(item,i):
 
 result = parallel(process_one, range(100000))
 ```
+
+## Talks
+
+- [Dynamic languages and Parallelism: How to Go from Broken or Slow to Safe and Efficient](https://app.getpocket.com/read/2668197563): not about Python but dynamic languages in general.
+
+## Related references
+
+- [Notes on structured concurrency, or: Go statement considered harmful](https://vorpus.org/blog/notes-on-structured-concurrency-or-go-statement-considered-harmful/).
