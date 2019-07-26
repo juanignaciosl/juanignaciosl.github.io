@@ -1,0 +1,8 @@
+#toc {
+  margin-top: -25px;
+
+  & > ol {
+    padding-bottom: 15px;
+    border-bottom: 0.0625rem solid rgba(0, 0, 0, 0.1);
+  }
+}

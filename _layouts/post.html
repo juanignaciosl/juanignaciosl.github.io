@@ -36,6 +36,10 @@ layout: default
   </header>
 
   <article class="post-content">
+    <div id="toc">
+      {% include toc.html html=content h_max=2 ordered=true %}
+    </div>
+
     {{ content }}
   </article>
 </div>
