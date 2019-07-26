@@ -278,6 +278,11 @@ git commit -C HEAD@{1}
 * Create patch: `git diff > file.patch`
 * Apply patch: `git apply file.patch`
 
+`--patch` also works with `add`, `checkout` and `log`:
+- With `log` it's like `-p`, for seeing the diff of the change.
+- With `add`, it interactively asks for action on each change hunk.
+- With `checkout`, it interactively asks for discard action on each change hunk.
+
 ## Ignoring local files
 
 [Source](http://stackoverflow.com/questions/1753070/git-ignore-files-only-locally).
