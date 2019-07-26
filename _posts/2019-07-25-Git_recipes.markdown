@@ -227,7 +227,7 @@ Host *
 [Atlassian tutorial](https://www.atlassian.com/git/tutorials/undoing-changes/git-revert).
 
 * `git revert <commit>`: applies the inverse of a commit.
-* Single file: `git checkout 1b4df5b13e5c76aa50b9ba1fd0167a947250c298~1 -- services/user-mover/import_user.rb`.
+* Single file: `git checkout 1b4df5b13e5c76aa50b9ba1fd0167a947250c298~1 -- file.rb`.
 * `git reset <commit>`: 
   * `--mixed` (default): move the current branch HEAD and index backward to <commit>. 
   * `--soft`: moves HEAD, index unchanged.
