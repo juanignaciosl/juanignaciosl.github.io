@@ -10,6 +10,7 @@ image:
   feature: essential_scala.png
 ---
 
+
 I haven't coded in Scala for some months and I wanted to refresh my memory,
 which was a good excuse for picking [Essential Scala underscore
 book](https://underscore.io/training/courses/essential-scala/) out of my
@@ -50,9 +51,9 @@ highlights, definitions, important stuff or things that I didn't know.
 </summary>
 
 <div markdown="1">
-### 4. Modelling Data with Traits
+## 4. Modelling Data with Traits
 
-#### The Product Type Pattern
+### The Product Type Pattern
 
 *Has-a and*: **product type**
 
@@ -71,7 +72,7 @@ trait A {
 }
 ```
 
-#### The Sum Type Pattern
+### The Sum Type Pattern
 
 *Is-a or*: **sum type**.
 
@@ -82,7 +83,7 @@ final case class B() extends A
 final case class C() extends A
 ```
 
-#### Algebraic Data Types
+### Algebraic Data Types
 
 Let's see patterns beyond *has-a and* and *is-a or*.
 
@@ -122,7 +123,7 @@ final case class D(b: B) extends A
 final case class E(c: C) extends A
 ```
 
-#### Working With Data
+### Working With Data
 
 > **Structural recursion** is the precise opposite of the process of building an
 > algebraic data type. If A has a B and C
@@ -135,7 +136,7 @@ final case class E(c: C) extends A
 > answer. Structural recursion is essentially the process of breaking down
 > data into smaller pieces.
 
-##### Structural Recursion using Polymorphism
+#### Structural Recursion using Polymorphism
 
 **Product Type Polymorphism Pattern**:
 
@@ -171,7 +172,7 @@ final case class C() extends A {
 }
 ```
 
-##### Structural Recursion using Pattern Matching
+#### Structural Recursion using Pattern Matching
 
 **Product Type Pattern Matching Pattern**:
 
@@ -233,7 +234,7 @@ and
 > - whenever we encounter a base case in the data we return the identity for
 > the operation we are performing.
 
-### 5. Sequencing Computations
+## 5. Sequencing Computations
 
 > **Fold Pattern**:
 > For an algebraic datatype A, fold converts it to a generic type B. Fold is a structural recursion with:
@@ -243,11 +244,11 @@ and
 > The right-hand side of pattern matching cases, or the polymorphic methods as appropriate, consists of
 > calls to the appropriate function.
 
-#### Map, flatmap, functor, monads...
+### Map, flatmap, functor, monads...
 
 > A type like F[A] with a map method is called a functor. If a functor also has a flatMap method it is called a monad.
 
-#### Variance
+### Variance
 
 > **Covariant Generic Sum Type Pattern**
 > If A of type T is a B or C , and C is not generic, write
@@ -276,9 +277,9 @@ case class A[+T] {
 }
 ```
 
-### 6. Collections
+## 6. Collections
 
-### 7. Type Classes
+## 7. Type Classes
 
 > Type Class Pattern
 > A type class is a trait with at least one type variable. The type variables specify the concrete types the
