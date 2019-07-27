@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: "Back to Linux!"
 date: 2018-7-1 20:18:57
 categories: tools

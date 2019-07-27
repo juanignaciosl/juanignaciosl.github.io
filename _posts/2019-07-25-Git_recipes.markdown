@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: 'Git recipes'
 date: 2019-07-25 07:18:57
 categories: ['development']

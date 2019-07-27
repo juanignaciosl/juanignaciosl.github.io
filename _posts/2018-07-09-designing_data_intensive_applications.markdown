@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: "Designing Data-Intensive Applications"
 date: 2018-7-9 11:18:57
 categories: ['learning']

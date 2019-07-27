@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title:  "Continuous Integration at CartoDB"
 date:   2016-04-01 16:23:57
 categories: CARTO

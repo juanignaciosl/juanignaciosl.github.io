@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: '"Conventional wisdom"'
 date: 2019-06-28 9:18:57
 categories: ['micro']

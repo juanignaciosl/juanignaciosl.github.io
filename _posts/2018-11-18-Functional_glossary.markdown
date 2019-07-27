@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: "Terms around functional Programming with Scala"
 date: 2019-05-26 07:18:57
 categories: ['learning']

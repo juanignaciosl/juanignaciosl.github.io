@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title:  "Do we build the right tools right?"
 date:   2017-12-13 19:23:57
 categories: thoughts

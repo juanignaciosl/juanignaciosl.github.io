@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: 'Python asyncio'
 date: 2019-07-21 07:18:57
 categories: ['development']

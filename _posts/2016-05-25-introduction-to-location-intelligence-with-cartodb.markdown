@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title:  "Introduction to Location Intelligence with CartoDB"
 date:   2016-05-25 16:23:57
 categories: CARTO

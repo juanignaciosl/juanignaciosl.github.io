@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title:  "SQL Performance Explained by Markus Winand"
 date:   2016-06-04 01:10:00
 categories: postgresql

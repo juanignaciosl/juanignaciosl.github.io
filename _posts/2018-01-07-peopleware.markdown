@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: "Peopleware 3rd Edition Review"
 date: 2018-1-12 21:18:57
 categories: ['learning']

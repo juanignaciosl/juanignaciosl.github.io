@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: "99 Bottles of OOP Workshop"
 date: 2018-09-15 14:18:57
 categories: workshop

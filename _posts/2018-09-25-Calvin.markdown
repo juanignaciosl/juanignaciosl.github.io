@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: "Calvin: Fast Distributed Transactions for Partitioned Database Systems"
 date: 2018-09-24 07:18:57
 categories: ['learning']

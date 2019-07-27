@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: 'PostgreSQL recipes'
 date: 2019-07-26 07:18:57
 categories: ['development']

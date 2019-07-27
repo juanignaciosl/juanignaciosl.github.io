@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: "Data Engineering on Google Cloud Platform specialization at Coursera"
 date: 2019-01-04 07:18:57
 categories: ['learning']

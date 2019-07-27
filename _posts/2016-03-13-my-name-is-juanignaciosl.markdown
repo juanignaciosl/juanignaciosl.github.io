@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title:  "My name is juanignaciosl and I code"
 date:   2016-03-13 19:23:57
 categories: CARTO

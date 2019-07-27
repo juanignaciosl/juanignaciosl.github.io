@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title:  "PostgreSQL: The one tool to bring to a desert island"
 date:   2017-12-14 19:23:57
 categories: postgresql

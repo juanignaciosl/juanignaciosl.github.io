@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: "Principal Data Engineer"
 date: 2019-04-25 10:18:57
 categories: ['CARTO']

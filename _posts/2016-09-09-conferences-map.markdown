@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title:  "Software conferences map"
 date:   2016-09-09 19:23:57
 categories: CARTO
