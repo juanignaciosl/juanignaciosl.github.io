@@ -21,6 +21,7 @@ enough, and learning the actual command will always be valuable.
 # Workflow
 
 _Basic stuff, you probably want to skip this section, this is more a brain dump._
+
 ```bash
 $ git status # First normal step, as a double-check for files not added to the repo or unwanted changes
 $ git checkout -b my_new_branch # Let's begin
@@ -33,6 +34,9 @@ $ git merge master # ... if it's not and
 $ git push # If there's no history rewrite or ...
 $ git push --force-with-lease # ... if it's not (see later)
 ```
+
+A must-have: just like in bash you can go to the "previous path" with `cd -`, in git you can go to the previous branch
+with `git checkout -`.
 
 ## Commit messages: long or short?
 
@@ -116,7 +120,15 @@ related but aren't consecutive, so a simple `--amend` is not enough. In those ca
 and simple to use once you get used to. For example, with this command you can reorder and squash the last three
 commits:
 
-    git rebase -i HEAD~3
+```bash
+$ git rebase -i HEAD~3
+```
+
+If you want to rebase to master and at the same time rearrange the commits in your branch (thanks, [@matallo](https://twitter.com/matallo/status/1154826814528905217):
+
+```bash
+$ git rebase -i master
+```
 
 ## Finding bugs
 
