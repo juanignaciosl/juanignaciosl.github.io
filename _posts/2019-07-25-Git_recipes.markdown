@@ -290,7 +290,7 @@ git commit -C HEAD@{1}
 * Create patch: `git diff > file.patch`
 * Apply patch: `git apply file.patch`
 
-`--patch` also works with `add`, `checkout` and `log`:
+`--patch` also works with `add`, `checkout` and `log` ([@pvrrgrammer](https://twitter.com/pvrrgrammer/status/1154707252797988864)):
 - With `log` it's like `-p`, for seeing the diff of the change.
 - With `add`, it interactively asks for action on each change hunk.
 - With `checkout`, it interactively asks for discard action on each change hunk.
