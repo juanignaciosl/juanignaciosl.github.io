@@ -16,7 +16,7 @@ dirty gists with recipes for different topics, from PostgreSQL to Linux. They ne
 kill two birds with one stone and publish them here after the cleanup, they might be useful for somebody else.
 
 Disclaimer: no, I don't use (almost) any alias or small script. To save some keystrokes bash history is good
-enough, and learning the actual command will always be valuable.
+enough, and learning the actual command will always be valuable. Currently, my only exception is `gittree`.
 
 # Workflow
 
@@ -220,10 +220,15 @@ Host *
 * `git blame -M`: blames original commit, not the move commit.
 * `git blame -CCC`: looks at all commits in history.
 
-
 ## Branching
 
 * `git branch -r`: list remote branches.
+
+Viewing the branching tree ([this is my only current alias](https://github.com/juanignaciosl/configuration_files/blob/7dcc6f5efcd171e9197e8f34f3315e359503e055/.bash_aliases#L1)):
+
+```bash
+alias gittree='git log --graph --pretty=oneline --abbrev-commit'
+```
 
 ## Adding changes
 
