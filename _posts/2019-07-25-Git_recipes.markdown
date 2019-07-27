@@ -217,11 +217,8 @@ Host *
 * `git log --grep $string`: looks for `$string` pattern (regexp) at messages ([thanks to @stbnrivas](https://twitter.com/stbnrivas/status/1155038045554524161)). 
 * `git log --since=$(date --date="15 day ago" +"%Y-%m-%d")`: filter by date.
 
-* `git cherry-pick [hash]`: takes one single commit into your code.
-* `git rebase -`
-
-* ```git blame -M```: blames original commit, not the move commit.
-* ```git blame -CCC```: looks at all commits in history.
+* `git blame -M`: blames original commit, not the move commit.
+* `git blame -CCC`: looks at all commits in history.
 
 
 ## Branching
