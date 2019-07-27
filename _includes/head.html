@@ -18,4 +18,36 @@
   <link rel="shortcut icon" href="{{ site.url }}/favicon.ico">
   <!-- 32x32 -->
   <link rel="shortcut icon" href="{{ site.url }}/favicon.png">
+
+  <!--Insert OG Markup -->
+  <meta prefix="og: http://ogp.me/ns#" property="og:type" content="website" />
+  <meta prefix="og: http://ogp.me/ns#" property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
+  <meta prefix="og: http://ogp.me/ns#" property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}" />
+  {% if page.image.feature %}
+      <meta prefix="og: http://ogp.me/ns#" property="og:image" content=
+            {% if post.image.feature contains 'http' %}
+                "{{ page.image.feature }}"
+            {% else %}
+                "{{ site.url }}/img/{{ page.image.feature }}"
+            {% endif %}
+    />
+  {% endif %}
+  <meta prefix="og: http://ogp.me/ns#" property="og:url" content="{{ site.url }}" />
+
+  <!--Insert Twitter Card Markup -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@{{site.owner.twitter}}" />
+  <meta name="twitter:domain" content="{{site.url}}" />
+  <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
+  <meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}" />
+          {% if page.image.feature %}
+  <meta name="twitter:image" content=
+          {% if post.image.feature contains 'http' %}
+  "{{ page.image.feature }}"
+  {% else %}
+  "{{ site.url }}/img/{{ page.image.feature }}"
+  {% endif %}
+  />
+  {% endif %}
+
 </head>
