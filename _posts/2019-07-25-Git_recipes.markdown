@@ -214,6 +214,9 @@ Host *
 ## Searching
 
 * `git log -S puppy`: looks for "puppy" in the contents of the commit history.
+* `git log --grep $string`: looks for `$string` pattern (regexp) at messages ([thanks to @stbnrivas](https://twitter.com/stbnrivas/status/1155038045554524161)). 
+* `git log --since=$(date --date="15 day ago" +"%Y-%m-%d")`: filter by date.
+
 * `git cherry-pick [hash]`: takes one single commit into your code.
 * `git rebase -`
 
