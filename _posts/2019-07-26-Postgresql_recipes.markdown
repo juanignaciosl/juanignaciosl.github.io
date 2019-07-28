@@ -20,6 +20,18 @@ example), which is nice. Nevertheless, `psql` is still my go-to tool for Postgre
 
 Please note that most `\d` commands support additional param of `__schema__.name__` and accept wildcards like `*.*`.
 
+## .psqlrc
+
+There are plenty of things that you can do with a `~/.psqlrc` file. In general, every psql command can be added there
+and will be run at the beginning of your `psql` session. For example, you can create shortcuts to queries by adding
+ this to `~/.psqlrc`:
+
+```sql
+\set total_index_size 'SELECT pg_size_pretty(sum(relpages*1024)) AS size FROM pg_class WHERE reltype=0;'
+```
+
+Then you can run it with `:total_index_size;`.
+
 ## Working with external files and commands
 
 - Running external queries (I use [this](https://github.com/juanignaciosl/snippets/blob/master/pg/locks.sql)
@@ -494,6 +506,7 @@ General:
 
 Command line usage:
 
+- [CartoDB PostgreSQL workshop](https://github.com/CartoDB/labs-postgresql/blob/master/workshop/psql.md).
 - [PostgreSQL on the command line](http://phili.pe/posts/postgresql-on-the-command-line).
 - [Improving the command line PostgreSQL experience](https://robots.thoughtbot.com/improving-the-command-line-postgres-experience).
 - [Generating short ids in Postgres](https://blog.andyet.com/2016/02/23/generating-shortids-in-postgres/?utm_source=postgresweekly&utm_medium=email).
