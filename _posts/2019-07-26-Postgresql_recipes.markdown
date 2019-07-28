@@ -355,9 +355,16 @@ Export/import:
 $ pg_dump -U postgres -F c -t 'public.users' --schema-only cartodb_central_development | pg_restore -U postgres -d temp
 ```
 
-Faster restore: `pg_restore -U postgres -j4 -O -x --verbose -e -d DB_NAME DUMP_LOCATION`
+Faster restore:
 
-Restore from text dump: `cat mc_zcta5 | psql -U postgres -d gis -v ON_ERROR_STOP=1`.
+```bash
+pg_restore -U postgres -j4 -O -x --verbose -e -d DB_NAME DUMP_LOCATION`
+```
+
+Restore from text dump:
+```bash
+cat mc_zcta5 | psql -U postgres -d gis -v ON_ERROR_STOP=1`.
+```
 
 # Database copy or backup
 
