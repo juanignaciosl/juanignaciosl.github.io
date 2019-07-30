@@ -246,6 +246,7 @@ alias gittree='git log --graph --pretty=oneline --abbrev-commit'
 
 * `git revert <commit>`: applies the inverse of a commit.
 * Single file: `git checkout 1b4df5b13e5c76aa50b9ba1fd0167a947250c298~1 -- file.rb`.
+* `git reset`: reverts `git add`.
 * `git reset <commit>`: 
   * `--mixed` (default): move the current branch HEAD and index backward to <commit>. 
   * `--soft`: moves HEAD, index unchanged.
