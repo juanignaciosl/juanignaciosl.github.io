@@ -138,9 +138,16 @@ think that it worked") was a suboptimal strategy, but git provides a great tool 
 load: `git-bisect`. It provides a binary search through git commits, from the one that you know that worked.
 [Here's a great tutorial about it](https://git-scm.com/docs/git-bisect).
 
-## GitHub integration through commits
+## GitHub
+
+### Commit automation
 
 * [Github commands for automatically closing tickets](https://help.github.com/articles/closing-issues-via-commit-messages/)
+
+### Links
+
+If you navigate through a file, the address bar contains the reference inside a branch, which can change, so it's not
+a true permalink. If you want to share a GitHub link, press `y` before, the URL will change to the commit hash.
 
 # Misc stuff
 
