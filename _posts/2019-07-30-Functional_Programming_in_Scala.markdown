@@ -18,11 +18,13 @@ including topics such as parallel programming or Big Data analysis with Spark, a
 
 These are my notes.
 
-# Functional Programming Principles in Scala
+# Courses
+
+## Functional Programming Principles in Scala
 
 This course hasn't changed too much. In fact, Coursera even displays some of the lecture videos as already seen :-).
 
-## Week 6 - Other collections
+### Week 6 - Other collections
 
 Weeks 1-5 are pretty much the same content than before. Week 6 dives deeper into collections (which [have been
 revamped](https://www.scala-lang.org/blog/2017/02/28/collections-rework.html)), so some notes are useful to me:
@@ -31,7 +33,7 @@ revamped](https://www.scala-lang.org/blog/2017/02/28/collections-rework.html)), 
 random access complexity is `log32(N)` (grows very slowly). 32 is convenient for current processors cache, making
 processing in batches very efficient.
 
-## References
+### References
 
 - [Course Cheatsheet](https://github.com/lampepfl/progfun-wiki/blob/gh-pages/CheatSheet.md).
 - [Scala Cheatsheet](https://docs.scala-lang.org/cheatsheets/).
@@ -49,3 +51,26 @@ processing in batches very efficient.
     - Scala for the Impatient. Cay Horstmann. Addison-Wesley 2012.
     - Scala in Depth. Joshua D. Suereth. Manning 2012.
     - Programming Scala. Dean Wampler and Alex Payne. O’Reilly 2009.
+
+## Functional Program Design in Scala
+
+### Week 4 - Functional Reactive Programming
+
+Ways to address concurrent access to global state:
+- Synchronization. Cons:
+  - it blocks threads
+  - can be slow
+  - can lead to deadlocks
+  - imperative
+- Replace global state with thread-local state (`scala.util.DynamicVariable`). Each thread accesses a separate copy. Cons:
+  - imperative
+  - implemented with a global hash table lookup (potential performance issue)
+  - when the threads are multiplexed between tasks it won't work (as a worker can be moved among threads)
+- Implicit parameter, value passed to the function. Cons:
+  - Requires more boilerplate.
+
+### References
+
+- [Reactive Cheatsheet](https://github.com/sjuvekar/reactive-programming-scala/blob/master/ReactiveCheatSheet.md).
+- [RxScala API](http://reactivex.io/rxscala/scaladoc/index.html#rx.lang.scala.Observable).
+- [ScalaCheck](https://github.com/rickynils/scalacheck/blob/master/doc/UserGuide.md).
