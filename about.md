@@ -17,7 +17,7 @@ My name is Juan Ignacio Sánchez Lara and I code. If you want to contact, send m
 
 ### Writing
 
-- Currently, I use my personal blog [juanignaciosl.com](http://www.juanignaciosl.com) mostly for publishing short stories
+- _Stay tuned_.
 
 ### Photography
 
