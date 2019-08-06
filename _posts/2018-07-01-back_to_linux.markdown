@@ -4,11 +4,13 @@ comments: true
 title: "Back to Linux!"
 date: 2018-7-1 20:18:57
 categories: tools
-tags: [tools, Linux, Ubuntu]
+tags: [tools, Linux, Ubuntu, Arch]
 excerpt: "Back to Linux! Here you have some notes from my migration to Ubuntu with a XPS 9570"
 ---
 
-## Running away from Mac? How come?
+# Running away from Mac? How come?
+
+_20190806 UPDATE: this guide was born for XPS 9570 and Ubuntu. Then it was updated for XPS 7590 and Arch Linux with LUKS._
 
 I've been a Mac user for 6 years. Back in 2012 I had been a really happy Gentoo user for many years, but by then some iOS development ([a simple iOS "game"](http://www.juanignaciosl.com/ingenieria-del-software/the-exif-game) and a freelance project) moved me to OS X. In addition, I also [take pictures](https://www.flickr.com/photos/juanignaciosl/) and even [make videos from time to time](https://www.youtube.com/watch?v=EHoAyxU8nog&list=PL5Gftzmh1mO6iuWbsVU9cbzzszjcebKoj). So, switching to Apple was a nice move: I'd keep the good parts of a \*nix sistem and get rid of Windows for the Adobe suite. In addition, Macbook Air was a great computer for its price, powerful enough and extra light.
 
@@ -30,7 +32,7 @@ Here are _some_ of _my_ pains:
 
 So, I asked for a computer change. Other person in CARTO (designers? frontenders?) can enjoy the powerful Macbook Pro more than I would, and my life might be happier.
 
-## Dell XPS 9570
+## XPS 9570
 
 After some research, I chose the XPS 9570. In fact, I chose the 9560, but when I was going to ask for it the announcement of the new model was too close, so I preferred waiting :). XPSs are known as good machines for developers, with good Linux compatibility. Highlights:
 
@@ -41,13 +43,12 @@ After some research, I chose the XPS 9570. In fact, I chose the 9560, but when I
 - ~$1000 cheaper than the equivalent Macbook Pro.
 - Keyboard seems to work, so far. Crazy.
 
-## Ubuntu installation
+### Ubuntu installation
 
 Although I love Gentoo, I don't have too much time and my Linux skills are a little rusty, so I kept things simple and installed Ubuntu. There are plenty of guides for the 9560. [Read this first](https://github.com/rcasero/doc/wiki/Ubuntu-linux-on-Dell-XPS-15-(9560)), and [this](https://www.reddit.com/r/Dell/comments/8l7gk8/xps_15_9570_fhd_review_and_linux_instructions_and/), and other useful references:
 
 - [XPS 9560 and Ubuntu](https://gist.github.com/tomwwright/f88e2ddb344cf99f299935e1312da880).
 - [DELL XPS 9560 - The Perfect Linux Laptop?](https://www.youtube.com/watch?time_continue=5&v=GiM05IkB1Qc) video series + [the Full List of Changes](http://www.palindrome.co.uk/p/blog-page_23.html).
-
 
 ### Non-obvious steps
 
@@ -126,34 +127,119 @@ From time to time WiFi stopped working because of a driver crash (sorry about no
 
 Check that you're using Xorg instead of Wayland (you can choose them in the login window, with the gear icon) and [install and configure fusuma](https://askubuntu.com/questions/1034624/touchpad-gestures-in-ubuntu-18-04-lts).
 
-## Balance
+### Balance
 
-### Positive stuff
+#### Positive stuff
 
 - I might've spent ~3 days installing and configuring stuff. But running anything inside Vagrant with LXC support is SO FAST that I think that I've already paid it off.
 - Gnome is very user friendly, specially for a developer. Built-in support for VPNs (with good DNS resolution), options to restrict background downloads in some WiFis (for phone tethering), task switching works, no matter the status of the window...
 - :heart: USB ports.
 
-### Differences
+#### Differences
 
 - Trackpad is pretty good and big enough. ~~I still sometimes lose the focus because I trigger clicks, though~~ I've disabled "tap to click" and I'm happy.
 - Keyboard layout is slightly different, I still have to get used to it as well, specially because I'm using FXX and Fn a lot. Mac Pro butterfly keyboard felt slightly better but, as you know, it's broken. Dell one might be the second best I've ever used after that one, and hopefully it will last longer.
 - In order to make "workspaces" ("virtual desktops") span both displays in Ubuntu you have to install Gnome tweaks application.
 
-### Pending stuff
+#### Pending stuff
 
 - Research about nVidia drivers.
 - Gentle power down: shutting down kills applications without mercy, and Chrome and Firefox think that they crashed.
 - Fingerprint reader doesn't work in Linux yet, there's no available driver.
 
-### Missing stuff
+#### Missing stuff
 
 - I need Windows for my amateurish Lightroom, Photoshop and Premiere tasks. I'll give Darktable a try.
 - Gnome can't remember the applications that you were running when you logged out. I've workarounded it with "startup applications".
 - Three finger gesture to display running applications. I workaround it with the simpler task switcher shortcut and the worplaces switcher shortcut, but it'll be hard to forget (although workarounds are arguably faster).
 - Terminator ([still](https://bugs.launchpad.net/terminator/+bug/1301605)) doesn't support native tmux integration (like iTerm does).
 
-## Conclusion
+### Conclusion
 
 I've already spent more than two weeks with this setup and I'm _really_ happy. In my case, there's no single reason to stay with Apple for software development ([I'm not alone here](https://robots.thoughtbot.com/bye-apple-hello-tux)). For me, **this computer with Linux is just better, faster and cheaper**. Let's revisit this in some months!
+
+## XPS 7590
+
+One year later, I bought the next version of that computer, the XPS 9570 (same configuration, i7).
+The only remarkable change is the camera placement, which is great, no more Carrey-sh look :-)
+
+My goal was a dual boot system (Linux + Windows) with LUKS cypher in Linux (for security and Dropbox support).
+While I had a good experience with Ubuntu, many colleagues suggested Arch Linux as a better alternative, so I decided
+to give it a try (everybody told me to forget about Gentoo complexities nowadays).
+[This distro comparison also helped](https://wiki.archlinux.org/index.php/Arch_compared_to_other_distributions#Gentoo/Funtoo_Linux):
+- Installing Arch is based on precompiled binaries (so it's quicker than a normal source-based Gentoo installation).
+- Simpler than Gentoo (I don't need/want more powerful settings).
+- Rolling-based (instead of discrete as Ubuntu).
+
+Arch Linux documentation is just gorgeous. I've written down here some notes for my future self. If you're interested,
+check the references.
+
+### Resources
+
+- [Dell XPS 15 7590](https://wiki.archlinux.org/index.php/Dell_XPS_15_7590) > [9570](https://wiki.archlinux.org/index.php/Dell_XPS_15_9570) > [9560](https://wiki.archlinux.org/index.php/Dell_XPS_15_9560).
+  - [SOLUTION: Switch Windows 10 from RAID/IDE to AHCI operation](https://triplescomputers.com/blog/uncategorized/solution-switch-windows-10-from-raidide-to-ahci-operation/).
+- [Installation guide](https://wiki.archlinux.org/index.php/Installation_guide).
+    - [FAQ](https://wiki.archlinux.org/index.php/Frequently_asked_questions).
+    - [USB flash installation media](https://wiki.archlinux.org/index.php/USB_flash_installation_media).
+    - [Dual boot with Windows](https://wiki.archlinux.org/index.php/Dual_boot_with_Windows).
+- [Partitioning](https://wiki.archlinux.org/index.php/Partitioning).
+- [Encrypting](https://wiki.archlinux.org/index.php/Dm-crypt/Encrypting_an_entire_system#LUKS_on_a_partition).
+- [Suspend and hibernate](https://wiki.archlinux.org/index.php/Power_management/Suspend_and_hibernate), [with encryption](https://wiki.archlinux.org/index.php/Dm-crypt/Swap_encryption#With_suspend-to-disk_support).
+- [General recommendations](https://wiki.archlinux.org/index.php/General_recommendations).
+- [List of applications](https://wiki.archlinux.org/index.php/List_of_applications).
+- [SSH keys and agents](https://wiki.archlinux.org/index.php/SSH_keys).
+- [pacman tips and trics](https://wiki.archlinux.org/index.php/Pacman/Tips_and_tricks).
+
+### Steps
+
+#### Base installation
+
+1. Created a Windows Bootable pendrive with [this Microsoft Tool](https://www.microsoft.com/en-us/software-download/windows10ISO), just in case...
+2. Disabled Fast Startup: Power Settings --> System Configuration --> uncheck "Turn on fast startup".
+3. Reduced Windows partition to 150GB (with Windows disk management).
+4. Followed "SOLUTION: Switch Windows 10 from RAID/IDE to AHCI operation" guide.
+5. Additional BIOS setup (F2 at POST):
+    1. Disable Secure Boot --> Secure Boot Enable (not supported by Arch Linux). Restarting Windows led to a Bitlocker recovery page, but adding the key from [their site](https://account.microsoft.com/devices/recoverykey) worked. You only need to do this once.
+    2. Change SATA Operation from "RAID On" to "AHCI" so SSD can be detected.
+    3. Behavior --> Fastboot --> Thorough.
+    4. NEEDED? Enable General --> Advanced Boot Options --> Enable Legacy Option ROMs.
+6. Booted USB Arch Linux image (F12) and followed the installation guide until "Partition the disks", where
+I begun [LUKS on a partition](https://wiki.archlinux.org/index.php/Dm-crypt/Encrypting_an_entire_system#LUKS_on_a_partition):
+      1. As the computer already has an EFI partition and I don't need encrypted root, I just created a partition with all the remaining free space for `/`:
+          ```
+         (parted) print devices
+         (parted) select /dev/nvme0n1
+         (parted) mkpart primary ext4 
+         # ... accept the realignment
+          ```
+      2. Then, mounted boot partition at `/mnt/boot` and resumed the installation steps.
+7. Installed rEFInd as boot manager. [Some peopled complained](https://twitter.com/skgsergio/status/1158735933786742784)
+and suggested that [systemd-boot is even simpler](https://twitter.com/skgsergio/status/1158755069069860864) :shrug:
+
+Additionally installed software: `wpa_supplicant`.
+
+#### Next steps
+
+_Some of this will eventually get to my [configuration files repo](https://github.com/juanignaciosl/configuration_files)._
+
+[Keyboard configuration](https://wiki.archlinux.org/index.php/Linux_console/Keyboard_configuration):
+- Set `KEYMAP=es` at `/etc/vconsole.conf`.
+
+- Base packages: `vim`, `git`, `gnome` (`gdb` enabled), `sudo`, [`networkmanager`](https://wiki.archlinux.org/index.php/NetworkManager), `firefox-developer-edition`, `base-devel`, `yay`, `intellij-toolbox`, `gnome-tweaks`, `extra/ttf-dejavu`, `ruby`.
+
+- `sudo` isn't installed by default (:shrug:). I followed [@sksergio suggestion to make my life a little more comfortable](https://twitter.com/skgsergio/status/1158775429328715777):
+
+```bash
+pacman -S sudo
+usermod -a -G wheel juanignaciosl
+visudo
+```
+
+There, uncomment `%wheel ALL=(ALL) NOPASSWD: ALL`.
+
+#### TODO checklist
+
+- Will Windows keep asking for Bitlocker key?
+- Dedicated graphic card on/off.
+
 
