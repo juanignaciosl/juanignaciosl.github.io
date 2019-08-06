@@ -202,7 +202,6 @@ check the references.
     1. Disable Secure Boot --> Secure Boot Enable (not supported by Arch Linux). Restarting Windows led to a Bitlocker recovery page, but adding the key from [their site](https://account.microsoft.com/devices/recoverykey) worked. You only need to do this once.
     2. Change SATA Operation from "RAID On" to "AHCI" so SSD can be detected.
     3. Behavior --> Fastboot --> Thorough.
-    4. NEEDED? Enable General --> Advanced Boot Options --> Enable Legacy Option ROMs.
 6. Booted USB Arch Linux image (F12) and followed the installation guide until "Partition the disks", where
 I begun [LUKS on a partition](https://wiki.archlinux.org/index.php/Dm-crypt/Encrypting_an_entire_system#LUKS_on_a_partition):
       1. As the computer already has an EFI partition and I don't need encrypted root, I just created a partition with all the remaining free space for `/`:
