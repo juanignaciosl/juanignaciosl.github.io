@@ -22,7 +22,8 @@
     {% if author.flickr %}<li><a href="http://www.flickr.com/{{ author.flickr }}" class="social-link-item" target="_blank"><i class="fa fa-fw fa-flickr"></i></a></li>{% endif %}
     {% if author.codepen %}<li><a href="http://codepen.io/{{ author.codepen }}" class="social-link-item" target="_blank"><i class="fa fa-fw fa-codepen"></i></a></li>{% endif %}
     {% if author.medium %}<li><a href="https://medium.com/@{{ author.medium }}" class="social-link-item" target="_blank"><i class="fa fa-fw fa-medium"></i></a></li>{% endif %}
-    {% if author.blog %}<li><a href="{{ author.blog }}" class="social-link-item" target="_blank"><i class="fa fa-fw fa-rss"></i></a></li>{% endif %}
+    {% if author.blog %}<li><a href="{{ author.blog }}" class="social-link-item" target="_blank"><i class="fa fa-fw fa-user"></i></a></li>{% endif %}
+    <li><a href="{{ '/feed.xml ' | prepend: site.url }}" title="Atom feed" class="social-link-item" target="_blank" /><i class="fa fa-fw fa-rss"></i></li>
     <li><a href="/misc/cv.pdf" class="social-link-item" target="_blank" title="Resumé"><i class="fa fa-fw fa-file"></i></a></li>
   </ul>
 </div>
