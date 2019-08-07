@@ -230,7 +230,8 @@ Host *
 
 ## Branching
 
-* `git branch -r`: list remote branches.
+* `git branch -r`: list remote branches known by local git.
+* `git remote update origin --prune`: update remote branches list.
 
 Viewing the branching tree ([this is my only current alias](https://github.com/juanignaciosl/configuration_files/blob/7dcc6f5efcd171e9197e8f34f3315e359503e055/.bash_aliases#L1)):
 
