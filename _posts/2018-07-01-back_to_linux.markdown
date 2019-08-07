@@ -188,7 +188,8 @@ check the references.
 - [General recommendations](https://wiki.archlinux.org/index.php/General_recommendations).
 - [List of applications](https://wiki.archlinux.org/index.php/List_of_applications).
 - [SSH keys and agents](https://wiki.archlinux.org/index.php/SSH_keys).
-- [pacman tips and trics](https://wiki.archlinux.org/index.php/Pacman/Tips_and_tricks).
+- [pacman tips and tricks](https://wiki.archlinux.org/index.php/Pacman/Tips_and_tricks).
+- [Swap](https://wiki.archlinux.org/index.php/Swap#Swap_file).
 
 ### Steps
 
@@ -237,9 +238,46 @@ visudo
 
 There, uncomment `%wheel ALL=(ALL) NOPASSWD: ALL`.
 
+##### nvidia **WIP**
+
+_WIP disclaimer: I've tried all this, no luck yet._
+
+[Tried automatic management with bumblebee](https://wiki.archlinux.org/index.php/Dell_XPS_15_9570#Letting_bumblebee_automatically_unload_the_kernel_module).
+
+In addition, I had to...
+
+- Install `bbswitch`.
+- Add my user to `bumblebee` group.
+- Change `PMMethod=auto` to `PMMethod=bbswitch`.
+- From [this](https://bbs.archlinux.org/viewtopic.php?id=185865):
+  - In `/etc/mkinitcpio.conf` I added `bbswitch` to `MODULES` var: `MODULES="bbswitch"` and then `sudo mkinitcpio -p linux`.
+  - In `/boot/refind_linux.conf` I added `rcutree.rcu_idle_gp_delay=1` to the boot options.
+  - In `/etc/bumblebee/bumblebee.conf` under [optirun] I changed the bridge method to `Bridge=virtualgl`.
+  - In `/etc/bumblebee/xorg.conf.nvidia` I set the BusID of my NVIDIA card (`lspci | grep VGA | grep NVIDIA`): `BusID "PCI:01:00:0"`.
+  - Added `pcie_port_pm=off` to boot options ([source](https://www.reddit.com/r/archlinux/comments/633xdi/secondary_gpu_not_working_with_powersaving_tools/)).
+  - Pending: [this](https://bbs.archlinux.org/viewtopic.php?id=238389).
+
+This is the error that I see:
+
+```bash
+[juanignaciosl@127 ~]$ optirun glxgears
+[  436.562997] [ERROR]Cannot access secondary GPU - error: Could not enable discrete graphics card
+
+[  436.563124] [ERROR]Aborting because fallback start is disabled.
+```
+
+```bash
+[juanignaciosl@127 ~]$ journalctl | tail -n 10
+Aug 07 10:59:07 127.0.0.1localhost bumblebeed[752]: Could not enable discrete graphics card
+Aug 07 10:59:07 127.0.0.1localhost kernel: bbswitch: enabling discrete graphics
+Aug 07 10:59:07 127.0.0.1localhost kernel: pci 0000:01:00.0: Refused to change power state, currently in D3
+Aug 07 10:59:07 127.0.0.1localhost kernel: pci 0000:01:00.0: Refused to change power state, currently in D3
+```
+
 #### TODO checklist
 
 - Will Windows keep asking for Bitlocker key?
-- Dedicated graphic card on/off.
+- Swap and hibernation.
+- Working dedicated graphic card on/off.
 
 
