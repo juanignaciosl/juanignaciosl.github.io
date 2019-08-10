@@ -225,7 +225,7 @@ _Some of this will eventually get to my [configuration files repo](https://githu
 [Keyboard configuration](https://wiki.archlinux.org/index.php/Linux_console/Keyboard_configuration):
 - Set `KEYMAP=es` at `/etc/vconsole.conf`.
 
-- Base packages: `vim`, `git`, `gnome` (`gdb` enabled), `sudo`, [`networkmanager`](https://wiki.archlinux.org/index.php/NetworkManager), `firefox-developer-edition`, `base-devel`, `yay`, `gnome-tweaks`, `extra/ttf-dejavu`, `ruby`, `htop`, `terminator`.
+- Base packages: `vim`, `git`, `gnome` (`gdb` enabled), `sudo`, [`networkmanager`](https://wiki.archlinux.org/index.php/NetworkManager), `firefox-developer-edition`, `base-devel`, `yay`, `gnome-tweaks`, `extra/ttf-dejavu`, `ruby`, `htop`, `terminator`, `bash-completion`, `powertop`.
 - AUR packages: `intellij-toolbox`, `dropbox`, `spotify`, `telegram-desktop-bin`.
 
 - `sudo` isn't installed by default (:shrug:). I followed [@sksergio suggestion to make my life a little more comfortable](https://twitter.com/skgsergio/status/1158775429328715777):
