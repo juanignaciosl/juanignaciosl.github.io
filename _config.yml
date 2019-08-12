@@ -3,7 +3,7 @@ encoding: utf-8
 # http://renyuanz.github.io/leonids/theme-setup/
 
 # Site settings
-title: juanignaciosl on software development
+title: Juan Ignacio Sánchez Lara, Software Engineer
 email: juanignaciosl@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Juan Ignacio Sánchez Lara code-related stuff
@@ -18,7 +18,7 @@ markdown: kramdown
 owner:
   name: Juan Ignacio Sánchez Lara
   avatar: avatar.jpg
-  job: "Software Developer"
+  job: "Software Engineer"
   bio: "[Passionate Software Engineer](https://www.linkedin.com/in/juanignaciosl/) ([resumé](misc/cv.pdf)). <br />Remoting from Valladolid, Spain. <br />Interests: Scala, Python, PostgreSQL, Agile, geo... "
   email: juanignaciosl@gmail.com
   blog: http://www.juanignaciosl.com
