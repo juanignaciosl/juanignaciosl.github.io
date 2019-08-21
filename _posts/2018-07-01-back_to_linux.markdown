@@ -32,7 +32,7 @@ Here are _some_ of _my_ pains:
 
 So, I asked for a computer change. Other person in CARTO (designers? frontenders?) can enjoy the powerful Macbook Pro more than I would, and my life might be happier.
 
-## XPS 9570
+# XPS 9570
 
 After some research, I chose the XPS 9570. In fact, I chose the 9560, but when I was going to ask for it the announcement of the new model was too close, so I preferred waiting :). XPSs are known as good machines for developers, with good Linux compatibility. Highlights:
 
@@ -43,14 +43,14 @@ After some research, I chose the XPS 9570. In fact, I chose the 9560, but when I
 - ~$1000 cheaper than the equivalent Macbook Pro.
 - Keyboard seems to work, so far. Crazy.
 
-### Ubuntu installation
+## Ubuntu installation
 
 Although I love Gentoo, I don't have too much time and my Linux skills are a little rusty, so I kept things simple and installed Ubuntu. There are plenty of guides for the 9560. [Read this first](https://github.com/rcasero/doc/wiki/Ubuntu-linux-on-Dell-XPS-15-(9560)), and [this](https://www.reddit.com/r/Dell/comments/8l7gk8/xps_15_9570_fhd_review_and_linux_instructions_and/), and other useful references:
 
 - [XPS 9560 and Ubuntu](https://gist.github.com/tomwwright/f88e2ddb344cf99f299935e1312da880).
 - [DELL XPS 9560 - The Perfect Linux Laptop?](https://www.youtube.com/watch?time_continue=5&v=GiM05IkB1Qc) video series + [the Full List of Changes](http://www.palindrome.co.uk/p/blog-page_23.html).
 
-### Non-obvious steps
+## Non-obvious steps
 
 1. BIOS
     1. [Change SATA Operation from "RAID On" to "AHCI"](https://github.com/rcasero/doc/wiki/Ubuntu-linux-on-Dell-XPS-15-(9560)), including restart into safe mode.
@@ -66,7 +66,7 @@ Although I love Gentoo, I don't have too much time and my Linux skills are a lit
     1. When you restart the computer, after F12, make sure you use "UEFI BOOT" alternative so the Windows drive is properly detected.
     2. (Sometimes? this hasn't been necessary) Click a key when you see some icons in the bottom and added `nouveau.modeset=0` to the boot options (see [1](https://github.com/rcasero/doc/issues/6), [2](https://help.ubuntu.com/community/BootOptions)).
 
-### First boot
+## First boot
 
 After user and password, I got an empty desktop and a frozen cursor. CTRL + Alt + F2 allowed me to run this fix: [1](https://askubuntu.com/questions/779595/ubuntu-16-04-lts-black-screen-after-login), [2](https://askubuntu.com/questions/1030060/freeze-after-login-ubuntu-18-04):
 
@@ -81,17 +81,17 @@ After user and password, I got an empty desktop and a frozen cursor. CTRL + Alt 
 
 In addition, this also fixes an issue that wouldn't allow Ubuntu to shutdown or reboot.
 
-### Suspend mode
+## Suspend mode
 
 Read [this](https://askubuntu.com/questions/1029474/ubuntu-18-04-dell-xps13-9370-no-longer-suspends-on-lid-close?rq=1) and [this](https://www.dell.com/community/XPS/XPS-15-9570-and-Ubuntu/td-p/6096817) to learn a couple of things about sleep levels. In addition to that, I had to [expand swap size beyond my RAM](https://help.ubuntu.com/community/SwapFaq#How_do_I_add_a_swap_file.3F). With that and `mem_sleep_default=deep` at `/etc/default/grub` I have a working suspend mode that wastes almost no energy.
 
-### Energy management
+## Energy management
 
 As usual, graphic card drivers are a pain. As I don't take advantage of the nVidia card at Linux\*, I chose to power it off by [removing nouveau module](https://askubuntu.com/questions/841876/how-to-disable-nouveau-kernel-driver). [I also set powertop to autotune on boot](https://blog.sleeplessbeastie.eu/2015/08/10/how-to-set-all-tunable-powertop-options-at-system-boot/). Although I haven't tested it yet, that should grant ~10h of battery autonomy.
 
 _\*: this might change soon, as I'm considering giving Darktable a try._
 
-### Software
+## Software
 
 [This is my accumulated `apt install` so far](https://github.com/juanignaciosl/configuration_files/blob/365260135f7c675e5a8e378eea74b2e7d398453a/setup.sh#L16).
 
@@ -115,50 +115,50 @@ I'm trying [Lepton](https://github.com/hackjutsu/Lepton) as a Github Gists clien
 
 Extra ball: [some suggestions](https://dev.to/brpaz/my-linux-development-environment-of-2018-ch7), via [@elmendalerenda](https://twitter.com/elmendalerenda), thanks!
 
-### Sound output disappearing
+## Sound output disappearing
 
 From time to time there's no sound and only "Dummy output" appears at sound configuration. Running `pulseaudio -k && sudo alsa force-reload` usually makes it work again.
 
-### WiFi disconnecting
+## WiFi disconnecting
 
 From time to time WiFi stopped working because of a driver crash (sorry about not pasting syslog output). [I just followed the manual firmware update process](https://www.dell.com/support/article/es/es/esbsdt1/sln306440/killer-n1535-wireless-firmware-manual-update-guide-for-ubuntu-systems?lang=en) 🤞.
 
-### Touchpad
+## Touchpad
 
 Check that you're using Xorg instead of Wayland (you can choose them in the login window, with the gear icon) and [install and configure fusuma](https://askubuntu.com/questions/1034624/touchpad-gestures-in-ubuntu-18-04-lts).
 
-### Balance
+## Balance
 
-#### Positive stuff
+### Positive stuff
 
 - I might've spent ~3 days installing and configuring stuff. But running anything inside Vagrant with LXC support is SO FAST that I think that I've already paid it off.
 - Gnome is very user friendly, specially for a developer. Built-in support for VPNs (with good DNS resolution), options to restrict background downloads in some WiFis (for phone tethering), task switching works, no matter the status of the window...
 - :heart: USB ports.
 
-#### Differences
+### Differences
 
 - Trackpad is pretty good and big enough. ~~I still sometimes lose the focus because I trigger clicks, though~~ I've disabled "tap to click" and I'm happy.
 - Keyboard layout is slightly different, I still have to get used to it as well, specially because I'm using FXX and Fn a lot. Mac Pro butterfly keyboard felt slightly better but, as you know, it's broken. Dell one might be the second best I've ever used after that one, and hopefully it will last longer.
 - In order to make "workspaces" ("virtual desktops") span both displays in Ubuntu you have to install Gnome tweaks application.
 
-#### Pending stuff
+### Pending stuff
 
 - Research about nVidia drivers.
 - Gentle power down: shutting down kills applications without mercy, and Chrome and Firefox think that they crashed.
 - Fingerprint reader doesn't work in Linux yet, there's no available driver.
 
-#### Missing stuff
+### Missing stuff
 
 - I need Windows for my amateurish Lightroom, Photoshop and Premiere tasks. I'll give Darktable a try.
 - Gnome can't remember the applications that you were running when you logged out. I've workarounded it with "startup applications".
 - Three finger gesture to display running applications. I workaround it with the simpler task switcher shortcut and the worplaces switcher shortcut, but it'll be hard to forget (although workarounds are arguably faster).
 - Terminator ([still](https://bugs.launchpad.net/terminator/+bug/1301605)) doesn't support native tmux integration (like iTerm does).
 
-### Conclusion
+## Conclusion
 
 I've already spent more than two weeks with this setup and I'm _really_ happy. In my case, there's no single reason to stay with Apple for software development ([I'm not alone here](https://robots.thoughtbot.com/bye-apple-hello-tux)). For me, **this computer with Linux is just better, faster and cheaper**. Let's revisit this in some months!
 
-## XPS 7590
+# XPS 7590
 
 One year later, I bought the next version of that computer, the XPS 9570 (same configuration, i7).
 The only remarkable change is the camera placement, which is great, no more Carrey-sh look :-)
@@ -174,7 +174,7 @@ to give it a try (everybody told me to forget about Gentoo complexities nowadays
 Arch Linux documentation is just gorgeous. I've written down here some notes for my future self. If you're interested,
 check the references.
 
-### Resources
+## Resources
 
 - [Dell XPS 15 7590](https://wiki.archlinux.org/index.php/Dell_XPS_15_7590) > [9570](https://wiki.archlinux.org/index.php/Dell_XPS_15_9570) > [9560](https://wiki.archlinux.org/index.php/Dell_XPS_15_9560).
   - [SOLUTION: Switch Windows 10 from RAID/IDE to AHCI operation](https://triplescomputers.com/blog/uncategorized/solution-switch-windows-10-from-raidide-to-ahci-operation/).
@@ -191,9 +191,9 @@ check the references.
 - [pacman tips and tricks](https://wiki.archlinux.org/index.php/Pacman/Tips_and_tricks).
 - [Swap](https://wiki.archlinux.org/index.php/Swap#Swap_file).
 
-### Steps
+## Steps
 
-#### Base installation
+### Base installation
 
 1. Created a Windows Bootable pendrive with [this Microsoft Tool](https://www.microsoft.com/en-us/software-download/windows10ISO), just in case...
 2. Disabled Fast Startup: Power Settings --> System Configuration --> uncheck "Turn on fast startup".
@@ -218,7 +218,7 @@ and suggested that [systemd-boot is even simpler](https://twitter.com/skgsergio/
 
 Additionally installed software: `wpa_supplicant`.
 
-#### Next steps
+### Next steps
 
 _Some of this will eventually get to my [configuration files repo](https://github.com/juanignaciosl/configuration_files)._
 
@@ -238,7 +238,7 @@ visudo
 
 There, uncomment `%wheel ALL=(ALL) NOPASSWD: ALL`.
 
-##### nvidia **WIP**
+#### nvidia **WIP**
 
 _WIP disclaimer: I've tried all this, no luck yet._
 
@@ -274,10 +274,33 @@ Aug 07 10:59:07 127.0.0.1localhost kernel: pci 0000:01:00.0: Refused to change p
 Aug 07 10:59:07 127.0.0.1localhost kernel: pci 0000:01:00.0: Refused to change power state, currently in D3
 ```
 
-#### TODO checklist
+### TODO checklist
 
 - Will Windows keep asking for Bitlocker key?
 - Swap and hibernation.
 - Working dedicated graphic card on/off.
 
+## Restoring an overwritten boot
 
+After some Windows updates you can find yourself stuck into Windows :scream: . Just reinstalling rEFInd worked for me.
+Boot the USB stick that you used for installing.
+
+Previous notes:
+- If you don't remember which are your `/` or `/boot` partition you can check it at `parted` with `print all`.
+- If you need network connection, after chrooting you can use your already existing configuration:
+```bash
+$ ip link set <link> up
+$ wpa_supplicant -B -c /etc/wpa_supplicant/<your_ssid>.conf
+$ dhclient <link>
+```
+
+Here are my steps:
+
+```bash
+$ loadkeys es
+$ cryptsetup open /dev/nvme0n1p7 cryptroot
+$ mount /dev/mapper/cryptroot /mnt
+$ mount /dev/nvme0n1p1 /mnt/boot
+$ arch-chroot /mnt
+$ refind-install
+```
