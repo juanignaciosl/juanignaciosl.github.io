@@ -77,7 +77,88 @@ Ways to address concurrent access to global state:
 
 ## Parallel programming
 
-_TBD_
+### Week 1 - Parallel Programming
+
+Parallel programming: computation divided into smaller subproblems that can be solved at the same time.
+Concurrent: may or may not be executed a the same time.
+
+In the JVM the main tool for parallelism is the thread. They have access to shared memory. Of course this can
+lead to inconsistences with non atomic operations. That can be workarounded with `syncronized` blocks. It works
+at object level, so be careful if you nest synchronized blocks on different objects to avoid deadlocks.
+
+Measuring performance (benchmarking) is harded than what it looks. There are muliple level memory concerns, garbage
+collection, just in time compilation... Libraries such as ScalaMeter can help. They implement "warming" and only
+begin measuring when the time become stable.
+
+### Week 2 - Basic Task Parallel Algorithms
+
+Lists are not good for parallel implementations because they can't efficiently be split in half or combined.
+Arrays (imperative) or trees (functionally) are better options.
+
+Arrays allow random access and have good memory locality. But they're "imperative" (in the sense that parallel task
+mus ensure that they access disjoint parts) and they're expensive to concatenate.
+
+(Immutable) trees are purely functional. As operations on trees produce new trees and keep the old ones they're
+efficient to combine and there's no problem of disjointness. On the other hand, they have bad memory locality and
+there's a high overhead on memory allocation.
+
+In general, we look for associative operations for parallelization. Commutative alone does not prove associativity
+and does not guarantee tha the result of `reduce` is he same. Nevertheless, commutativity implies _rotating_
+property.
+
+Making an operation commutative is easy by adding an ordering previous step.
+
+### Week 3 - Data-Parallel Programming
+
+Parallel for loop is not very functional (it relies on side effects) but it's useful for some programs, and can be
+very efficient.
+
+Workload (the amount of work per iteration) makes parallelization easier if it's constant, harder if it's variable.
+
+`fold` can be parallelized because of the shape of the function (`def fold(z: A)(f: (A, A) => A): A`). As output can be
+an input, it works. `foldLeft`, `foldRight` and that kind of functions with a different type can't be parallelized.
+
+In general, associative operations can be parallelizable and used with `fold`. Commutative is not enough.
+
+The limitation of `fold` is that for collections the accumulator element needs to have the same type than the
+collection.
+
+`aggregate` is a way to workaround this limitation, because it somehows combine both.
+
+There's a hierarchy for parallel, non-parallel and generic collections:
+
+![Scala collections](/img/scala-collections.png)
+
+A sequential collection can be converted into a parallel one with `.par`.
+
+If you're running in parallel remember avoiding using mutation without proper synchronization.
+
+You can often add ordering to side-effecting operations to make them parallelizable. Example: adding size sorting to a
+`intersection` operation implemented with `filter`.
+
+Don't try to modify a parallel collection if an operation is in progress.
+
+"Exception": `TrieMap`, with `snapshop` method, allows modification by reading from a previous version.
+
+`Spliter` are the `Iterator` counterpart for parallel collections.
+
+`Builder`: abstraction to create new collections. `Combiner` is its parallel counterpart.
+
+Combiner implementation alternatives:
+- Most data structures can be constructed in parallel using two-phase construction.
+- Efficient concatenation or union (a preferred way when the resulting data structure allows this).
+- Concurrent data structure (different combiners share the same underlying daa structure and rely on synchronization
+for `+=`).
+
+### Week 4 - Implementing Combiners
+
+A `Combiner` is a `Builder` with an extra method `combine` to merge two. This operation must be efficient (for
+example, execute in O(log n + log m), being n and m the sizes).
+
+You can't implement efficient enough combiners for arrays because it requires being continuous in memory, so
+combining requires copying all elements.
+
+
 
 ## Big Data Analysis with Scala and Spark
 
