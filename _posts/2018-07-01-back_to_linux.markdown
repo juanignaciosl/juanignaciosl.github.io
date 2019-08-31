@@ -231,6 +231,7 @@ _Some of this will eventually get to my [configuration files repo](https://githu
 - `sudo` isn't installed by default (:shrug:). I followed [@sksergio suggestion to make my life a little more comfortable](https://twitter.com/skgsergio/status/1158775429328715777):
 
 ```bash
+pacman -Sy # update database
 pacman -S sudo
 usermod -a -G wheel juanignaciosl
 visudo
