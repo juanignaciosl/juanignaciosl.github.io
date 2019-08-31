@@ -16,6 +16,8 @@ Programming", both at Coursera. Now, there's a full 5-course certification,
 [Functional Programming in Scala](https://www.coursera.org/specializations/scala),
 including topics such as parallel programming or Big Data analysis with Spark, and it was a good moment for a refresher!
 
+In addition, I've also played with [Spark and Yelp data](https://github.com/juanignaciosl/yelp-spark).
+
 These are my notes.
 
 # Courses
@@ -282,7 +284,7 @@ a function for computing the RDD, and metadata about the partitioning and data p
 
 RDD dependencies encode when data must be moved across the network.
 
-Transformations can have two kind of depencencies:
+Transformations can have two kind of dependencies:
 - Narrow: each partition of the parent RDD is used by at most one partition of the child RDD.
 No shuffling necessary, pipelining is possible. Example: join with co-partitioned inputs, map, filter...
 Full list: `map`, `mapValues`, `flatMap`, `filter`, `mapPartitions`, `mapPartitionsWithIndex`.
@@ -320,14 +322,14 @@ You can create a Dataframe...
 - from an RDD, specifying the schema.
 - from a supported structured or semistructured file (JSON, CSV, Parquet, JDBC...).
 
-Supported SQL is largely semejant to HiveQL.
+Supported SQL is largely similar to HiveQL.
 
 Pretty much all the Dataframes API is what you'd expect from a SQL/collections mixture.
 
 Useful methods:
 - `drop`: removes rows with `null` or `NaN` in all/some columns.
 - `fill`: replaces occurrences of `null` or `NaN` in numeric columns with an specified value.
-- `replace`: replaces specific vales.
+- `replace`: replaces specific values.
 
 #### Datasets API
 
