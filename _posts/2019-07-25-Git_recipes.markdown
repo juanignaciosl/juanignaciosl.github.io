@@ -131,6 +131,12 @@ If you want to rebase to master and at the same time rearrange the commits in yo
 $ git rebase -i master
 ```
 
+If you need to rebase back to the first commit:
+
+```bash
+git rebase -i --root master
+```
+
 ## Finding bugs
 
 I always said that if you find a new bug, reasoning based on changes ("what has changed since the last time that I
