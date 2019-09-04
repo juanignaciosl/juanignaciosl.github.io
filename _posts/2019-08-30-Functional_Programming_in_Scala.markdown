@@ -17,6 +17,7 @@ Programming", both at Coursera. Now, there's a full 5-course certification,
 including topics such as parallel programming or Big Data analysis with Spark, and it was a good moment for a refresher!
 
 In addition, I've also played with [Spark and Yelp data](https://github.com/juanignaciosl/yelp-spark).
+_Bonus track: [I repeated the exercise with Scio](https://github.com/juanignaciosl/yelp-scio)_.
 
 These are my notes.
 
@@ -364,3 +365,7 @@ types that cannot be serialized with encoders.
   - High Performance Spark
   - Advanced Analytics with Spark
   - Mastering Apache Spark 2
+
+## Capstone
+
+The final course is a full project that happens to be a tiler :-).
