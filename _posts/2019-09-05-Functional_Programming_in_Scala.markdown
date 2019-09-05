@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title: 'Functional Programming in Scala'
-date: 2019-08-30 07:18:57
+date: 2019-09-05 07:18:57
 categories: ['learning']
 tags: [Software Development, Scala, courses, Coursera]
 excerpt: |
