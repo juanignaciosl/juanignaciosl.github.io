@@ -146,6 +146,8 @@ load: `git-bisect`. It provides a binary search through git commits, from the on
 
 ## GitHub
 
+[Hub](https://hub.github.com/) is "an extension to command-line git that helps you do everyday GitHub tasks without ever leaving the terminal."
+
 ### Commit automation
 
 * [Github commands for automatically closing tickets](https://help.github.com/articles/closing-issues-via-commit-messages/)
