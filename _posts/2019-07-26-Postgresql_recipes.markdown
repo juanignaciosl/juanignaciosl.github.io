@@ -454,6 +454,13 @@ Output
 |  1000000  |  225001  |
 ```
 
+## Date ranges
+
+Given a date range column (`tstzrange`, for example)', this is the expression to check overlapping:
+`SELECT ... WHERE [2019-06-30T22:00:00.000Z, 2019-07-01T22:00:00.000Z]' && "my_date_range_column"`.
+
+Check other [range functions and operators](https://www.postgresql.org/docs/11/functions-range.html).
+
 # Window functions use cases
 
 ## Detecting duplicates
