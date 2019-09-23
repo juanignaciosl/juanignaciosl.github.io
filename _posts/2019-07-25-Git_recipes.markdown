@@ -305,7 +305,7 @@ git commit -C HEAD@{1}
 
 ## Cleanup
 
-* `git remote update --prune [--dry-run]`: remove local branches deleted at remote.
+* `git remote prune origin [--dry-run]`: remove local branches deleted at remote.
 * `git clean -n -df` : displays local uncommited directory and file modifications. Remove `-n` to actually delete them.
 
 ## Patching
