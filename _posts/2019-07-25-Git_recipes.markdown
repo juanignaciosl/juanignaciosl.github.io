@@ -63,6 +63,8 @@ you've pushed code, as long as anybody else has touched it, it's right. And whil
 you can be sure that only you pushed, with `--force-with-lease`. It checks based on the expected references, if you want
 more details, [this is a good explanation](https://blog.developer.atlassian.com/force-with-lease/).
 
+How to pull after a force? `git reset origin/my_branch --hard`.
+
 ## WIP
 
 There's another common pattern in my workflow, pushing code that is still not finished:
