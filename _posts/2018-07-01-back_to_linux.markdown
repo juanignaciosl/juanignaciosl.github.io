@@ -12,6 +12,8 @@ excerpt: "Back to Linux! Here you have some notes from my migration to Ubuntu wi
 
 _20190806 UPDATE: this guide was born for XPS 9570 and Ubuntu. Then it was updated for XPS 7590 and Arch Linux with LUKS._
 
+_20200926 UPDATE: I lost many hours today trying to bring my installation back to work, I've added a postmortem with useful links._
+
 I've been a Mac user for 6 years. Back in 2012 I had been a really happy Gentoo user for many years, but by then some iOS development ([a simple iOS "game"](http://www.juanignaciosl.com/ingenieria-del-software/the-exif-game) and a freelance project) moved me to OS X. In addition, I also [take pictures](https://www.flickr.com/photos/juanignaciosl/) and even [make videos from time to time](https://www.youtube.com/watch?v=EHoAyxU8nog&list=PL5Gftzmh1mO6iuWbsVU9cbzzszjcebKoj). So, switching to Apple was a nice move: I'd keep the good parts of a \*nix sistem and get rid of Windows for the Adobe suite. In addition, Macbook Air was a great computer for its price, powerful enough and extra light.
 
 I used two Macbook Airs (personal and work) for 4 years. Past year, when I wanted a more powerful machine, I moved to the new Macbook Pro (yes, the one with the infamous Touchbar). A ~$3k device. It should've been great. Spoiler: it wasn't.
@@ -305,3 +307,71 @@ $ mount /dev/nvme0n1p1 /mnt/boot
 $ arch-chroot /mnt
 $ refind-install
 ```
+
+## Everything goes wrong
+
+2020 couldn't end without a crashing system.
+
+I run `sudo pacman -Syu` and `yay -Syu` in a weekly basis to keep the system up to date. It had caused no problem so far.
+Today, upgrading crashed (the last line that I saw was an update of systemd).
+The computer wouldn't boot because of a corrupted kernel.
+Starting with a USB and chrooting lead to a non-working pacman that wouldn't allow to reinstall the kernel.
+
+I didn't keep logs, [you can see me crying here](https://twitter.com/juanignaciosl/status/1309747730999316482), including
+[the initial kernel panic](https://twitter.com/juanignaciosl/status/1309747730999316482/photo/1). While I didn't check
+it, it seemed to be a corrupted image. Anyway, having a broken `pacman` is even worse. After logging with a USB recovery
+image, I chrooted and tried to run `mkinitcpio` to rebuild the kernel, but it failed with a lot of `Missing module` errors.
+If I tried to run `pacman -S linux`, I got `/usr/lib/libcrypto.so.1.1 file too short`. That file had zero-length, it
+was corrupted during the broken installation. There's 
+[a guide about what to do if pacman crashes during an upgrade](https://wiki.archlinux.org/index.php/pacman#Pacman_crashes_during_an_upgrade),
+but it would keep returning the `file too short` error. It looks like there's a hard dependency on `openssl` that I
+wasn't able to workaround. I tried moving the symlinks at `/usr/lib`, but it wouldn't work.
+BTW, for `pacman` to run I had to delete `/var/lib/pacman/db.lck` file.
+There are [statically-linked pacman packages](https://aur.archlinux.org/packages/pacman-static/). I downloaded it, but
+it wasn't a solution either, I got plenty of `<filename> already exists in filesystem`.
+At that moment it became obvious that any workaround would require a lot of manual fixing (file deletion and so on),
+so I chose to reinstall. That wasn't as straightforward as I would've wanted, because `pacstrap` doesn't override, and keeps
+some of the `pacman` checks, so I had to manually rename the base folders.
+ 
+BTW, I also got a `invalid value Path` error related to a hook, but the cause was using the USB image that I used for
+the installation one year ago, which was outdated. A new image addressed that.
+
+### Outcome
+
+#### Other useful links
+
+- [iwd](https://wiki.archlinux.org/index.php/Iwd), a command line assistant for the Wi-Fi.
+- [Arch Linux mkinitcpio: Possibly missing firmware for module.md](https://gist.github.com/imrvelj/c65cd5ca7f5505a65e59204f5a3f7a6d).
+- [l-page of the Arch archive](https://archive.archlinux.org/packages/l/) for downloading old versions.
+
+
+#### The good parts
+
+- `/home` wasn't lost, so all the data and most of the configuration was kept (creating the users with 
+  `useradd -d <oldpath> username` worked like a charm).
+- I was (almost) sure of not losing anything, even in an encrypted hard drive, mostly because of the support of the
+  great documentation and the nice tooling.
+
+#### The bad part
+
+- I lost one full day. Maybe I shouldn't have been so stubborn about bringing `pacman` back to live and reinstalled earlier.
+- Being able to install from the boot environment with `--sysroot` is nice, but it'd be great if allowed fixing a broken
+  pacman.
+
+#### The actions that worked
+
+1. I booted with a USB recovery image, and mounted root and boot (see "Restoring an overwritten boot").
+2. I renamed `bin`, `etc`, `lib`, `lib64`, `sbin`, `usr` and `var` to `...backup` so it wasn't used by `pacman` or
+   `pacstrap`. I should've renamed `proc` as well.
+3. [Changed `mkinitcpio.conf` file to support LUKS encryption](https://wiki.archlinux.org/index.php/Dm-crypt/Encrypting_an_entire_system#Configuring_mkinitcpio).
+4. As during the process I had wiped the pacman cache (because it might've been corrupted) I **manually downloaded
+   `5.7.12-arch1-1` `linux` and `linux-headers` packages for [downgrading the kernel](https://wiki.archlinux.org/index.php/downgrading_packages#Downgrading_the_kernel)**
+   and crossed my fingers very hard, because my hypothesis at that moment was that the kernel was the root cause of the crash.
+4. Resumed the [installation guide from the `pacstrap` step](https://wiki.archlinux.org/index.php/installation_guide#Install_essential_packages).
+5. Created my user with `-d` to keep the existing home directory.
+6. Avoided `pacman` to update `linux` or `linux-headers` by adding `IgnorePkg` entries to `/etc/pacman.conf`.
+7. Reinstalled most of my software with [my install script](https://github.com/juanignaciosl/configuration_files/blob/master/install.sh).
+8. Added `linux` and `linux-headers` to `/etc/pacman.conf`, at `IgnorePkg` sections, so they're not always updated.
+
+IIRC, back in Gentoo times, upgrading the kernel kept old versions so rebooting with a working one was easier. I have to
+bring that back to my current setup.
