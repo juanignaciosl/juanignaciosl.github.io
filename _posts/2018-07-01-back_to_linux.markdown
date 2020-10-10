@@ -375,3 +375,8 @@ the installation one year ago, which was outdated. A new image addressed that.
 
 IIRC, back in Gentoo times, upgrading the kernel kept old versions so rebooting with a working one was easier. I have to
 bring that back to my current setup.
+
+#### One more thing
+
+Arch has a `linux-lts` package for installing a long-term support version of the Linux kernel. That's a good way to
+keep both the most up-to-date kernel and a stable version.
