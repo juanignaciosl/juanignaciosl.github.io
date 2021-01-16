@@ -13,9 +13,48 @@ image:
 
 I'm beginning a monthly post with content (articles, books, podcast episodes) that I enjoyed. Here we go!
 
-# PostgreSQL/PostGIS
+# Hiring and onboarding, with focus on remoting
+
+- [Best practices for remote onboarding](https://increment.com/remote/remote-onboarding-best-practices/).
+- [Scaling engineering organizations](https://stripe.com/es/atlas/guides/scaling-eng).
+- [How do you (GitLab) onboard new team members?](https://about.gitlab.com/company/culture/all-remote/learning-and-development/#how-do-you-onboard-new-team-members).
+    - [Guide for starting a remote job](https://about.gitlab.com/company/culture/all-remote/getting-started/).
+    - [GitLab Onboarding Buddies](https://about.gitlab.com/handbook/people-group/general-onboarding/onboarding-buddies/).
+    - [Considerations for a Productive Home Office or Remote Workspace ](https://about.gitlab.com/company/culture/all-remote/workspace/).
+
+# PostgreSQL
+
+- [CrunchyData learning portal](https://learn.crunchydata.com/).
+- [The Surprising Impact of Medium-Size Texts on PostgreSQL Performance](https://hakibenita.com/sql-medium-text-performance).
+- [Lessons learned scaling PostgreSQL database to 1.2bn records/month](https://gajus.medium.com/lessons-learned-scaling-postgresql-database-to-1-2bn-records-month-edc5449b3067). This led me to experiment with `from_collapse_limit` and `join_collapse_limit` parameters, because our SQL queries are quite complex and the plan time vs. execution time trade-off should pay off.
+
+# PostGIS
 
 - [PostGIS Trajectory: Space plus Time](https://blog.rustprooflabs.com/2020/11/postgis-trajectory-intro). We're probably going to experiment with routing, this can be priceless.
-- [Lessons learned scaling PostgreSQL database to 1.2bn records/month](https://gajus.medium.com/lessons-learned-scaling-postgresql-database-to-1-2bn-records-month-edc5449b3067). This led me to experiment with `from_collapse_limit` and `join_collapse_limit` parameters, because our SQL queries are quite complex and the plan time vs. execution time trade-off should pay off.
 - [PostGIS performance tips](https://postgis.net/docs/performance_tips.html).
 - [OSM PostGIS Tuning](https://wiki.openstreetmap.org/wiki/User:Species/PostGIS_Tuning).
+- [Virtual PostGIS Day 2020 videos by Crunchy Data](https://www.youtube.com/playlist?list=PLesw5jpZchufVkPcwGYpiiijThFcPNlz_).
+
+# React
+
+- [React Performance Optimization Tips](https://dev.to/harshdand/react-performance-optimization-tips-4238?utm_source=digest_mailer&utm_medium=email&utm_campaign=digest_email).
+- [Use CSS Variables instead of React Context](https://epicreact.dev/css-variables/).
+
+# Distributed changes
+
+- [How Figma’s multiplayer technology works](https://www.figma.com/blog/how-figmas-multiplayer-technology-works/).
+- [Local-first](https://www.inkandswitch.com/local-first.html).
+- [Porting a 100% local app to the web](https://actualbudget.com/blog/porting-local-app-web).
+
+# Tinybird
+
+- [How we processed 12 trillion rows during Black Friday](https://blog.tinybird.co/2020/12/21/how-we-setup-real-time-analytics-service-to-process-12-trillion-rows-during-black-friday/).
+- [Investigating performance bottlenecks with SQL, simple statistics and Google Sheets](https://blog.tinybird.co/2020/12/15/eating-our-own-dog-food-how-we-investigate-performance-bottlenecks-using-our-product-and-google-sheets/).
+
+# Misc
+
+- Sentry [Performance Monitoring & Google's Web Vitals](https://www.youtube.com/watch?v=rEhs0S3YaN0&feature=emb_logo).
+- [Anita Graser blog on GIS is truly impressive, check it out](https://anitagraser.com). Follow [@underdarkGIS](https://twitter.com/underdarkGIS)!
+- [Boost your Company Feedback Culture in 4 Weeks](https://nerds.ontruck.com/boost-your-company-feedback-culture-in-4-weeks-b06cced093aa).
+- [Systems design explains the world: volume 1](https://apenwarr.ca/log/20201227).
+- [Templates as Inspiration for Software Engineers and Engineering Managers](https://blog.pragmaticengineer.com/templates-as-inspiration-for-software-engineers/).
