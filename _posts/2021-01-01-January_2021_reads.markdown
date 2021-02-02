@@ -16,17 +16,20 @@ I'm beginning a monthly post with content (articles, books, podcast episodes) th
 # Hiring and onboarding, with focus on remoting
 
 - [Best practices for remote onboarding](https://increment.com/remote/remote-onboarding-best-practices/).
+- [7 Tips for Onboarding Remote Employees](https://fellow.app/blog/2020/onboarding-remote-employees/).
 - [Scaling engineering organizations](https://stripe.com/es/atlas/guides/scaling-eng).
 - [How do you (GitLab) onboard new team members?](https://about.gitlab.com/company/culture/all-remote/learning-and-development/#how-do-you-onboard-new-team-members).
     - [Guide for starting a remote job](https://about.gitlab.com/company/culture/all-remote/getting-started/).
     - [GitLab Onboarding Buddies](https://about.gitlab.com/handbook/people-group/general-onboarding/onboarding-buddies/).
     - [Considerations for a Productive Home Office or Remote Workspace ](https://about.gitlab.com/company/culture/all-remote/workspace/).
+- [Questions for our first 1:1](https://larahogan.me/blog/first-one-on-one-questions/).
 
 # PostgreSQL
 
 - [CrunchyData learning portal](https://learn.crunchydata.com/).
 - [The Surprising Impact of Medium-Size Texts on PostgreSQL Performance](https://hakibenita.com/sql-medium-text-performance).
 - [Lessons learned scaling PostgreSQL database to 1.2bn records/month](https://gajus.medium.com/lessons-learned-scaling-postgresql-database-to-1-2bn-records-month-edc5449b3067). This led me to experiment with `from_collapse_limit` and `join_collapse_limit` parameters, because our SQL queries are quite complex and the plan time vs. execution time trade-off should pay off.
+- [SQL Optimizations in PostgreSQL: IN vs EXISTS vs ANY/ALL vs JOIN](https://www.percona.com/blog/2020/04/16/sql-optimizations-in-postgresql-in-vs-exists-vs-any-all-vs-join/).
 
 # PostGIS
 
@@ -58,3 +61,4 @@ I'm beginning a monthly post with content (articles, books, podcast episodes) th
 - [Boost your Company Feedback Culture in 4 Weeks](https://nerds.ontruck.com/boost-your-company-feedback-culture-in-4-weeks-b06cced093aa).
 - [Systems design explains the world: volume 1](https://apenwarr.ca/log/20201227).
 - [Templates as Inspiration for Software Engineers and Engineering Managers](https://blog.pragmaticengineer.com/templates-as-inspiration-for-software-engineers/).
+- [How to stop using your GraphQL API as a REST API](https://thoughtbot.com/blog/how-to-stop-using-your-graphql-api-as-a-rest-api).
