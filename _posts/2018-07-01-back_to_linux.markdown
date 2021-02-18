@@ -380,3 +380,16 @@ bring that back to my current setup.
 
 Arch has a `linux-lts` package for installing a long-term support version of the Linux kernel. That's a good way to
 keep both the most up-to-date kernel and a stable version.
+
+## New summary when things go wrong
+
+1. Boot with a USB recovery image.
+2. Mount drives:
+```bash
+$ cryptsetup open /dev/nvme0n1p7 cryptroot
+$ mount /dev/mapper/cryptroot /mnt
+$ mount /dev/nvme0n1p1 /mnt/boot
+```
+3. Resume [installation](https://wiki.archlinux.org/index.php/Installation_guide) from `pacstrap`. Don't forget running
+`locale-gen` and installing `dhcpcd`.
+4. `useradd -m USERNAME -d EXISTING_HOME`, `passwd USERNAME`.
