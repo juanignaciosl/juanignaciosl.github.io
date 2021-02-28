@@ -17,7 +17,9 @@ image:
 - [The Unexpected Find That Freed 20GB of Unused Index Space](https://hakibenita.com/postgresql-unused-index-size).
 - [Cleaning Up Your Postgres Database](https://info.crunchydata.com/blog/cleaning-up-your-postgres-database).
 - [PostgreSQL: ANALYZE and optimizer statistics](https://www.cybertec-postgresql.com/en/postgresql-analyze-and-optimizer-statistics/).
-- [Speeding up GROUP BY in PostgreSQL](https://www.cybertec-postgresql.com/en/speeding-up-group-by-in-postgresql/).
+- [Speeding up GROUP BY in PostgreSQL](https://www.cybertec-postgresql.com/en/speeding-up-group-by-in-postgresql/). This contains two very specific tips for PostgreSQL that I didn't know and that I want to remember:
+  - In a multiple `GROUP BY`, place first those attributes with more different values.
+  - If you're getting too many `GROUP AGGREGATE` in your plan, try increasing `WORK_MEM` so you get `HASH AGGREGATE`.
 - [Query Optimization in Postgres with pg_stat_statements](https://info.crunchydata.com/blog/tentative-smarter-query-optimization-in-postgres-starts-with-pg_stat_statements).
 - [Faster data migrations in Postgres](https://www.citusdata.com/blog/2021/02/20/faster-data-migrations-in-postgres/).
 - [Postgres regex search over 10,000 GitHub repositories (using only a Macbook)](https://devlog.hexops.com/2021/postgres-regex-search-over-10000-github-repositories#conclusions).
