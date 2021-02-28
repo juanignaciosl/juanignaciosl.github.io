@@ -43,4 +43,4 @@ image:
 
 - [Remove untracked files](https://stackoverflow.com/a/64966/351721): `git clean -n -d`, `git clean -f`.
 - [¿Qué es un manager?](https://flopezluis.substack.com/p/qu-es-un-manager).
-- [Clickhouse tips][https://blog.tinybird.co/categories/clickhouse-tips/].
+- [Clickhouse tips](https://blog.tinybird.co/categories/clickhouse-tips/).
