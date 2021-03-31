@@ -61,6 +61,8 @@ I'm maintaining a Top-5 approach on different topics.
 
 - [CrunchyData learning portal](https://learn.crunchydata.com/).
 - [Feature Matrix](https://www.postgresql.org/about/featurematrix/).
+- [The Art of PostgreSQL](https://theartofpostgresql.com/).
+- [Use the index, Luke!](https://use-the-index-luke.com/) and [Modern SQL](https://modern-sql.com/).
 
 ## PostGIS
 

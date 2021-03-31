@@ -1,0 +1,48 @@
+---
+layout: post
+comments: true
+title: 'March 2021 reads'
+date: 2021-03-31 01:18:57
+categories: ['reads']
+tags: ['Software Development', 'PostgreSQL', 'React', 'Python']
+excerpt: |
+    Some interesting content that I read during March 2021. Expect PostgreSQL, React, AWS, Data visualization, OKRs...
+image:
+    feature: tortoise.jpg
+---
+
+# PostgreSQL
+
+- [SQL Optimizations in PostgreSQL: IN vs EXISTS vs ANY/ALL vs JOIN](https://www.percona.com/blog/2020/04/16/sql-optimizations-in-postgresql-in-vs-exists-vs-any-all-vs-join).
+- [Migrating to Aurora: easy except the bill](https://gridium.com/migrating-to-aurora-easy-except-the-bill/).
+- [Traveling Salesman problem with PostGIS and pgRouting](https://www.cybertec-postgresql.com/en/traveling-salesman-problem-with-postgis-and-pgrouting/).
+- [Don't let collation versions corrupt your PostgreSQL indexes](https://techcommunity.microsoft.com/t5/azure-database-for-postgresql/don-t-let-collation-versions-corrupt-your-postgresql-indexes/ba-p/1978394).
+- [How to check and resolve Bloat in PostgreSQL](https://www.highgo.ca/2021/03/20/how-to-check-and-resolve-bloat-in-postgresql/).
+
+# React
+
+- [Workshop State-management in React with Context and Hooks](https://www.slideshare.net/RoyDerks1/workshop-statemanagement-in-react-with-context-and-hooks).
+
+# AWS
+
+- [Graviton2 instances for Amazon Aurora](https://aws.amazon.com/es/about-aws/whats-new/2021/03/achieve-up-to-35-percent-better-price-performance-with-amazon-aurora-using-new-graviton2-instances/).
+
+# Python
+
+- [Python Memory Issues: Tips and Tricks](https://dzone.com/articles/python-memory-issues-tips-and-tricks).
+
+# Data visualization
+
+- [Visualizing the world’s watersheds for #worldwaterday](https://hi.stamen.com/rivers-de92f8b462ac).
+- [Designers and Statisticians Disagree On What Makes a Good Information Graphic](https://getpocket.com/explore/item/designers-and-statisticians-disagree-on-what-makes-a-good-information-graphic?utm_source=pocket-newtab-intl-en).
+
+# Misc
+
+- [Kafka, GDPR and Event Sourcing](https://danlebrero.com/2018/04/11/kafka-gdpr-event-sourcing/). While I'm not using
+Kafka, this article explains an approach for privacy-safe immutable data that could be used for backups that contain
+  data that can be deleted in the future.
+- [Encrypted db indexes for searching on encrypted data](http://esl.cs.brown.edu/blog/signal/).
+- [Writing Robust Bash Shell Scripts](https://www.davidpashley.com/articles/writing-robust-shell-scripts/).
+- [Troubleshooting Performance Issues Due to Disk and RAM](https://www.highgo.ca/2021/02/08/troubleshooting-performance-issues-due-to-disk-and-ram/).
+- [Oportunidades de manera equitativa](https://flopezluis.substack.com/p/oportunidades-de-manera-equitativa). A topic that is not often tackled!
+- [OKRs](https://www.whatmatters.com/).
