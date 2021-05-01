@@ -1,0 +1,47 @@
+---
+layout: post
+comments: true
+title: 'April 2021 reads'
+date: 2021-04-30 01:18:57
+categories: ['reads']
+tags: ['Software Development', 'PostgreSQL', 'React', 'Python']
+excerpt: |
+    Some interesting content that I read during April 2021. Expect PostgreSQL, React, AWS... In addition, I've begun listening to podcasts, you'll find some of those as well.
+image:
+    feature: esgueva.jpg
+---
+
+# PostgreSQL
+
+- [PostgreSQL indexing: Index scan vs. Bitmap scan vs. Sequential scan (basics)](https://www.cybertec-postgresql.com/en/postgresql-indexing-index-scan-vs-bitmap-scan-vs-sequential-scan-basics/).
+- [Bitmap Index Scan](https://bitnine.net/blog-useful-information/bitmap-index-scan/).
+- [Speeding up SQL queries by orders of magnitude using UNION](https://www.foxhound.systems/blog/sql-performance-with-union/).
+- [How the PostgreSQL query optimizer works](https://www.cybertec-postgresql.com/en/how-the-postgresql-query-optimizer-works/).
+- [Your Guide to Connection Management in Postgres](https://blog.crunchydata.com/blog/your-guide-to-connection-management-in-postgres).
+- BRIN indexes:
+    - [PostgreSQL BRIN Indexes: Big Data Performance With Minimal Storage](https://blog.crunchydata.com/blog/postgresql-brin-indexes-big-data-performance-with-minimal-storage).
+    - [BRIN Index for PostgreSQL: Don’t Forget the Benefits](https://www.percona.com/blog/2019/07/16/brin-index-for-postgresql-dont-forget-the-benefits/).
+    - [Avoiding the Pitfalls of BRIN Indexes in Postgres](https://blog.crunchydata.com/blog/avoiding-the-pitfalls-of-brin-indexes-in-postgres).
+
+# React
+
+- [useReducer instead of useState while calling APIs!](https://dev.to/ms_yogii/usereducer-instead-of-usestate-while-calling-apis-3e1l).
+
+# AWS
+
+- [Key considerations in moving to Graviton2 for Amazon RDS and Amazon Aurora databases](https://aws.amazon.com/es/blogs/database/key-considerations-in-moving-to-graviton2-for-amazon-rds-and-amazon-aurora-databases/).
+
+# Misc
+
+- [Don't promise, just ship](https://world.hey.com/dhh/don-t-promise-just-ship-1fa077f5).
+- [GitLab OKRs](https://about.gitlab.com/company/okrs/).
+- [The Era of Symbol Fonts](https://alistapart.com/article/the-era-of-symbol-fonts/).
+- [Profiling site speed with the Chrome DevTools Performance tab](https://www.debugbear.com/blog/devtools-performance).
+
+# Podcast episodes
+
+- [Adventures in DevOps: Getting Amazing Personal Productivity with Mason McLead - DevOps 066](https://open.spotify.com/episode/6f65gaHhDNd2UZU8ud4DZI?si=ij1ZpAgbSzGjzm8ELHZ0YQ).
+- [Making data simple: [Part 1] Al and Cactus Raazi discuss pricing and pricing methods](https://open.spotify.com/episode/5yvL09NWo4Qz1JAlH81Xdb?si=d0216ceb62944364).
+- [Downtime: Gitlab’s 2017 Postgres Outage](https://open.spotify.com/episode/7hUs2IAY9inR3mFEwWhz0D?si=53ddbefb7dac4a38).
+- [Downtime: Auth0 Silently Loses Some Indexes](https://open.spotify.com/episode/2GpxEKQnBG5RUDq0L8QLHv?si=be18ef8f605b4cf4).
+- [Programar es una mierda: Episodio 79 - El camino del management](https://open.spotify.com/episode/0euaWjpNoHsjS7XMzLE3Bn?si=0afbca8c491a4101).
