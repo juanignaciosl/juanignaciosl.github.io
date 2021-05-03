@@ -4,7 +4,7 @@ comments: true
 title: 'April 2021 reads'
 date: 2021-04-30 01:18:57
 categories: ['reads']
-tags: ['Software Development', 'PostgreSQL', 'React', 'Python']
+tags: ['Software Development', 'PostgreSQL', 'React', 'AWS', 'Podcast']
 excerpt: |
     Some interesting content that I read during April 2021. Expect PostgreSQL, React, AWS... In addition, I've begun listening to podcasts, you'll find some of those as well.
 image:
