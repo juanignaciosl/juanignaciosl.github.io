@@ -1,0 +1,28 @@
+---
+layout: post
+comments: true
+title: 'May 2021 reads'
+date: 2021-05-31 01:18:57
+categories: ['reads']
+tags: ['Software Development', 'PostgreSQL', 'React' ]
+excerpt: |
+    Some interesting content that I read during April 2021. Expect ...
+image:
+    feature: esgueva.jpg
+---
+
+# PostgreSQL
+
+
+# React
+
+
+# AWS
+
+
+# Misc
+
+- [Hosting SQLite databases on Github Pages](https://phiresky.github.io/blog/2021/hosting-sqlite-databases-on-github-pages/).
+
+# Podcast episodes
+
