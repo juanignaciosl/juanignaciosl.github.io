@@ -100,7 +100,7 @@ _\*: this might change soon, as I'm considering giving Darktable a try._
 For Docker to work without `sudo` you need this:
 
 ```bash
-sudo usermod -aG docker USERNAME
+sudo usermod -aG docker $USER
 ```
 
 Vagrant needed manual installation because of an issue ([1](https://github.com/dotless-de/vagrant-vbguest/issues/292), [2](https://github.com/mitchellh/vagrant-aws/issues/541)).

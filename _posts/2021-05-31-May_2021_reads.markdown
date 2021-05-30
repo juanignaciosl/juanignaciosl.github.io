@@ -1,0 +1,38 @@
+---
+layout: post
+comments: true
+title: 'May 2021 reads'
+date: 2021-05-29 01:18:57
+categories: ['reads']
+tags: ['Software Development', 'PostgreSQL', 'React' ]
+excerpt: |
+    Some interesting content that I read and heard during May 2021. Expect Postgres and a lot of miscellaneous stuff.
+image:
+    feature: trees.jpg
+---
+
+# PostgreSQL/PostGIS
+
+- [(The Many) Spatial Indexes of PostGIS](https://blog.crunchydata.com/blog/the-many-spatial-indexes-of-postgis).
+- [UUID, serial or identity columns for PostgreSQL auto-generated primary keys?](https://www.cybertec-postgresql.com/en/uuid-serial-or-identity-columns-for-postgresql-auto-generated-primary-keys/).
+- [Using PostgreSQL as a Data Warehouse](https://www.narrator.ai/blog/using-postgresql-as-a-data-warehouse/).
+- [Dr. Martin Loetzsch - ETL Patterns with Postgres](https://www.youtube.com/watch?v=whwNi21jAm4).
+
+
+# Misc
+
+- [Hosting SQLite databases on Github Pages](https://phiresky.github.io/blog/2021/hosting-sqlite-databases-on-github-pages/).
+- [It's not only waste; it's a burden](https://www.eferro.net/2021/05/its-not-only-waste-its-burden.html).
+- [How Tech Loses Out over at Companies, Countries and Continents](https://berthub.eu/articles/posts/how-tech-loses-out/).
+- [Auth0 2021-04-20 - US-1 Full Service Disruption Detailed Root Cause Analysis (RCA)](https://cdn.auth0.com/blog/Detailed_Root_Cause_Analysis_(RCA)_4-2021.pdf?_ga=2.181583651.589971451.1620058875-2092744813.1615975818).
+- [An Illustrated Guide to OAuth and OpenID Connect](https://www.youtube.com/watch?v=t18YB3xDfXI).
+- [Before You Answer, Consider the Opposite Possibility](https://www.theatlantic.com/ideas/archive/2021/04/case-disagreeing-yourself/618688/).
+- [The Architecture of Uber’s API gateway](https://eng.uber.com/architecture-api-gateway/).
+- [Designing Edge Gateway, Uber’s API Lifecycle Management Platform](https://eng.uber.com/gatewayuberapi/).
+- ["It's time to be honest about Atrium" Twitter thread by @justinkan](https://twitter.com/justinkan/status/1397730747398557696).
+
+# Podcast episodes
+
+- [The Rabbit Hole: 205. Product vs. Developers with Rob O'Brien - Part 1](https://open.spotify.com/episode/3ygaUEhMYlX9GTi179swdf?si=V2QBDin4R2qNH-p4YLj4ng).
+- [Downtime: Auth0’s Seriously Congested Database](https://open.spotify.com/episode/1smUMKrSh1XeZ59hlQJVGD?si=-rCe-WT3SD26FzVYD_bhoQ&utm_source=copy-link).
+- [NoSoloTech: Burnout](https://open.spotify.com/episode/7nezCi9SfA7My4KwMJxUWq?si=7d873bc24e294147).
