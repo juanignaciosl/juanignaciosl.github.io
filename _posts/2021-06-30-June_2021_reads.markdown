@@ -1,0 +1,28 @@
+---
+layout: post
+comments: true
+title: 'June 2021 reads'
+date: 2021-06-30 01:18:57
+categories: ['reads']
+tags: ['Software Development', 'PostgreSQL', 'React' ]
+excerpt: |
+    Some interesting content that I read and heard during June 2021. Expect Postgres and miscellaneous stuff.
+image:
+    feature: chinchon.jpg
+---
+
+# PostgreSQL/PostGIS
+
+- [PostGIS at 20, The Beginning](http://blog.cleverelephant.ca/2021/05/postgis-20-years.html).
+
+# Misc
+
+- [Gallery downloader, including Flickr support](https://github.com/mikf/gallery-dl).
+
+# Podcast episodes
+
+- [The Downtime Project: 7 Lessons From 10 Outages](https://open.spotify.com/episode/2xD7a9f4oWORgxIGu0KDPy?si=d38abd42cbe74958).
+
+# Videos
+
+- [PostgreSQL Optimizer Methodology (Robert Haas)](https://www.youtube.com/watch?v=XA3SBgcZwtE).
