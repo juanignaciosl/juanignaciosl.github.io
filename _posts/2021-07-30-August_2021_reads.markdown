@@ -1,0 +1,54 @@
+---
+layout: post
+comments: true
+title: 'August 2021 reads'
+date: 2021-08-31 01:18:57
+categories: ['reads']
+tags: ['Software Development', 'PostgreSQL', 'Engineering Management', 'React']
+excerpt: |
+    Some interesting content that I read and heard during August 2021. Expect Postgres, Engineering Management and miscellaneous stuff.
+image:
+    feature: las_bodas.jpg
+---
+
+Some interesting content that I read and heard during August 2021. Expect Postgres, Engineering Management and miscellaneous stuff.
+
+# Engineering Management
+
+Many content from Félix López ([@flopezluis](https://twitter.com/flopezluis)), follow him!
+
+- [¿Cómo cambias a una persona que no funciona?](https://flopezluis.substack.com/p/cmo-cambias-a-una-persona-que-no).
+- [El rol del Engineering manager: Gestionando el bajo rendimiento](https://flopezluis.medium.com/el-rol-del-engineering-manager-gestionando-el-bajo-rendimiento-cd3968dd69a5).
+- [El rol del Engineering manager: Ayudando a crecer sin quemar](https://flopezluis.medium.com/el-rol-del-engineering-manager-ayudando-a-crecer-sin-quemar-8b19a253016e).
+- [Startup School: Restart "Motivación y responsabilidad", Google for Startups](https://www.youtube.com/watch?v=AWBh_ftm-iI).
+
+... and others:
+
+- [Stripe’s remote engineering hub, one year in](https://stripe.com/blog/remote-hub-one-year).
+- [Managing Remotely](https://lg.substack.com/p/managing-remotely).
+- [Engineering Team Meeting: Format & Topic Ideas](https://marcgg.com/blog/2020/04/06/engineering-team-meeting-ideas/).
+- [re:Work](https://rework.withgoogle.com/).
+- [Building trust through effective communication](https://dvirsegal.medium.com/building-trust-through-effective-communication-c00bf9b65c78).
+- [Building Bridges as a Technical Leader ](https://keavy.com/work/building-bridges/).
+- [The Basecamp Guide to Internal Communication](https://basecamp.com/guides/how-we-communicate).
+- [Your first 90 days as CTO or VP Engineering](https://lethain.com/first-ninety-days-cto-vpe/).
+- [Tech Lead Expectations for Engineering Projects (Gergely Orosz @Uber)](https://docs.google.com/document/d/1kngKHUCS0DHNvZAO8PfkcsTD4Mq7b11L09RIaVpQnwI/preview#heading=h.dj481vc87f3).
+- [The epistemology of software quality](https://increment.com/teams/the-epistemology-of-software-quality/).
+
+# SQL/PostgreSQL/PostGIS/Aurora
+
+- [PostgreSQL indexing: Index scan vs. Bitmap scan vs. Sequential scan (basics)](https://www.cybertec-postgresql.com/en/postgresql-indexing-index-scan-vs-bitmap-scan-vs-sequential-scan-basics).
+- [PostgreSQL: ANALYZE and optimizer statistics](https://www.cybertec-postgresql.com/en/postgresql-analyze-and-optimizer-statistics).
+- [Cleaning Up Your Postgres Database](https://blog.crunchydata.com/blog/cleaning-up-your-postgres-database).
+- [Production PostGIS Vector Tiles: Caching](https://blog.crunchydata.com/blog/production-postgis-vector-tiles-caching).
+- [A Safer Price Type in Postgres](https://vadosware.io/post/a-safer-price-type-in-postgres/).
+
+# Misc
+
+- [Stripe’s payments APIs: the first ten years](https://stripe.com/blog/payment-api-design).
+- [Thread about Coinbase migrating from native mobile to React Native](https://twitter.com/GergelyOrosz/status/1393498042825859074).
+- [Great list of books related to geo and data by @ramiroaznar](http://www.cartography-lab.com/2020/04/12/books.html).
+- [Agile: Small Safe Steps by @eferro](https://www.eferro.net/p/small-safe-steps-3s-workshop.html).
+- [How to stop using your GraphQL API as a REST API](https://thoughtbot.com/blog/how-to-stop-using-your-graphql-api-as-a-rest-api).
+- [Tools for better thinking](https://untools.co/?mc_cid=ba2bebbb1e&mc_eid=b4c3a300c5).
+- [The Case for Location-Independent Salaries](https://www.revenuecat.com/blog/the-case-for-location-independent-salaries).
