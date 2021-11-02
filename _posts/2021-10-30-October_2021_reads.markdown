@@ -1,0 +1,42 @@
+---
+layout: post
+comments: true
+title: 'October 2021 reads'
+date: 2021-10-30 01:18:57
+categories: ['reads']
+tags: ['Software Development']
+excerpt: |
+    Some interesting content that I ingested during October 2021. Expect Engineering Management, PostgreSQL, Python, mapping...
+image:
+    feature: tiempo_1388x745.jpg
+---
+
+Some interesting content that I ingested during October 2021. Expect Engineering Management, PostgreSQL, Python, mapping...
+
+# Engineering Management
+
+- [The “Accidental Diminisher”: Subconsciously destructive leadership styles](https://echometerapp.com/en/accidental-diminisher/?utm_source=pocket_mylist).
+- **[El rol del Engineering manager: Gestionando el bajo rendimiento](https://flopezluis.medium.com/el-rol-del-engineering-manager-gestionando-el-bajo-rendimiento-cd3968dd69a5)**.
+- [Aterrizar en un equipo ya consolidado](https://flopezluis.substack.com/p/aterrizar-en-un-equipo-ya-consolidado?utm_source=pocket_mylist).
+- [How New Managers Fail Individual Contributors](https://www.elidedbranches.com/2021/10/how-new-managers-fail-individual.html?utm_source=pocket_mylist).
+- **[An awkward person's guide to 1:1s](https://deniseyu.io/2021/10/05/an-awkward-persons-guide-to-1-to-1s.html?utm_source=pocket_mylist)**.
+
+# PostgreSQL
+
+- [Psycopg 3.0 released](https://www.psycopg.org/articles/2021/10/13/psycopg-30-released/).
+- **[Herding elephants: Lessons learned from sharding Postgres at Notion](https://www.notion.so/blog/sharding-postgres-at-notion)**.
+
+# Python
+
+- [FastAPI Tutorial](https://fastapi.tiangolo.com/tutorial/).
+- [Concurrency in Python with FastAPI](https://dev.to/horaceg/concurrency-in-python-with-fastapi-222f?utm_source=pocket_mylist).
+- [Comparing SQLAlchemy's commit, flush, expire, refresh, and merge](https://michaelcho.me/article/sqlalchemy-commit-flush-expire-refresh-merge-whats-the-difference).
+
+# Mapping
+
+- **[Getting to the bottom of web map performance](https://bdon.org/blog/web-map-performance/?utm_source=pocket_mylist)**.
+- **[Helping Sustain Open Maps on the Web](https://medium.com/@onthegomap/helping-sustain-open-maps-on-the-web-dc419f3af75d)**.
+
+# Misc
+
+- **[(ongoing) 40 Things I Learned About Data — @javisantana](https://javisantana.com/fastdata/40-things-I-learned-about-data.html)**.
