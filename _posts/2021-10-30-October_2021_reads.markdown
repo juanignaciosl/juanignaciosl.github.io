@@ -4,7 +4,7 @@ comments: true
 title: 'October 2021 reads'
 date: 2021-10-30 01:18:57
 categories: ['reads']
-tags: ['Software Development']
+tags: ['Software Development', PostgreSQL, Python, mapping]
 excerpt: |
     Some interesting content that I ingested during October 2021. Expect Engineering Management, PostgreSQL, Python, mapping...
 image:
