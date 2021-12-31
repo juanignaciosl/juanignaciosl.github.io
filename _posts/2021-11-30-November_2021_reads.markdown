@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title: 'November 2021 reads'
-date: 2021-10-30 01:18:57
+date: 2021-11-30 01:18:57
 categories: ['reads']
 tags: ['Software Development','AWS', 'mapping']
 excerpt: |
