@@ -1,0 +1,32 @@
+---
+layout: post
+comments: true
+title: 'January 2022 reads'
+date: 2022-01-10 01:18:57
+categories: ['reads']
+tags: ['Software Development','Data processing']
+excerpt: |
+    Some interesting content that I ingested during January 2022.
+image:
+    feature: denver_flag_1388x800.jpg
+---
+
+# Data processing
+
+- [The Modern Data Stack (updated for 2021)](https://www.metabase.com/blog/The-Modern-Data-Stack/).
+- [Building an Open-source Ingestion Layer with Airbyte](https://preset.io/blog/building-an-open-source-ingestion-layer-with-airbyte/).
+- [Ingestion with Airbyte: A Guided Tutorial](https://preset.io/blog/ingestion-with-airbyte-a-guided-tutorial/).
+- [Transforming GitHub Data Using dbt](https://preset.io/blog/transforming-github-data-using-dbt/).
+- [Which Open-source Data Integration Tool Is Right for Your Project?](https://www.preset.io/blog/2021-4-22-data-integration-tooling/).
+- [AWS Managed Workflows for Apache Airflow vs. Glue](https://towardsdatascience.com/aws-managed-workflows-for-apache-airflow-vs-glue-2cce07aacf6a).
+- [Data as a Utility Tool](https://groupby1.substack.com/p/data-as-a-utility-tool).
+- [Dataform and dbt](https://rdrn.dev/dataform-and-dbt/).
+- [A comparison of data processing frameworks](https://kapernikov.com/a-comparison-of-data-processing-frameworks/).
+
+# Misc
+
+- [**Who is Web3 Really Good for?**](https://www.readmargins.com/p/is-web3-faking-it).
+- [**My first impressions of web3**](https://moxie.org/2022/01/07/web3-first-impressions.html).
+- [Messari report: Crypto Theses for 2022](https://www.dropbox.com/s/1810wl5eepdcu2s/messari-report-crypto-theses-for-2022.pdf).
+- [Roblox Return to Service 10/28-10/31 2021](https://blog.roblox.com/2022/01/roblox-return-to-service-10-28-10-31-2021/).
+- [Python's collections: A Buffet of Specialized Data Types](https://realpython.com/python-collections-module/).
