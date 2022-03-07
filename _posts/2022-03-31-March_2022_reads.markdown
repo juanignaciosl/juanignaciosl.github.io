@@ -1,0 +1,26 @@
+---
+layout: post
+comments: true
+title: 'March 2022 reads'
+date: 2022-03-31 01:18:57
+categories: ['reads']
+tags: ['Software Development', PostgreSQL, Python]
+excerpt: |
+    Some interesting content that I ingested during March 2022.
+image:
+    feature: sw_1388x800.jpg
+---
+
+# PostgreSQL
+
+- [`MERGE` coming to PostgreSQL 15](https://www.postgresql.org/docs/devel/sql-merge.html).
+
+# Python
+
+- [SSL EOF errors with Python 3 SQLAlchemy and managed cloud Postgres database](https://blog.stigok.com/2021/02/28/sqlalchemy-postgres-ssl-eof-detected.html).
+
+# Misc
+
+- [The Map Is Not the Territory](https://fs.blog/map-and-territory).
+- [An Introduction to Complex Adaptive Systems](https://fs.blog/introduction-to-complex-adaptive-systems).
+- Metastable states [thread](https://twitter.com/wilton_quinn/status/1506825517474869252) and [paper](https://sigops.org/s/conferences/hotos/2021/papers/hotos21-s11-bronson.pdf).
