@@ -1,0 +1,42 @@
+---
+layout: post
+comments: true
+title: 'April 2022 reads'
+date: 2022-04-30 01:18:57
+categories: ['reads']
+tags: ['Software Development', PostgreSQL, Python, Mapping, ClickHouse, 'Engineering Management']
+excerpt: |
+    Some interesting content that I ingested during April 2022.
+image:
+    feature: bcn_1388x800.jpg
+---
+
+# PostgreSQL
+
+- [Announcing Postgres Container Apps: Easy Deploy Postgres Apps](https://blog.crunchydata.com/blog/announcing-postgres-container-apps-easy-deploy-postgres-apps).
+- [How Retool upgraded our 4 TB main application PostgreSQL database](https://retool.com/blog/how-we-upgraded-postgresql-database/).
+- [Amazon Aurora Serverless v2 is Generally Available: Instant Scaling for Demanding Workloads](https://aws.amazon.com/es/blogs/aws/amazon-aurora-serverless-v2-is-generally-available-instant-scaling-for-demanding-workloads/).
+
+# Python
+
+- [Python f-strings Are More Powerful Than You Might Think](https://martinheinz.dev/blog/70).
+
+# Mapping
+
+- [Mantle - Serverless Maps using Lambda or Cloudflare Workers](https://protomaps.com/blog/serverless-self-hosted-maps/)
+
+# ClickHouse
+
+- [Building a Paste Service With ClickHouse](https://clickhouse.com/blog/building-a-paste-service-with-clickhouse/).
+
+# Engineering Management
+
+- [What does sponsorship look like?](https://larahogan.me/blog/what-sponsorship-looks-like/).
+
+# Misc
+
+- [Análisis de MOTOMAMI 🦋 Entendiendo la transformación de ROSALÍA (con Rosalía)](https://www.youtube.com/watch?v=8xGgFmoLRAE).
+- [The Boneyard Principle: Why the Next Big Thing will Emerge from a Failed Idea](https://every.to/p/the-boneyard-principle).
+- [Two Sizes Fit Most: PostgreSQL and ClickHouse](https://thenewstack.io/two-sizes-fit-most-postgresql-and-clickhouse/).
+- [Elon's Giant Package](https://www.readmargins.com/p/elons-giant-package).
+- [S3E04 Mucho más que Backend con @ydarias @jerolba](https://open.spotify.com/episode/7b8kGCtvbg2rPVq8itKVES?si=ff551cdc7fa44969).
