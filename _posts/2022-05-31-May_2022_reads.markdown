@@ -1,0 +1,32 @@
+---
+layout: post
+comments: true
+title: 'May 2022 reads'
+date: 2022-04-30 01:18:57
+categories: ['reads']
+tags: ['Software Development', Felt]
+excerpt: |
+    Some interesting content that I ingested during May 2022.
+image:
+    feature: felt_compass_1388x800.jpg
+---
+
+# Felt
+
+- [Felt’s Public Beta, And A New $15M Round of Funding](https://felt.com/blog/public-beta-15m-series-a).
+
+# Load testing
+
+- [h2load - HTTP/2 benchmarking tool - HOW-TO](https://nghttp2.org/documentation/h2load-howto.html).
+- [Intelligent benchmark with wrk](https://medium.com/@felipedutratine/intelligent-benchmark-with-wrk-163986c1587f).
+ 
+# Misc
+
+- [Time zone management in PostgreSQL](https://www.cybertec-postgresql.com/en/time-zone-management-in-postgresql).
+- [Preventing burnout: A manager's toolkit](https://about.gitlab.com/blog/2022/05/03/preventing-burnout-a-managers-toolkit).
+- [The tyranny of what if it changes](https://chriskiehl.com/article/the-tyranny-of-what-if-it-changes).
+- [How we deploy to production over 100 times a day](https://monzo.com/blog/2022/05/16/how-we-deploy-to-production-over-100-times-a-day).
+- [How To Give Effective Feedback Remotely](https://www.smashingmagazine.com/2022/05/give-effective-feedback-remotely/).
+    - _Note about this: I'm definitely guilty of closing paragraphs with "non-questions", I must improve on this._
+- [What do great engineering managers need to know about compensation and equity?](https://www.rubick.com/compensation-and-equity).
+- [I'm All-In on Server-Side SQLite](https://fly.io/blog/all-in-on-sqlite-litestream/).
