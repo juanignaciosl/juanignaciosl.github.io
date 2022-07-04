@@ -1,0 +1,26 @@
+---
+layout: post
+comments: true
+title: 'June 2022 reads'
+date: 2022-06-30 01:18:57
+categories: ['reads']
+tags: ['Software Development', AWS]
+excerpt: |
+    Some interesting content that I ingested during June 2022.
+image:
+    feature: matalascañas_1388x800.jpg
+---
+
+ 
+# AWS
+
+- [AWS Cloud Development Kit](https://aws.amazon.com/cdk/).
+    - [Best practices for developing and deploying cloud infrastructure with the AWS CDK](https://docs.aws.amazon.com/cdk/v2/guide/best-practices.html).
+    - [Better together: AWS SAM and AWS CDK](https://aws.amazon.com/blogs/compute/better-together-aws-sam-and-aws-cdk/).
+- [AWS Step Functions](https://aws.amazon.com/step-functions/?step-functions.sort-by=item.additionalFields.postDateTime&step-functions.sort-order=desc).
+  - [Orchestration examples with Step Functions](https://docs.aws.amazon.com/lambda/latest/dg/services-stepfunctions.html).
+- [CloudFormation Best-Practices](https://sbstjn.com/blog/cloudformation/).
+
+# Misc
+
+- [The 37signals Guide to Internal Communication](https://37signals.com/how-we-communicate).
