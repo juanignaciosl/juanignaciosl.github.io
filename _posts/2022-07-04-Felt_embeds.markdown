@@ -19,15 +19,15 @@ It would've been a great tool for [the last WeCode that was organized](https://w
 
 We could've added to [this shared map with software conferences](https://felt.com/map/Software-conferences-68eR49ClbSRSaGwc1hBxXzD) and make WeCode appear to everybody seeing it.
 
-<iframe width="850" height="450" frameborder="0" title="Felt Map" src="https://felt.com/embed/map/Software-conferences-68eR49ClbSRSaGwc1hBxXzD?lat=40.89030770009308&lon=-9.065076976930104&zoom=5.344"></iframe>
+<iframe style="width: 100%" width="850" height="450" frameborder="0" title="Felt Map" src="https://felt.com/embed/map/Software-conferences-68eR49ClbSRSaGwc1hBxXzD?lat=40.89030770009308&lon=-9.065076976930104&zoom=5.344"></iframe>
 
 And then zoom in and create another one with the city-level information on venues.
 
-<iframe width="850" height="450" frameborder="0" title="Felt Map" src="https://felt.com/embed/map/Software-conferences-68eR49ClbSRSaGwc1hBxXzD?lat=41.65499379833617&lon=-4.713404083087311&zoom=14.655"></iframe>
+<iframe style="width: 100%" width="850" height="450" frameborder="0" title="Felt Map" src="https://felt.com/embed/map/Software-conferences-68eR49ClbSRSaGwc1hBxXzD?lat=41.65499379833617&lon=-4.713404083087311&zoom=14.655"></iframe>
 
 And then zoom in even more and create another one for indoor mapping, rooms...:
 
-<iframe width="850" height="450" frameborder="0" title="Felt Map" src="https://felt.com/embed/map/Software-conferences-68eR49ClbSRSaGwc1hBxXzD?lat=41.662346728297244&lon=-4.702570248144274&zoom=18.467"></iframe>
+<iframe style="width: 100%" width="850" height="450" frameborder="0" title="Felt Map" src="https://felt.com/embed/map/Software-conferences-68eR49ClbSRSaGwc1hBxXzD?lat=41.662346728297244&lon=-4.702570248144274&zoom=18.467"></iframe>
 
 No more map screenshooting to explain in which room happens what, everything in the same _place_!
 And the day of the conference [you can see your location if you open the map in your phone](https://twitter.com/felt/status/153166657073215x4880).
