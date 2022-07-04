@@ -1,0 +1,24 @@
+---
+layout: post
+comments: true
+title: 'July 2022 reads'
+date: 2022-07-30 01:18:57
+categories: ['reads']
+tags: ['Software Development', 'Engineering Management', 'Mapping']
+excerpt: |
+    Some interesting content that I ingested during July 2022.
+image:
+    feature: matalascañas_1388x800.jpg
+---
+
+# Engineering Management
+
+- [What is an Engineering Manager?](https://aws.amazon.com/es/blogs/startups/what-is-an-engineering-manager/).
+
+# Mapping
+
+- [El cerebro y el espacio](https://elgrancirculo.substack.com/p/-el-cerebro-y-el-espacio).
+ 
+# Misc
+
+- [What I Miss About Working at Stripe](https://every.to/p/what-i-miss-about-working-at-stripe).
