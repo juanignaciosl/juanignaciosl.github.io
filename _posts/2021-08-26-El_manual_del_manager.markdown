@@ -78,6 +78,24 @@ The last section of "other kind of 1:1s" is very interesting and new for me: cat
 I've already experienced some of them, but having structured information about them is useful. BTW, I'd be explicit
 and tell managers that I'll do skip-levels, because some people might see it as a sign of lack of trust.
 
+## Career path
+
+When this chapter was added to the book I expected a dull suggestion for a career ladder (a table or a template that
+you're told to apply), but it's more interesting
+than that (although maybe too short): it explains why, when and how you should create one.
+
+The _why_ part is split
+among "associated problems to the lack of" (expectation management, collaboration...) and "the importance"
+(retention, commitment, hiring...). A broken expectation management is one of the main causes of burnout.
+
+A reactive approach is implicitly suggested in the _when_ section: the need must exist, because it has a cost, so
+context matters. A small company probably doesn't need it at all, for example.
+
+I'd highlight that the _how_ section starts mentioning that it's an alive document, and that the creation should be
+done with the collaboration of all the organization. And the path shouldn't become a goal itself, it should be a
+learning lever. An interesting topic I haven't heard much about are the terminal levels: levels that must be reached.
+It's similar to the "test period", but in a longer time window, and includes progression.
+
 ## Product-oriented development
 
 This chapter explains the difference between corporate and end-user software, and the mindset and skills required for
