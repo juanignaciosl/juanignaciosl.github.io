@@ -1,12 +1,12 @@
 ---
 layout: post
 comments: true
-title: "El manual del Manager"
+title: "The Manager's Manual (El manual del Manager)"
 date: 2021-08-27 11:18:57
 categories: ['learning']
 tags: ['Engineering Management', books]
 excerpt: |
-  Notes about El manual del Manager book.
+  Notes about The Manager's Manual book.
 image:
   feature: el_manual_del_manager.png
 ---
@@ -23,9 +23,15 @@ this is a good moment for a refresher and new topics, and this book by [Keyvan A
 [Félix López](https://twitter.com/flopezluis) and [Álvaro Salazar](https://twitter.com/xala3pa) looked like the perfect
 candidate.
 
-Disclaimer: the book is in Spanish (although I'd bet that they'll eventually translate it,
+~~Disclaimer: the book is in Spanish (although I'd bet that they'll eventually translate it,
 [its domain is in English](https://managersmanual.com/) 😬), and it's only
-"45% complete" (last updated on 2021-04-03). My plan is updating this post as the book grows.
+"45% complete" (last updated on 2021-04-03).~~
+
+New disclaimer: the book is available both in [Spanish](https://leanpub.com/el-manual-del-manager) and
+[English](https://leanpub.com/the-managers-manual), and it's still in progress. This blogpost is based on the Spanish
+version. My plan is updating this post as the book grows.
+
+28/7/2022 UPDATE: added "Career path" chapter.
 
 # Summary/notes
 
