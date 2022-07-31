@@ -8,12 +8,14 @@ tags: ['Software Development', 'Engineering Management', 'Mapping']
 excerpt: |
     Some interesting content that I ingested during July 2022.
 image:
-    feature: matalascañas_1388x800.jpg
+    feature: kotarr_1388x800.jpg
 ---
+
+I finished reading [Staff Engineering book]({% post_url 2022-07-29-Staff_engineer %}).
 
 # Engineering Management
 
-- [What is an Engineering Manager?](https://aws.amazon.com/es/blogs/startups/what-is-an-engineering-manager/).
+- [What is an Engineering Manager?](https://aws.amazon.com/es/blogs/startups/what-is-an-engineering-manager/)
 
 # Mapping
 
@@ -22,3 +24,5 @@ image:
 # Misc
 
 - [What I Miss About Working at Stripe](https://every.to/p/what-i-miss-about-working-at-stripe).
+- [Curing Our Slack Addiction](https://medium.com/directly-from-agilebits/curing-our-slack-addiction-439a2a90b169).
+- [Introduction to architecting systems for scale](https://lethain.com/introduction-to-architecting-systems-for-scale/).
