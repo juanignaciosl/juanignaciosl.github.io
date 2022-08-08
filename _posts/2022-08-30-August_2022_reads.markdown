@@ -1,0 +1,24 @@
+---
+layout: post
+comments: true
+title: 'August 2022 reads'
+date: 2022-08-30 01:18:57
+categories: ['reads']
+tags: ['Software Development']
+excerpt: |
+    Some interesting content that I ingested during August 2022.
+image:
+    feature: peratallada_1388x800.jpg
+---
+
+# Misc
+
+- [Technical Decision-Making and Alignment in a Remote Culture](https://multithreaded.stitchfix.com/blog/2020/12/07/remote-decision-making/).
+- [Graphite](https://docs.graphite.dev/).
+- [Dealing With Throttling in CloudFormation Part I](https://medium.com/pablo-perez/dealing-with-throttling-in-cloudformation-part-i-56993706c676).
+- [Collect Amazon CloudWatch metrics faster with Datadog using CloudWatch Metric Streams](https://www.datadoghq.com/blog/amazon-cloudwatch-metric-streams-datadog/).
+
+# Podcast
+
+- [Thinking Elixir: Deploying a PR for Review](https://podcast.thinkingelixir.com/111).
+
