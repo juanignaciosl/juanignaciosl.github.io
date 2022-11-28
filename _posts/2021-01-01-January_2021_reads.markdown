@@ -4,7 +4,7 @@ comments: true
 title: 'January 2021 reads'
 date: 2021-01-01 07:18:57
 categories: ['reads']
-tags: ['Software Development', PostgreSQL, PostGIS, React, 'Engineering Management']
+tags: ['Software Development', PostgreSQL, PostGIS, React, 'TinyBird', 'Engineering Management']
 excerpt: |
     Some interesting content that I read during January 2021.
 image:
@@ -49,7 +49,7 @@ I'm beginning a monthly post with content (articles, books, podcast episodes) th
 - [Local-first](https://www.inkandswitch.com/local-first.html).
 - [Porting a 100% local app to the web](https://actualbudget.com/blog/porting-local-app-web).
 
-# Tinybird
+# TinyBird
 
 - [How we processed 12 trillion rows during Black Friday](https://blog.tinybird.co/2020/12/21/how-we-setup-real-time-analytics-service-to-process-12-trillion-rows-during-black-friday/).
 - [Investigating performance bottlenecks with SQL, simple statistics and Google Sheets](https://blog.tinybird.co/2020/12/15/eating-our-own-dog-food-how-we-investigate-performance-bottlenecks-using-our-product-and-google-sheets/).

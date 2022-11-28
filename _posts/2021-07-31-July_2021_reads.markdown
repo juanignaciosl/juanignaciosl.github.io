@@ -4,7 +4,7 @@ comments: true
 title: 'July 2021 reads'
 date: 2021-07-31 01:18:57
 categories: ['reads']
-tags: ['Software Development', 'PostgreSQL', 'Node', 'ClickHouse', 'SQLite']
+tags: ['Software Development', 'PostgreSQL', 'Node', 'ClickHouse', 'SQLite', 'TinyBird']
 excerpt: |
     Some interesting content that I read and heard during July 2021. Expect Postgres and miscellaneous stuff.
 image:
