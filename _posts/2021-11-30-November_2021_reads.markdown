@@ -4,7 +4,7 @@ comments: true
 title: 'November 2021 reads'
 date: 2021-11-30 01:18:57
 categories: ['reads']
-tags: ['Software Development','AWS', 'mapping']
+tags: ['Software Development','AWS', 'Mapping']
 excerpt: |
     Some interesting content that I ingested during November 2021. Expect collaboration software, AWS, mapping...
 image:

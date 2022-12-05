@@ -4,7 +4,7 @@ comments: true
 title: 'November 2022 reads'
 date: 2022-11-30 01:18:57
 categories: ['reads']
-tags: ['Software Development', 'API design', 'Management', 'TinyBird', 'Podcasts']
+tags: ['Software Development', 'API design', 'Engineering Management', 'TinyBird', 'Podcasts']
 excerpt: |
     Some interesting content that I ingested during November 2022.
 image:
@@ -19,7 +19,7 @@ Now, I want to get back!
 
 - [How To Design A Good API and Why it Matters](https://www.youtube.com/watch?v=heh4OeB9A-c).
 
-# Management
+# Engineering Management
 
 - [Book notes & reflections: The Making of a Manager](https://www.scottbrady91.com/leadership/book-notes-making-of-a-manager?utm_source=techleaddigest&utm_medium&utm_campaign=1437).
 

@@ -4,7 +4,7 @@ comments: true
 title: 'September 2021 reads'
 date: 2021-09-30 01:18:57
 categories: ['reads']
-tags: ['Software Development', 'PostgreSQL', 'Engineering Management', 'mapping', 'Elixir']
+tags: ['Software Development', 'PostgreSQL', 'Engineering Management', 'Mapping', 'Elixir']
 excerpt: |
     Some interesting content that I ingested during September 2021. Expect Engineering Management, Postgres, mapping, Elixir... and miscellaneous stuff.
 image:
