@@ -6,8 +6,8 @@
   z-index: 233;
   width: 100%;
   padding: 20px 20px 0;
-  -webkit-transform: translate3d(0,0,1px);
-  transform: translate3d(0,0,1px);
+  -webkit-transform: translate3d(0, 0, 1px);
+  transform: translate3d(0, 0, 1px);
   @include media-query($small-screen) {
     padding: 50px 30px 0;
   }
@@ -30,7 +30,7 @@
 
 // Post Section
 section.post {
-	margin-bottom: 80px;
+  margin-bottom: 80px;
 }
 
 // Back home button
@@ -43,34 +43,41 @@ section.post {
 
 // Post title
 .post-title {
-
+  text-transform: uppercase;
+  line-height: 1;
 }
 
 .post-title-link {
-	color: $primary;
-	font-size: 14px;
-	margin-left: 10px;
-	&:hover,
-	&:focus {
-		color: lighten($primary, 14%);
-	}
+  color: $primary;
+  font-size: 14px;
+  margin-left: 10px;
+
+  &:hover,
+  &:focus {
+    color: lighten($primary, 14%);
+  }
 }
 
 // Post meta
 .post-meta {
+  margin-top: 0;
   font-size: 13px;
   font-weight: bold;
-	.post-date {
-		color: $secondary;
-	}
-	.post-author {
-		text-transform: uppercase;
-		color: $warning;
-	}
+
+  .post-date {
+    color: $secondary;
+  }
+
+  .post-author {
+    text-transform: uppercase;
+    color: $warning;
+  }
+
   .post-cat {
-		text-transform: uppercase;
-		color: $warning;
-	}
+    text-transform: uppercase;
+    color: $warning;
+  }
+
   .read-time {
     color: $primary;
   }
@@ -86,23 +93,111 @@ a.read-more {
 
 #post {
   padding-bottom: 50px;
+
   .post-header {
     margin: 0 auto 50px;
   }
 }
 
 #post header h1 {
-  font-size: 2.5rem;
+  font-size: 3.5rem;
+  line-height: 1;
   margin: 0.5em 0 1em;
 }
-#post article h1 {
-  margin: 1em 0 1em;
+
+h1 {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  font-weight: 300;
+  font-size: 40px;
+  color: #080808;
 }
+
+h1 span {
+  display: block;
+  font-size: 0.5em;
+  line-height: 1.3;
+}
+
+h1 em {
+  font-style: normal;
+  font-weight: 600;
+}
+
+#post header h1 {
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 5px;
+}
+
+#post header h1:before {
+  width: 28px;
+  height: 5px;
+  display: block;
+  content: "";
+  position: absolute;
+  bottom: 3px;
+  left: 50%;
+  margin-left: -14px;
+  background-color: $secondary;
+}
+
+#post header h1:after {
+  width: 100px;
+  height: 1px;
+  display: block;
+  content: "";
+  position: relative;
+  margin-top: 25px;
+  left: 50%;
+  margin-left: -50px;
+  background-color: $secondary;
+}
+
+#post article h1 {
+  font-size: 2rem;
+  line-height: 1;
+  margin: 1em 0 1em;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-align: left;
+  padding-bottom: 13px;
+}
+
+#post article h1:before {
+  background-color: $secondary;
+  content: '';
+  display: block;
+  height: 4px;
+  width: 75px;
+  margin-top: 50px;
+  margin-bottom: 15px;
+}
+
+#post article {
+  h1:after, h2:after {
+    background-color: $secondary;
+    content: '';
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 4px;
+    width: 75px;
+    margin-bottom: -0.1em;
+  }
+}
+
 #post h2 {
+  font-size: $font-size-h2;
+  line-height: 1;
   margin: 2em 0 0.8em;
   padding-bottom: 0.5em;
-  border-bottom: 1px solid #ddd;
+  text-transform: uppercase;
 }
+
 #post h3 {
   margin: 1.75em 0 0.8em;
   position: relative;
@@ -115,6 +210,7 @@ a.read-more {
 #page {
   padding-bottom: 50px;
   min-height: 70vh;
+
   .page-header {
     margin: 0 auto 50px;
   }
@@ -124,6 +220,7 @@ a.read-more {
   background-color: #f6f6f6;
   @include box-shadow;
 }
+
 .leonids-icon {
   margin: 0 auto;
   padding: 20px 30px;
@@ -132,30 +229,37 @@ a.read-more {
   font-size: 16px;
   line-height: 16px;
 }
+
 .post-nav-prev,
 .post-nav-next {
   min-height: 10px;
   width: 100%;
 }
+
 .post-nav-next {
   text-align: right;
 }
+
 .post-nav-btn {
   width: 100%;
   padding: 20px 30px;
+
   .post-nav-text {
     font-size: 16px;
     line-height: 16px;
     font-weight: bold;
   }
+
   .table-cell {
     vertical-align: middle;
   }
 }
+
 .post-image-feature {
   text-align: center;
   margin-bottom: 40px;
   margin-top: 40px;
+
   .feature-image {
     // width: 100%;
     max-height: 500px;
@@ -170,9 +274,11 @@ a.read-more {
     margin: 0;
     padding: 0;
     list-style: none;
+
     li {
       display: inline-block;
       margin-right: 0.5em;
+
       span {
         display: none;
         @include media-query($small-screen) {
@@ -183,70 +289,85 @@ a.read-more {
     }
   }
 }
+
 .twitter {
   background-color: #77bcf1;
   color: $white;
   border-color: #77bcf1;
+
   &:visited {
     color: $white;
     border-color: #77bcf1;
   }
+
   &:hover {
     background-color: $white;
     color: #77bcf1;
     border-color: #77bcf1;
   }
 }
+
 .facebook {
   background-color: #627aac;
   color: $white;
   border-color: #627aac;
+
   &:visited {
     color: $white;
     border-color: #627aac;
   }
+
   &:hover {
     background-color: $white;
     color: #627aac;
     border-color: #627aac;
   }
 }
+
 .google-plus {
   background-color: #e36f60;
   color: $white;
   border-color: #e36f60;
+
   &:visited {
     color: $white;
     border-color: #e36f60;
   }
+
   &:hover {
     background-color: $white;
     color: #e36f60;
     border-color: #e36f60;
   }
 }
+
 .hacker-news {
   background-color: #f60;
   color: $white;
   border-color: #f60;
+
   &:visited {
     color: $white;
     border-color: #f60;
   }
+
   &:hover {
     background-color: $white;
     color: #f60;
     border-color: #f60;
   }
 }
+
 .reddit {
   background-color: #5f99cf;
   color: $white;
   border-color: #5f99cf;
+
   &:visited {
     color: $white;
     border-color: #5f99cf;
   }
+
   &:hover {
     background-color: $white;
     color: #5f99cf;

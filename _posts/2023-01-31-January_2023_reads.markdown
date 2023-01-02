@@ -1,0 +1,245 @@
+---
+layout: post
+comments: true
+title: 'January 2023 Journal'
+date: 2023-01-31 01:18:57
+categories: ['reads']
+tags: ['Software Development', 'Engineering Management', 'journal']
+excerpt: |
+    My January 2023 journal. Includes thoughts, random opinions and interesting content that I ingested during that month.
+    A lot of content is related to Engineering Management, but I've also added sections about games, music and reads.
+image:
+    feature: pegatinas_1388x800.jpg
+---
+
+If you know me you know I'm the kind of guy that writes down New Year's resolutions. This year, one of them is about
+giving my online presence and blog a second thought. The [monthly `reads` post](/categories#reads) was a way to improve the habit
+of reading tech content, but it's only been partially successful. At the end of the month, it felt like a random
+bag of stuff. **I'm going to revamp it in a more prosaic way, inspired by [Tom MacWright](https://macwright.com/)'s
+["Recently" posts](https://macwright.com/2023/01/03/recently.html)**. You probably know him (especially if you're into
+geo), and if you don't, please follow [his page](https://macwright.com), it's full of interesting content.
+He's [@tmcw](https://twitter.com/tmcw) on Twitter,
+
+Another of my 2023 resolutions is inbox 0 for my to-read list. I've been accumulating stuff at [Pocket](https://getpocket.com) for months
+(years?), making it almost unusable. I'm committed to **cleaning my Pocket saves at a ~10%/week rate**, so especially at the beginning you
+might see some more _oldie but goldie content_ than usual.
+
+This month I've had more reading time than usual, don't expect the following months to be this long 😅.
+
+# Shameless self-promotion
+
+I read **[Engineering Management for the Rest of Us]({% post_url 2023-01-03-Engineering_Management_for_the_rest_of_us %})**
+and if you're interested in management, you should, too.
+
+I've updated my [**`python-template`**](https://github.com/juanignaciosl/python-template) project. Some fixes and updates.
+Still dirty, but it now has support for some more goodies such as `black` and `isort`. If you're interested in Python
+tooling, you might like [Four Horsemen of the Python Apocalypse](https://blog.kartones.net/post/four-horsemen-python-apocalypse/) and [Boring Python: code quality](https://www.b-list.org/weblog/2022/dec/19/boring-python-code-quality).
+
+# Software Engineering reads, podcast, talks...
+
+[16 Popular Psychology Myths You Probably Still Believe](https://medium.com/@nateliason/16-popular-psychology-myths-you-probably-still-believe-63eaa231c555).
+Even if you're not directly interested in the topic, the introduction about truths that should be questioned is good food for thought.
+
+Kaizen: [#150 Modelos Mentales 18 - Especial incentivos (II): Roosvelt, métricas y antimétricas](https://www.jaimerodriguezdesantiago.com/kaizen/150-modelos-mentales-18-especial-incentivos-ii-roosevelt-metricas-y-anti-metricas/).
+I'd love to dig deeper into this kind of content (incentives, psychology, and how it impacts an organization, management, engineering...) It references a good source:
+[The 6 Principles of Incentive Design](https://www.sahilbloom.com/newsletter/the-6-principles-of-incentive-design).
+
+[How to communicate effectively as a developer](https://www.karlsutt.com/articles/communicating-effectively-as-a-developer/).
+
+[Know how your org works (or how to become a more effective engineer) | by Cindy Sridharan | Medium](https://copyconstruct.medium.com/know-how-your-org-works-or-how-to-become-a-more-effective-engineer-1a3287d1f58d).
+This contains some unsettling truths.
+
+## Engineering management
+
+[Engineering Manager Forum](https://engineering.squarespace.com/blog/2021/engineering-manager-forum) covers how to
+create an internal group for sharing knowledge.
+
+[Engineering Manager vs Tech Lead talk by Félix López](https://www.youtube.com/watch?v=t9wEK6-EW5M).
+
+If you don't want to increase your pending reads anxiety, don't open [this](https://blog.pragmaticengineer.com/holiday-tech-book-recommendations/).
+
+### Meetings
+
+Shopify dropping meetings with more than two people is going to be one of the recurring topics in startups around the world. Take into account that they're also adding rules for ["meetings with more than 50 people"](https://www.unleash.ai/hr-technology/shopify-encourages-employees-to-say-no-to-meetings/). Just like with microservices, we should think twice before _following the leader_. [Which Meetings Should You Kill?](https://skamille.medium.com/which-meetings-should-you-kill-7430467c005b) is also good food for thought regarding this.
+
+[Will Larson "happened" to write about meetings this month](https://lethain.com/eng-org-meetings/), with a bold statement:
+
+> Good meetings are the heartbeat for your organization.
+
+After that, I'd pick this to summarize the post:
+
+> You can’t include everyone’s input early in every technology decision, but you can ensure that the decisions are well-vetted by sharing them in a tech spec review. While meetings are rarely the best initial solution, they are often the best backup solution to ensure important information is communicated across the organization.
+
+From that, you can replace "technology decision" and "tech spec review" with any `(topic, documentation)` tuple.
+
+And, finally:
+
+> they are also effective at two other important tasks: communicating culture, and surfacing concerns from the organization
+
+It links [Reaching Peak Meeting Efficiency](https://medium.learningbyshipping.com/reaching-peak-meeting-efficiency-f8e47c93317a), don't miss it!
+
+
+### Metrics, metrics, metrics... and performance reviews
+
+[Measuring an engineering organization](https://lethain.com/measuring-engineering-organizations/). Irrational
+  Exhuberance blog is full of pure gold, and this new post is no exception. It's supposed to be about reporting ("what
+  to tell to your bosses), but as (healthy, honest) reporting shouldn't be more than a communication about your work
+  (and for EM positions that means your own work and your team work), it ends up being a summary of the hands-on work
+  that an EM should do or lead.
+  As a bonus, it contains a useful [Engineering Metrics Update template](https://docs.google.com/document/d/1PgfKHx39QpqXrSpccTsupV_ddQ3VvIkkTgAPPofVAuU).
+
+More about metrics: [Evaluating Managers: 5 heuristics to measure managerial impact](https://abdulapopoola.com/2023/01/09/evaluating-managers-5-heuristics-to-measure-managerial-impact/),
+this time for EM evaluation.
+
+[Annual Performance Reviews Ruin Everything](https://medium.com/@ElizAyer/annual-performance-reviews-ruin-everything-7464e07dff3a).
+The title is not clickbait: the author definitely has strong feelings against performance reviews, and it also contains
+good wisdom from an analytical dissect on management. Worth a read! [How To Evaluate Your Leadership Impact On A Performance Review](https://www.forbes.com/sites/forbescoachescouncil/2021/06/01/how-to-evaluate-your-leadership-impact-on-a-performance-review) is also related.
+[You must not measure individual software engineer performance](https://medium.com/dangerous-engineering/you-must-not-measure-individual-software-engineer-performance-3b68cc45cacb) contains more food for thought regarding the underlying problem of broken incentives.
+
+[Management Basics: Determining a Performance Rating](https://www.elidedbranches.com/2021/05/management-basics-determining.html)
+provides a process for performance reviewing, including setting goal types, and guides for what to measure.
+
+### Team management
+
+Many content on Engineering Management is focused on the individuals, but teams are more than a collection of individuals.
+[Group Dynamics: Norms and Emotion](https://www.edbatista.com/2021/12/group-dynamics-norms-and-emotion.html) helps
+to understand how emotions and norms affect your team, and provides an example activity for norms assessment. Follow the
+links at that post!
+
+[Making Engineering Team Communication Clearer, Faster, Better](https://review.firstround.com/making-engineering-team-communication-clearer-faster-better):
+in-depth article about something I've been doing for years: using a shared doc for project discussion. It also covers
+the surrounding process, because making it work is sometimes hard! And it has awesome suggestions for meetings to be great.
+
+### Lara Hogan
+
+Although I already knew about her, this month I've devoted a lot of time in her website. Here's a selection
+of what I've found more useful.
+
+[Help your teammates navigate moments of self-doubt](https://larahogan.me/blog/help-your-teammates-navigate-self-doubt)
+belong to the category of "questions are the answer". Besides, it led me to [How 2020 has shaped you as an engineering leader](https://leaddev.com/personal-growth/how-2020-has-shaped-you-engineering-leader),
+with this magnificent metaphor:
+
+> I used to think that when a caterpillar wraps itself up in a cocoon, it takes a little nap as it sprouts wings, and then emerges as a beautiful butterfly.
+> It turns out, the process is way more gruesome than that: inside that cocoon, the caterpillar reverts to a primordial state, digesting itself into a kind of soup. (I’m sorry for the mental image!) Eventually, it reforms itself into a wholly new state, and the butterfly pops out, glorious and winged.
+> I absolutely love this as a metaphor for growth.
+
+Some more:
+- [Don't soften feedback](https://larahogan.me/blog/dont-soften-feedback) + [Feedback Equation](https://larahogan.me/blog/feedback-equation/).
+- [You can be directive without being a jerk](https://larahogan.me/blog/be-directive-without-being-a-jerk).
+- [Managers: what do you do when your teammate shares their grief?](https://larahogan.me/blog/managers-when-teammate-shares-grief/#mirror-their-energy-use-affirming-body-language).
+- [What if you dread 1:1s with a direct report?](https://larahogan.me/blog/dread-one-on-ones/).
+- [How to spend your first 30 days in a new senior-level role](https://larahogan.me/blog/first-30-days-new-role/).
+- [30-60 days in a new leadership role: run experiments for change](https://larahogan.me/blog/first-60-days-new-role/).
+
+BTW, if you subscribe to [Lara Hogan newsletter](https://larahogan.me/sign-up/) you receive some interesting content
+that you can also [download for free](https://wherewithall.com/tools/#free).
+
+### Jade Rubick
+
+I got to [Jade Rubick page](https://rubick.com)
+through [How product engineering teams avoid dependencies -- the independent executor model](https://www.rubick.com/independent-executor-model)
+and found a lot of interesting content:
+- **[Coordination models - tools for getting groups to work well together](https://www.rubick.com/coordination-models/)**
+  Valuable topic for management toolboxes. Most models might be informally familiar, as it's labelling
+  previous experience, but having it in a centralized, listed way you can compare each other. Infrequent, nice content 👌🏻.
+- His [Books on management](https://www.rubick.com/management-books/) suggestion contains some less-frequently cited ones.
+- [Leaders make their own problems](https://www.rubick.com/leaders-make-their-own-problems/).
+- [Learn the weekly rituals you should master as a software project manager](https://www.rubick.com/project-manager-weekly-rituals/).
+- [Great engineering teams focus on milestones instead of projects](https://www.rubick.com/milestones-not-projects/).
+- [Engineering manager vs. tech lead -- which is better?](https://www.rubick.com/engineering-manager-vs-tech-lead/). Don't
+  be fooled by the clickbait-ish title. It's a nice summary of organization models depending on who owns people, projects, process, technical, product and customers tasks.
+- [Everyone lies to leaders](https://www.rubick.com/everyone-lies-to-leaders/) is awesome, especially the _Habits to be effective and humane as a leader_ section.
+- [Unusual tips to keep Slack from becoming a nightmare](https://www.rubick.com/unusual-tips-to-keep-slack-from-becoming-a-nightmare/).
+- [How to refactor meetings as they grow with the rule of eight](https://www.rubick.com/the-rule-of-eight-for-strong-decision-making-meetings/).
+- [Demo-driven development](https://www.rubick.com/demo-driven-development/).
+- [Make your team miserable with one of these popular project-management anti-patterns](https://www.rubick.com/three-anti-patterns-for-project-management/). "It's funny because it's true".
+
+### Ian Nowland
+
+I've read many of the articles that [Ian Nowland](https://twitter.com/inowland) has written. Instead of posting all
+of them, I'll suggest a starting point which works as an index for many of them:
+[The Seven Areas Of Software Management](https://inowland.medium.com/the-seven-areas-of-software-management-be89d213ea7)
+
+His [Managing by missing](https://www.slideshare.net/IanNowland/managing-by-missing) slides can be a good introduction.
+
+## Career developing
+
+[Getting a job as an engineering executive](https://lethain.com/getting-engineering-executive-job/) sheds some light
+on a normally obscure, hidden topic.
+
+[From BigCo to Startup](https://review.firstround.com/from-bigco-to-startup-20-tips-for-evaluating-early-stage-companies-and-making-the-leap).
+
+[Technical leadership and glue work - Tanya Reilly](https://www.youtube.com/watch?v=KClAPipnKqw).
+
+[How Mentors Can Change Your Trajectory](https://debliu.substack.com/p/how-mentors-can-change-your-trajectory), because a career doesn't need to be a solitary run.
+
+[How To Grow as An Engineering Manager in 7 Steps](https://inowland.medium.com/how-to-grow-as-an-engineering-manager-in-7-steps-a1bf4dcf5e78).
+I must admit I hate the "do <whatever> in <X> steps" approach to content, it sounds like a bad joke to me. In addition,
+for this article it just doesn't match. But there's good food for thought here, including this:
+
+> The first step of growth as a manager is getting on top of tactical work by either pushing back (...) and/or
+> delegating (...). The second part of growth as a manager is starting to dedicate time and focus on strategy.
+
+And
+
+> The most important part of delegation is its supervision, continuing to spend time and focus on coaching and audit
+> mechanisms to help the delegate succeed. Without supervision you have just abdicated the area, and any miss is yours.
+
+There's [a follow-up: The Seven Areas Of Software Management](https://inowland.medium.com/the-seven-areas-of-software-management-be89d213ea7)
+that I've mentioned as a starting point for reading Ian Nowland content.
+
+## Sofware development
+
+[Do you really need a Staging environment?](https://refactoring.fm/p/do-you-need-staging) is interesting. One of the
+  first things that were set up at Felt were preview environments for PRs. In Tierra, we used staging as part of the
+  blue/green deployment setup: as we were heavily dependent on the production data, and we needed analysts to have
+  access to the "preview release", that made sense. But I think I agree with most of the article, and it has plenty
+  of good side suggestions.
+
+[Building a Website To Scale](https://www.youtube.com/watch?v=RlkCdM_f3p4): a SFW video about YouPorn architecture.
+  The technology stack might or might not fit your case, but listening the reasoning behind the decisions is very valuable.
+
+[Creating an Extensible Big Data Platform \| Uber](https://www.youtube.com/watch?v=sdIJqW8zsdg): an explanation of the
+  evolution of a data architecture, including cutting-edge technology and long-lasting content.
+[I tweeted about it, in a meta approach](https://twitter.com/juanignaciosl/status/1610293085199814659) (also [available in Typefully](https://typefully.com/juanignaciosl)).
+
+[GeoArrow and GeoParquet in deck.gl](https://observablehq.com/@kylebarron/geoarrow-and-geoparquet-in-deck-gl), it's nice
+to see how the geospatial industry is pushing performance improvements!
+
+[How I Split a Monolith Into Microservices Without Refactoring](https://betterprogramming.pub/how-i-split-a-monolith-into-microservices-without-refactoring-5d76924c34c2).
+Monolith FTW:
+> When done properly, a monolith consists of modules with strong boundaries.
+
+... but, of course, still understanding where microservices shine:
+> What does count are operation related reasons like scalability, reliability and deployability.
+
+I must admit that I didn't give [Jitar](https://docs.jitar.dev/) a try, though. It sounds magical! 😅
+
+[Design Patterns and Principles That Support Large Scale Systems](https://medium.com/everything-full-stack/design-patterns-and-principles-that-support-large-scale-systems-f3c9adf89ad) is a great post with everlasting content.
+
+[How we optimized PostgreSQL queries 100x](https://towardsdatascience.com/how-we-optimized-postgresql-queries-100x-ff52555eabe).
+
+## Tools
+
+[How GitLab automates engineering management](https://about.gitlab.com/blog/2021/11/16/engineering-managers-automate-their-jobs/)
+is maybe too specific, but it contains useful guidelines if you plan to automate stuff, especially about being disciplined
+on content, tagging and so on. Also, [a good future reference about AppScript](https://sam.beckham.io/wrote/automate-your-meeting-agendas/).
+
+I try to keep my toolbox reasonably up to date. [Modern Unix repo](https://github.com/ibraheemdev/modern-unix) lists
+many modern replacements for classic UNIX tooling.
+
+# Games
+
+I've finished [Lone McLonegan: A Western Adventure](https://store.steampowered.com/app/1667270/Lone_McLonegan__A_Western_Adventure)! It's a point-and-click graphic adventure. Monkey Island in the Far West, with a lot of [Ron Gilbert](https://twitter.com/grumpygamer)-ish jokes. Very funny!
+
+# Music
+
+I've been listening to a lot of punk/punk pop Spanish bands lately. Check [Pantocrator](https://open.spotify.com/artist/0EeQNIqYTjakHI2O81gAa3?si=oqov2D_BQLGJNjBAI1bt5Q), [Sandre](https://open.spotify.com/artist/5jO693ntO8nc5utL8HpE4H?si=gdKUGN2oSbWqLSN5roEqUg), and [sistema de entretenimiento](https://open.spotify.com/artist/4Fps5rcLi7YIfOcmTKHpHv?si=onKlrhxjSb2KM4bmAjFR0g).
+
+# Reads
+
+I finished [Alan Moore's Swamp Thing integral](https://www.goodreads.com/book/show/58684026-la-cosa-del-pantano). SO good. The way that the character and the story grow is astonishing. Definitely one of the best sagas in comic book history.
+
+[Chilean Electric](https://www.goodreads.com/book/show/28148886-chilean-electric) is a very good short novel. It's poetic, and it has multiple layers, it's not only about Chile history but about progress in general.
+
+[Tostonazo](https://www.goodreads.com/book/show/61930624-tostonazo) is another good novel by Santiago Lorenzo. Yes, I prefer Los asquerosos, but Tostonazo is still a good one, I love his writing style, the smart, sharp expressions, and his characters.
