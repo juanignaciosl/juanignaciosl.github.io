@@ -11,7 +11,7 @@ image:
     feature: pacoibanez_1388x800.jpg
 ---
 
-This month is notably impacted by [the lecture of An Elegant Puzzle - Systems of Engineering Management](https://juanignaciosl.github.io/learning/2022/12/07/An_elegant_puzzle.html) :).
+This month is notably impacted by [the lecture of An Elegant Puzzle - Systems of Engineering Management]({% post_url 2022-12-07-An_elegant_puzzle %}) :).
 There's many links on the topic, both direct references from the book and random-ish ones.
 
 # PostgreSQL
