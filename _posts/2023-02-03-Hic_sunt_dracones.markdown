@@ -62,3 +62,5 @@ think can help me. Many authors talk about joining a "manager cabal" to learn an
 around 🙇🏻.
 
 I'll miss you, Felt folks ❤. Wish me luck!
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">A personal update: <a href="https://t.co/MOixyhOD8m">https://t.co/MOixyhOD8m</a>. Featuring tweets by <a href="https://twitter.com/alrocar?ref_src=twsrc%5Etfw">@alrocar</a> and <a href="https://twitter.com/pwramsey?ref_src=twsrc%5Etfw">@pwramsey</a> 🤗</p>&mdash; Nacho Sánchez 🤷‍♂️ (@juanignaciosl) <a href="https://twitter.com/juanignaciosl/status/1621431720296734720?ref_src=twsrc%5Etfw">February 3, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
