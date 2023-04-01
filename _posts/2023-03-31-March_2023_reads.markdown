@@ -1,0 +1,91 @@
+---
+layout: post
+comments: true
+title: 'March 2023 Journal'
+date: 2023-03-31 01:18:57
+categories: ['reads']
+tags: ['Software Development', 'Engineering Management', 'journal']
+excerpt: |
+    My March 2023 journal. Includes thoughts, random opinions and interesting content that I ingested during that month.
+    A lot of content is related to Engineering Management, but I've also added sections about games, music and reads.
+image:
+    feature: eldesierto_1388x800.jpg
+---
+
+# Software Engineering
+
+[Un aliado poderoso: las métricas en el desarrollo - Hablando de software \| Podcast on Spotify](https://open.spotify.com/episode/63QGBLsK3To7VAJQuUbO00?si=ZuS3ADjSRMSXsf-NaSz1wQ), an interview to [@juaneto](https://twitter.com/juaneto) about metrics, with a data-oriented (vs. data-driven) mindset.
+
+[Architects, Anti-Patterns, and Organizational Fuckery – charity.wtf](https://charity.wtf/2023/03/09/architects-anti-patterns-and-organizational-fuckery/). Many random thoughts regarding software architectur(e/ing).
+
+## Complexity
+
+This is a topic I love but I have not even got close to barely scratching the surface. I'm currently reading [Thinking in Systems: A Primer](https://www.goodreads.com/book/show/3828902-thinking-in-systems), as the basic reading that I expect to enable others, but I'll also peek some articles.
+
+And I fell in love with [TWH#50: Simple Explanations For Complex Phenomena](https://hagakure.substack.com/p/twh50-simple-explanations-for-complex). I had to be cruel and copy this excerpt:
+
+> one of the top wishes of software engineers is “better requirements.” They want to do a good job, and their biggest pain point is that “the requirements keep changing.”
+
+and
+
+>On the other side, product managers and other stakeholders demand more accuracy in estimations
+
+I've heard variations of this concern a lot, lately. And, of course, the outcome:
+
+> The result is a vicious cycle of eroded trust
+
+... and the cause:
+
+>All because of simple explanations for complex phenomena.
+
+> _most_ knowledge work is inherently uncertain and complex, and therefore cannot be predicted and controlled
+
+And 🚀:
+
+> The short answer is: less predicting & planning, more probing, sensing & responding.
+
+I've Pocket'd many articles from his archive (I had already read some of them, in fact).
+
+## Engineering management
+
+[Fixing “Too much WIP”. “too much WIP” means too many things… \| by Jason Yip \| Medium](https://jchyip.medium.com/fixing-too-much-wip-ba4d254048a3). I'm currently leading two teams, and both had this problem (each of them in a different way). This article is a short summary of the topic.
+
+[Architecture Modernization Enabling Teams (AMET) \| esilva.net](https://esilva.net/articles/architecture-modernization-enabling-team) tackles the conflicting topic of how to address large changes in a multi-team organization. Some companies have stable teams for company-wide initiatives, other use this temporal team approach. No matter what your case is, this article can provide hints for the project planning.
+
+[Jade Rubick - Demo-driven development](https://www.rubick.com/demo-driven-development) might feel basic, depending the maturity of your team, but it's good content. It shares that many things with a Scrum process that no having a comparison from his standpoint is a pity, an I think the critiques at the "How does this compare to..." are a little bit cartoon-ish.
+
+[My typical tactics for influencing leaders at different levels \| by Jason Yip \| Jan, 2023 \| Medium](https://jchyip.medium.com/my-typical-tactics-for-influencing-leaders-at-different-levels-88166dcb3e5d), not only useful for influencing but also as a quick reflection on what people expect from you, depending on your level.
+
+[Beyond spreadsheets: Driving developer productivity improvements using goals, signals, and metrics \| Swarmia](https://www.swarmia.com/blog/developer-productivity-goals-signals-metrics) provides some tools for thinking about tracking and improvement processes. I like this word of caution:
+
+>don’t beat yourself up to measure something when broad agreement about existence of a clear “signal” would be sufficient to declare success, nor when the change has another more notable business impact. There’s a ton of accruing value to instrumenting your dev process, but not all aspects of productivity can be measured conveniently, if at all.
+
+Finally, I'm silently dropping this one: [TWH#48: OKRs Are Not OK - by Paulo André](https://hagakure.substack.com/p/twh48-okrs-are-not-ok).
+
+### Feedback
+
+[10x your feedback game: Choose kindness over niceness – CodeKraft](https://abdulapopoola.com/2023/02/06/10x-your-feedback-game-choose-kindness-over-niceness/) contains great advice, and having a "Mistakes I have made", with specific examples, is very much welcomed. Clarifying the topic of the feedback on advance is a good suggestion. The suggested icebreakers are great, IMHO that kind of approach can be the difference between a successful session and a complete mess. And I like this sentence a lot, because it might be counterintuitive:
+
+> Refrain from providing more logical evidence for an emotional response; try roleplaying – ask them to explain how they’ll set expectations if they were to be in your shoes.
+
+# Misc
+
+[Analogies suck](https://www.arecadata.com/analogies-suck) comes from an interesting blog about data but it's a rant on analogies that I've shared for decades: analogies works for explaining something complex in simple terms. Period. Don't-reason-upon-them. My personal favorite is professional economists reasoning about macro economy and countries debt with the family analogy. The article is skewed towards the mischievous folk. I'd argue that analogies are so common that it's often not mischievous but clumsy. I'd rephrase the idea as "every reasoning with an analogy is a lost opportunity for an accurate reasoning".
+
+[Being Right Doesn’t Matter \| by Roy Rapoport \| Mar, 2023 \| Medium](https://medium.com/@royrapoport/being-right-doesnt-matter-70f00e2cd2a4) is kind of a personal reminder :_).
+
+[TWH#33: Write Simply, Change Effectively - by Paulo André](https://hagakure.substack.com/p/twh33-write-simply-change-effectively), 👌suggestions about writing, from a communication standpoint. I love the mention to being "emotional". Please, no more [robotic](https://en.wikipedia.org/wiki/Mark_Zuckerberg) communications.
+
+And, from the same author, [TWH#37: A Recipe for Self-Improvement - by Paulo André](https://hagakure.substack.com/p/twh37-a-recipe-for-self-improvement), [TWH#47: How Do You Find Your Purpose? - by Paulo André](https://hagakure.substack.com/p/twh47-how-do-you-find-your-purpose) (this one touched something in me, probably it won't in you).
+
+# Games
+
+I keep playing Disco Elysium (not too much, this month my free time has been mostly for reading and writing).
+
+# Music
+
+[This month scrobbles](https://www.last.fm/user/juanignaciosl/library/artists?from=2023-03-02&to=2023-04-01) have been driven by concerts, one that I did attend ([Levitants](https://open.spotify.com/artist/5Ed1kJRHN0Uj0BhGbRNutV?si=sABtHbNyTR20y_hsFDeNgw)), two that I finally didn't ([Camellos](https://open.spotify.com/artist/3uQgL10Dx1pMNIDfUiv8HW?si=gIvrBtXxQPyo5u6RyO3How) and [Temerario Mario](https://open.spotify.com/artist/0foTGLgb13BYQzMBRAGphX?si=Ot2znyCwThq7Dts0Huc-nw)), and one that I will, next month ([Bala](https://open.spotify.com/artist/5Cqy5kUi1EY01scjbz87eJ?si=Pjl0lKwOQDWve1KDecT8SA)). I can't stop recommending all of them!
+
+# Reads
+
+I read a present, [Todo lo que importa sucede en las canciones](https://www.goodreads.com/book/show/63064258-todo-lo-que-importa-sucede-en-las-canciones), a book about early mid-life crisis and music. It's not ambitious from a literary standpoint, but it's nice if you like autofiction (it's written as a biography, but I guess it's not, and I'm definitely not interested on it being real or not) and music. Bruce Springsteen plays a central role, but The Beatles are referenced as the best thing ever, so it's fine :).
