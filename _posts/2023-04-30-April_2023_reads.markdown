@@ -1,0 +1,43 @@
+---
+layout: post
+comments: true
+title: 'April 2023 Journal'
+date: 2023-04-30 01:18:57
+categories: ['reads']
+tags: ['Software Development', 'Engineering Management', 'journal']
+excerpt: |
+    My April 2023 journal. Includes thoughts, random opinions and interesting content that I ingested during that month.
+    A lot of content is related to Engineering Management, but I've also added sections about games, music and reads.
+image:
+    feature: chiringuito_1388x800.jpg
+---
+
+# Software Engineering
+
+It's been a tough month, too much work and stress. Expect some content (not only this month but also in the future) about how to deal with that kind of situations 😅.
+
+## Engineering management
+
+[Pull the Andon Cord - The Interesting Times - Taylor Pearson](https://taylorpearson.me/interestingtimes/andon-cord/) talks about a topic I was taught about twelve years ago: having the courage to enable everybody in the company to stop everything to improve. I've experienced the pain of setting this up and its transformational power. If you actually want to set up an improvement process, dare yourself to set this up. Once the seed of the cord has been planted, you see it everywhere. For example, in [Stop Writing Great Runbooks \| Stay SaaSy](https://staysaasy.com/software/2022/02/12/runbooks.html). Just stop and fix, instead of running forward.
+
+[TMD - #006: Documentar proyectos y managers obsesivos con Félix López - TMDpodcast \| Podcast on Spotify](https://open.spotify.com/episode/2U1PTBvRPQGDdNTsRPesmd?si=eX6In0g9RcWtYBIEccDgYg&utm_source=pocket_saves), as listening to Felix is always rewarding.
+
+Saturating a system up to its capacity is a recipe for disaster, because it leads to poor decision-making, lack of improvement, and impossibility for dealing with unplanned stuff. And burnout. [Slack](https://martinfowler.com/bliki/Slack.html) article reminds a practice that although it's basic it's easily forgotten.
+
+As you step into management roles, you hit into situations like the ones described at [Situaciones complicadas como mánager - by Félix López](https://flopezluis.substack.com/p/situaciones-complicadas-como-manager?utm_source=substack&utm_medium=email). The Internet is full of cheesy content. IMHO, Félix provides a more honest point of view.
+
+The following post contains many interesting bits, but one caught my eye, because I'm suffering it: back-to-back meetings are terribly stressful. [TWH#55: Human Battery Drain - The Weekly Hagakure](https://hagakure.substack.com/p/twh55-human-battery-drain?utm_source=substack&utm_medium=email).
+
+Every post about focusing on closing is worth it: [Rescuing a project in progress](https://world.hey.com/jason/rescuing-a-project-in-progress-d31883f7?utm_source=pocket_mylist).
+
+# Games
+
+I haven't been able to open a single videogame :\_). Playing 3 little pigs, Lince or Virus with my daughter is the closest I got to playing
+
+# Music
+
+[This month scrobbles](https://www.last.fm/user/juanignaciosl/library/artists?from=2023-04-01&to=2023-04-30) are starred by two songwriters, Christina Rosenvinge (1st) and Nacho Vegas (3rd). Part melancholy, part my daughter getting addict to ["the Nina Simone song"](https://open.spotify.com/track/5dKspMvQLIILbPT1AJEleX?si=ea7b2fc80e0f4a3e). Behind the 2nd place lies the fact that I attended a [Bala](https://open.spotify.com/artist/5Cqy5kUi1EY01scjbz87eJ?si=Pjl0lKwOQDWve1KDecT8SA) concert 🤘. They're awesome.
+
+# Reads
+
+I enjoyed two sort books. [Beauty salon](https://www.goodreads.com/book/show/6447729-beauty-salon) is a great literary piece about suffering, decay and maybe the whole life or world that will you make uncomfortable. Even if you don't want to scratch the metaphor cover, it's very enjoyable. [A Woman's Story](https://www.goodreads.com/book/show/55500850-una-mujer) is what you might be looking for if you want autofiction about mother-daughter relationships.
