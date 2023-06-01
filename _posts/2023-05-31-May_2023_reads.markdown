@@ -1,0 +1,41 @@
+---
+layout: post
+comments: true
+title: 'May 2023 Journal'
+date: 2023-05-31 01:18:57
+categories: ['reads']
+tags: ['Software Development', 'Engineering Management', 'journal']
+excerpt: |
+    My May 2023 journal. Includes thoughts, random opinions and interesting content that I ingested during that month.
+    This is a light month, with some Engineering Management, games, music and reads.
+image:
+    feature: park_1388x800.jpg
+---
+
+# Software Engineering
+
+## Software architecture
+
+The clickbaitish [Even Amazon can't make sense of serverless or microservices](https://world.hey.com/dhh/even-amazon-can-t-make-sense-of-serverless-or-microservices-59625580?utm_source=tldrnewsletter) led me to [Scaling up the Prime Video audio/video monitoring service and reducing costs by 90% - Prime Video Tech](https://www.primevideotech.com/video-streaming/scaling-up-the-prime-video-audio-video-monitoring-service-and-reducing-costs-by-90). I've used step functions in the past, and they're great... until you begin hitting limits. And some of them are poorly documented and implemented. This article sheds some light on it.
+
+## Engineering management
+
+From [TWH#57: Why Candor is Hard - The Weekly Hagakure](https://hagakure.substack.com/p/twh57-why-candor-is-hard), I like the idea of groundwork enabling candor by starting with "_continuous improvement is a non-negotiable around here_ (...) _Now, you should also know these are not just empty words. Without actually giving and receiving challenging feedback we can’t possibly get better. Being candid with everyone, including with me, is not just encouraged—it’s expected. And it works, because we do care about each other. We’ll use our 1:1s as an ongoing practice for this._". I try to set expectations with everything, including things like communication guidelines or PR etiquette (enabling developer conversations that are not "ey, Alice, I think that this PR is too big" but "ey, Alice, 2k lines of code is 4x the expected size, according to the company standards").
+
+I'm collecting ideas for metrics, expecting I'll soon have time to put them into practice 😅. [A new way to measure developer productivity – from the creators of DORA and SPACE](https://newsletter.pragmaticengineer.com/p/developer-productivity-a-new-framework) is a good article about surveying that is worth a try.
+
+Introspecting is a must at every position, but as an Engineering Manager, with such large feedback loops, is even more important. This article can help: [Evaluating Managers: 5 heuristics to measure managerial impact – CodeKraft](https://abdulapopoola.com/2023/01/09/evaluating-managers-5-heuristics-to-measure-managerial-impact). I'd definitely suggest saving some weekly time to reflect on ourselves!
+
+# Games
+
+Wow, it's been a month, already? I've played with the ~Oculus~ Meta Quest 2 a couple of days, with In Death Unchained (a personal favorite) and Beat Saber. I also tried Please, Don't Touch Anything but I wasn't patient enough 😅.
+
+# Music
+
+For some reason [I'm listening to Christina Rosenvinge a lot, and I'm definitely looking forward to enjoying Burbuja cómoda y elefante inesperado](https://www.last.fm/es/user/juanignaciosl/library/artists?from=2023-05-02&to=2023-06-01) (I'm afraid I won't be able to), but there's been no highlight this month, other than attending a short concert by TAB at El Sol, presenting Sed ❤️. I'm not sure about the new songs, but the 4-5 hits they played had the best sound ever :luc_heart:.
+
+Bonus: I attended the 40th anniversary of Valladolid '83, [a concert](http://www.valladolidwebmusical.org/reportajes/valladolid83/index.html) plus [a vinyl](https://www.discogs.com/es/release/2953390-Various-Valladolid-83) that were born in my city when I was 2 year old. The original LP comprehended 4 bands. Although one of them couldn't play, 2 others played with essentially the original people, and the last one took the frontman plus a local new band as musicians, and it was awesome. It was very special :luc_heart:.
+
+# Reads
+
+I read two bizarre dystopias, [Persianas metálicas bajan de golpe](https://www.goodreads.com/book/show/122886762-persianas-met-licas-bajan-de-golpe) and [Horda](https://www.goodreads.com/book/show/58753989-horda), that I'd only recommend if you're into literature, dystopias, and language, because they're challenging. [The dream of a common language](https://www.goodreads.com/book/show/50204377-el-sue-o-de-una-lengua-com-n) is the first time I've ever read poetry in English, as I got a nice Spanish edition with both languages, making it very convenient to enjoy the original text and jump for the meaning of whatever I couldn't grasp. I liked it, but the best book I finished this month is [Invitación al tiempo explosivo: Manual de juegos](https://www.goodreads.com/book/show/42271908-invitaci-n-al-tiempo-explosivo), a collection of "games" from surrealists and other people without creative boundaries. As an example, one "game" is about collecting strange food that you find in a walk through the city, and another one is going out and alter the meaning of advertisements. A brilliant book.
