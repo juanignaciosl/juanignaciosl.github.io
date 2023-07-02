@@ -1,0 +1,35 @@
+---
+layout: post
+comments: true
+title: 'June 2023 Journal'
+date: 2023-06-30 01:18:57
+categories: ['reads']
+tags: ['Software Development', 'Engineering Management', 'journal']
+excerpt: |
+    My June 2023 journal. Includes thoughts, random opinions and interesting content that I ingested during that month.
+    This is a light month, with some Engineering Management, games, music and reads.
+image:
+    feature: chimenea_1388x800.jpg
+---
+
+# Software Engineering
+
+## Engineering management
+
+Although I already reviewed [An Elegant Puzzle](https://juanignaciosl.github.io/learning/2022/12/07/An_elegant_puzzle.html), this post does a better communication job :) [10 Ideas From the Best Book on Engineering Management \| by Syed Mohsin \| Better Programming](https://betterprogramming.pub/10-ideas-from-the-best-book-on-engineering-management-c3caa706f77c).
+
+I'm currently being challenged (and challenging) Scrum processes, and I found these two articles by Mike Cohn quite interesting, in order to relax rules to allow agility despite Scrum: [The Definition of Ready and Its Dangers](https://www.mountaingoatsoftware.com/blog/the-dangers-of-a-definition-of-ready), [Why Overlapping Work & Concurrent Engineering Are Key to Agility](https://www.mountaingoatsoftware.com/blog/the-importance-of-overlapping-work-in-agile).
+
+[#134 - A Developer-Centric Approach to Measuring and Improving Productivity - Margaret-Anne Storey & Abi Noda - Tech Lead Journal](https://open.spotify.com/episode/0Kfl4uHODruLrj13sxKPMu?si=Tr41rTkoRMynxMOxypkWhA) is an interesting podcast on the complex topic of productivity metrics. The related paper, [DevEx: What Actually Drives Productivity - ACM Queue](https://queue.acm.org/detail.cfm?id=3595878), is worth a read.
+
+# Games
+
+I haven't been able to play videogames at all, but I spent a weekend with some friends and enjoyed some board games. While we played several of them, I picked two fillers: [Fantasma Blitz](https://www.amazon.es/Devir-Fantasma-Blitz-juego-BGBLITZ/dp/B007XDQIOO) and [Paku Paku](https://www.amazon.es/Ravensburger-26726-paku/dp/B01N6WOU3Y) :)
+
+# Music
+
+[Another month driven by concerts](https://www.last.fm/user/juanignaciosl/library/artists?from=2023-06-01&to=2023-07-31)! I attended [Veral](https://www.colectivolaika.com/wp-content/uploads/2023/06/Cartel_Veral_2023_1.jpg) (❤️), which increased the scrobbles count of Los Punsetes and Menta (great live gigs!), and Conexión Valladolid. From this one, the band I wanted to see the most was [Miniño](https://www.last.fm/music/Mini%C3%B1o), but the surprise of the festival were [Johnny Garso](https://www.last.fm/music/Johnny+Garso).
+
+# Reads
+
+I finished Alice Munro [Too much happiness](https://www.goodreads.com/book/show/22024789-demasiada-felicidad), which is likely to be the most depressing short stories collection ever :_).
