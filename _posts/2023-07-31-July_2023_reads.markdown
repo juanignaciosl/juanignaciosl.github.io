@@ -1,0 +1,83 @@
+---
+layout: post
+comments: true
+title: 'July 2023 Journal'
+date: 2023-07-31 01:18:57
+categories: ['reads']
+tags: ['Software Development', 'Engineering Management', 'journal', 'Platform']
+excerpt: |
+    My July 2023 journal, dominated by Entineering Management articles, focusing on Platform. And Un verdor terrible.
+image:
+    feature: escaleras_1388x800.jpg
+---
+
+# Software Engineering
+
+## Engineering management
+
+[The metrics series, vol 1: A personal framework](https://nadiasays.substack.com/p/the-metrics-series-vol-1-a-personal) and [The metrics series, vol 2: Measuring delivery](https://nadiasays.substack.com/p/the-metrics-series-vol-1-measuring) are a realistic summary on metrics.
+
+A topic I'm recently struggling with is task forces, temporary teams for projects. I came across this quote I like: "[If the work is critical, a Task Force may be appropriate. With a Task Force, you assemble a temporary team to do the work across a few teams. Task forces have downsides and can be disruptive. So you should only use them in urgent situations.](https://www.rubick.com/independent-executor-model/)".
+
+This [Accountability for Effective Teams](https://jessitron.com/2023/06/21/accountability-for-effective-teams) contains a bold statement: "behavior is what we can legitimately ask someone to change. Business outcomes aren’t under our control". And another one that is related to a situation I recently experienced: "Accountability is about having the courage to confront someone about their deficiencies and then to stand in the moment and deal with their reaction.". Reflecting, my confronting feedback was triggered by an unexpected outcome, but I focused on the behavior, which is probably a good approach, but it was tough anyway.
+
+[Helicopter Management and Other Mistakes](https://charity.wtf/2023/06/19/helicopter-management) contains valuable tips for managers that it summarizes as "Be a manager who is good to your team, and good to the organization too":
+- Don't only manage down.
+- Assume that your view of the system is incomplete and and accordingly.
+- A manager must not only be loved by their team, but also effective from an organizational standpoint.
+- "It is healthy for a manager to not identify too closely with their team".
+
+Now that there's been a lot of discussion regarding performance reviews toxicity, this is a classic that must be revisited: [Microsoft ditches system that ranks employees against each other](https://www.seattletimes.com/business/microsoft-ditches-system-that-ranks-employees-against-each-other/).
+
+While [Stuck In The Valley of "Doing OK"](https://cutlefish.substack.com/p/tbm-226-stuck-in-the-valley-of-doing) could be related to the mantra that not growing is a failure, it contains some interesting suggestions about reflecting which stage your company is at, and about what to do if your company is stagnating.
+
+## Platform teams
+
+As the Engineering Manager of a Platform team, [How platform teams get stuff done](https://martinfowler.com/articles/platform-teams-stuff-done.html) had to be very interesting. It mentions **Team Topologies**, the book I'm currently reading, and it's partially a summary of the content related to Platform teams. It mentions three scenarios for collaboration: **migrations** (version upgrades, replacing integrations...), **consumptions** (usage of Platform-maintained services, usage of internal libraries...), and **evolution** (a new button in the library...), with the ownership of the codebase as a key decision.
+
+In **migrations**, Platform is the driver of the work but not the owner of the codebase. it explains different models of collaboration that might work: 
+
+- **farm out the work**: Platform implements it after a ticket request.
+- **do the job**: either as tour of duty, trusted outsider or internal open source.
+
+In **consumptions**, Platform is both owner of the code base and driver of the work. Models of collaboration:
+
+- **self-service platform**
+- **professional services**, normally combining filing a ticket with trusted outsider or internal open source.
+- **white-glove onboarding**, typically with tour of duty.
+- **community of practice**.
+- **hands-on** doesn't scale.
+
+Key suggestion for handling expectations:
+
+> It's also important to clearly communicate to platform users what support model they should expect
+
+In **evolutions**, product is the driver, and Platform is the owner of the codebase. Collaboration models:
+
+- **file a ticket**.
+- **move engineers to the work**, with tour of duty or embedded expert.
+- **work on the platform from afar**.
+
+Starting with very collaborative modes (tour of duty, embedded expert...) can be useful to explore boundaries and create interfaces, but don't stay in those modes for long, because they don't scale.
+
+> Building great documentation is hard. Saying no is hard.
+
+:luc_heart:
+
+Jade Rubick, maybe aware of the popular article, has resent his [Scale platform teams with the best approach for platform teams - self-service](https://www.rubick.com/platform-teams-and-the-self-service-model) piece. For the last months one of the things I've been more insisting on is improving the collaboration approaches at Platform, because 1:1 chats and help just doesn't scale. It's easy, useful and rewarding, so it's where inertia takes you unless you make some investments, but it just doesn't scale.
+
+## Software development
+
+While I don't code that much lately, I follow Areca Data newsletter and it has a nice article about Python and asynchronous processing which is a nice introduction or refresher: [Python Async Programming for Data Engineers: Harnessing the Power of Concurrency](https://www.arecadata.com/i-have-to-execute-a-function-in-parallel/?ref=engineering-culture-newsletter).
+
+# Games
+
+U_U
+
+# Music
+
+[It looks like](https://www.last.fm/user/juanignaciosl/library/artists?from=2023-07-01&to=2023-07-31) I'm getting into last TAB album, and then the recent favs (Punsetes, Menta, Pantrocrator...).
+
+# Reads
+
+I read [Un verdor terrible, by Benjamin Labatut](https://www.goodreads.com/book/show/55756916-un-verdor-terrible). It's a gorgeus collection of short stories drawing a picture of modern Mathematics an Physics. The style goes from a very periodistic, essay-like one to almost pure fiction in the last ones, and it's magnificent. And a good intro if you're seeing Oppenheimer :).
