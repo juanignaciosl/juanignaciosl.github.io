@@ -1,0 +1,26 @@
+---
+layout: post
+comments: true
+title: 'August 2023 Journal'
+date: 2023-08-31 01:18:57
+categories: ['reads']
+tags: ['Software Development', 'Engineering Management', 'journal']
+excerpt: |
+    My August 2023 journal.
+image:
+    feature: faro_1388x800.jpg
+---
+
+# Software Engineering
+
+## Engineering management
+
+I have recently been recommended to watch [Patterns of Effective Teams • Dan North • GOTO 2017 talk](https://www.youtube.com/watch?v=lvs7VEsQzKY), and I take the baton and recommend it as well. There's [a convenient page with notes](https://www.guidefari.com/patterns-of-effective-teams/) that has saved me the work of doing it. My favorite part is the one about pairing people and Dreyfus Squared, but it is worth a watch.
+
+[Equipos sostenibles gracias a Team Topologies y DDD con Aleix Morgadas \|\| #laFunción 8x23 - YouTube](https://www.youtube.com/watch?v=OhQ75_Kr4EI) is a nice talk. Quite dense, but a good place to get ideas and new references on organizational challenges.
+
+If there's a conference I love that's SCPNA. One of the great things is that even if you don't go (which is definitely the best part) you can still see the videos. I liked [MARTILLOS Y CLAVOS, by Alfredo Artiles, at SCPNA 23 edition](https://www.youtube.com/watch?v=50jq26pbrbA&list=PLKxa4AIfm4pXkM3YRqHKfYXrJULMy_FC8&index=11). [The related wiki](https://alfredoartiles.notion.site/alfredoartiles/f7c763b40cb24c4c801fc5dbe70b156f?v=e1e3dcfe74bb4e568ebc4ad7c29c721c) is also a great source about thinking in terms of systems instead of isolated actions.
+
+One of the topics people bring to the 1:1s is that there's noise around them that makes harder to get anything done. I tend to give a variation on "let's write down the interruptions and we'll analyze that in the next 1:1". [Enabling Good Work Habits Through Reflective Goal-Setting](https://newsletter.abinoda.com/p/reflective-goal-setting) is an structured approach to that. I see myself using it in the future.
+
+[To Build a Top Performing Team, Ask for 85% Effort](https://hbr.org/2023/06/to-build-a-top-performing-team-ask-for-85-effort) talks about a counter intuitive topic in many of my 1:1. I have a 15+ direct reports headcount, and some of them are astonishingly motivated to do a great job. They're young, they have the skills and the will. And, despite that, I tell them to slow down as soon as they realize there's any funny noise in their rocket cabin. I want them to succeed not only in this quarter but in their careers. No matter how good you are, something will get in your way. If you try to keep a 100% pace 24/7, whenever gets in your way you'll push yourself to a 110% in order to keep your pace. That's a recipe for disaster. You don't want heroes. You want leaders and teammates that build yelled teams. And you want room for innovation initiatives, for reflection, for tool sharpening. That can't happen if people is spending 100% of their energy on delivery.
