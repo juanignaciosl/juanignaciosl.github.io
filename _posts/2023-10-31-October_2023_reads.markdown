@@ -1,0 +1,49 @@
+---
+layout: post
+comments: true
+title: October 2023 Journal
+date: 2023-10-31 01:18:57
+categories:
+  - reads
+tags:
+  - Software
+  - Development
+  - Engineering
+  - Management
+  - journal
+excerpt: My October 2023 journal.
+image:
+  feature: ria_1388x800.jpg
+---
+It's been a month with a lot of trips, work and home work, so there's less reading than usual.
+# Software Engineering
+
+## Engineering management
+
+[Kind Engineering: How To Engineer Kindness](https://kind.engineering/), because, above all, we're people, humans. Until AI makes work not needed, be kind at work. Of course, there are disclaimers. I think that this paragraph nails it:
+
+> I _really_ want to emphasise that this is about better understanding and interacting with people, **not about giving yourself totally to the company**. It’s about being open and vulnerable with your co-workers while also being clear with your boundaries. It’s about being a person who acknowledges that we work to live, and not the other way around.
+
+And, if being human is not enough, the next paragraph explains why being kind and honest is a must:
+
+>Building this trust is important because it’s going to give you the credibility to do something very important: **challenge people directly**. People often interpret this as being “brutally honest” but it’s not. The book _Radical Candor_ talks about the need to challenge directly (honesty) and care personally (empathy). Without honesty, the feedback isn’t constructive or helpful. Without empathy, the feedback isn’t meeting them where they are to help them.
+
+## PostgreSQL
+
+[Join order: how to force it in PostgreSQL - CYBERTEC](https://www.cybertec-postgresql.com/en/forcing-a-join-order-in-postgresql/) is a very interesting article on a dark topic involving magic numbers (such as the threshold where a genetic algorithm is chosen).
+
+# Music
+
+[My scrobbles](https://www.last.fm/user/juanignaciosl/library/artists?from=2023-10-01&rangetype=1month) are driven by my attendance to [GalanFest](https://www.facebook.com/asociacioneresmas/?locale=es_ES), a small festival that had three very interesting bands: [Havalina](https://open.spotify.com/artist/2nQcWlLWvXPTX34Ysqr2A2?si=6PSiRfZPQBa-uNtXXubDTA) (one of my all-time favourites), [Living Camboya](https://open.spotify.com/artist/5S0fuxdB26HXN2bVPx3keU?si=_SsTEUDhS8alThmgiTH73g), a new indie band that surprised me in a good way, and [Le Mur](https://open.spotify.com/artist/5JHSLDmbF5fx9necHlvi0e?si=7EeWuXDRRrOUemej5ZL26g), who have become one of my recommendations. [Their last album, Caelum Invictus, is superb](https://open.spotify.com/album/4imNvzmTAxBz3brZimFx4X?si=5mICrFs_Sn2FiyiJRBMdoQ). But watching them live is just another level. The band is awesome, but the vocals are just insane. Their frontwoman features one of the best voices I've seen in a long time, and the most energetic delivery. She's all passion. I'm looking forward to seeing them again.
+
+At O Grove _Fiesta del Marisco_ I also saw Sidonie, which is always fun :).
+
+And I went to a karaoke, no questions allowed :P.
+
+# Reads
+
+[I'm way behind the schedule](https://www.goodreads.com/user_challenges/40431405). I read [The Word for World is Forest](https://www.goodreads.com/book/show/1812744.El_nombre_del_mundo_es_Bosque), a nice sci-fi novel by master Le Guin. It's an ecologist, anti-colonialism, feminist story influenced by Vietnam War. It includes interesting thoughts regarding the use of violence, language an work/slavery.
+
+# TV shows
+
+I just finished [Memento Mori](https://www.imdb.com/title/tt22169620/), definitely not life-changing or the serial killer stuff I'd recommend first, but entertaining. I must admit that the funniest part was recognizing the locations, as it's recorded in my city. The first corpse is found in a place I go running :).
