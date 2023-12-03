@@ -1,21 +1,17 @@
 ---
 layout: post
 comments: true
-title: October 2023 Journal
+title: 'October 2023 Journal'
 date: 2023-10-31 01:18:57
-categories:
-  - reads
-tags:
-  - Software
-  - Development
-  - Engineering
-  - Management
-  - journal
-excerpt: My October 2023 journal.
+categories: ['reads']
+tags: ['Software Development', 'Engineering Management', 'journal']
+excerpt: |
+    My October 2023 journal.
 image:
   feature: ria_1388x800.jpg
 ---
 It's been a month with a lot of trips, work and home work, so there's less reading than usual.
+
 # Software Engineering
 
 ## Engineering management
