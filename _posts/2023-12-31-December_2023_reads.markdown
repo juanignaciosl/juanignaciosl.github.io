@@ -16,7 +16,7 @@ December 2023 journal, another tough month with little room for many stuff.
 # 2023 Wrap-up
 I wrote down too many 2023 goals and most of them vanished in a couple of months. By 2023W10 I stopped tracking, with family and work as the main and almost only focus. I didn't met my reading goals (first time since 2016), I didn't cook enough, I didn't play enough (I didn't finish the Tomb of Annihilation campaign nor started a Vampire one, and barely played any videogame), I stopped meditation, I stopped a novel that was too challenging and barely started another one, Pocket just keeps growing, almost made no post beyond the journal... Not a great year. But I'm happy about my family, with Lara and Mia growing like crazy (Mia started walking before her 11th month, that's demanding, and Lara is a funny, happy girl that loves drawing, playing...). And it's been a year of learning a lot about large companies and being an Engineering Manager. I like being an EM.
 
-Looking forward to a great 2024 :)
+But there's also been some personal achievements. I won [a writing contest](https://twitter.com/IgnacioCSierra/status/1630840916390084610), I got a decent result in another one, attended many concerts and even a festival, LechazoConf 2024 was announced and started, played a little some board games (mostly with my daughter). Looking forward to a great 2024 :)
 
 # Software Engineering
 
