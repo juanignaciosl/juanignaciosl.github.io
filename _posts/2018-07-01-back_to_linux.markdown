@@ -14,6 +14,8 @@ _20190806 UPDATE: this guide was born for XPS 9570 and Ubuntu. Then it was updat
 
 _20200926 UPDATE: I lost many hours today trying to bring my installation back to work, I've added a postmortem with useful links._
 
+_20240219 UPDATE: ssh agent stopped remembering my git credentials (after an update). [This was the fix](https://www.reddit.com/r/archlinux/comments/1aq97m8/gnomekeyring_14601_in_extratesting_disables/)._
+
 I've been a Mac user for 6 years. Back in 2012 I had been a really happy Gentoo user for many years, but by then some iOS development ([a simple iOS "game"](http://www.juanignaciosl.com/ingenieria-del-software/the-exif-game) and a freelance project) moved me to OS X. In addition, I also [take pictures](https://www.flickr.com/photos/juanignaciosl/) and even [make videos from time to time](https://www.youtube.com/watch?v=EHoAyxU8nog&list=PL5Gftzmh1mO6iuWbsVU9cbzzszjcebKoj). So, switching to Apple was a nice move: I'd keep the good parts of a \*nix sistem and get rid of Windows for the Adobe suite. In addition, Macbook Air was a great computer for its price, powerful enough and extra light.
 
 I used two Macbook Airs (personal and work) for 4 years. Past year, when I wanted a more powerful machine, I moved to the new Macbook Pro (yes, the one with the infamous Touchbar). A ~$3k device. It should've been great. Spoiler: it wasn't.
